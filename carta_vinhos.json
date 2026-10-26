@@ -1,0 +1,3352 @@
+{
+  "restaurante": "Terrazza 40",
+  "total_vinhos": 223,
+  "vinhos": [
+    {
+      "id": "pizzato-brut-d-o-chardonnay-pinot-noir-nv",
+      "nome": "Pizzato Brut D.O. | Chardonnay - Pinot Noir",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Sugestão do Sommelier",
+      "tipo": "espumante",
+      "uvas": [
+        "Chardonnay, Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 167.7,
+      "descricao": "D.O. Vale dos Vinhedos, Rio Grande do Sul | Amarelo-claro com reflexos esverdeados, perlage fina e abundante na aparência. Frutas e flores cítricas, abacaxi, frutas brancas, tons de tostado de pão no aroma. Amplo na boca, acidez e álcool equilibrados, de bom corpo, refrescante e cremoso.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/3b7ff100-8280-11ef-a0d6-81410ca96b69.jpg"
+    },
+    {
+      "id": "r-h-black-nature-chardonnay-nv",
+      "nome": "R&H Black Nature | Chardonnay",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Nature",
+      "tipo": "espumante",
+      "uvas": [
+        "Chardonnay"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 184.0,
+      "descricao": "Mariópolis, Paraná | Método Tradicional 72 meses | Vinhedos de altitude que propiciam uma acidez que combina delicadeza e elegância através de seu longo tempo de autólise, oferecendo estrutura, corpo e cremosidade. Seus incríveis 72 meses de autolise trazem notas de frutas secas e uma elegância que irá surpreender!",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/61132b40-b3db-11ee-b87e-01a6bc1eef96.jpg"
+    },
+    {
+      "id": "cave-geisse-terroir-nature-d-o-chardonnay-pinot-noir-2020",
+      "nome": "Cave Geisse Terroir Nature D.O. | Chardonnay - Pinot Noir",
+      "safra": 2020,
+      "pais": "Brasil",
+      "secao_carta": "Nature",
+      "tipo": "espumante",
+      "uvas": [
+        "Chardonnay, Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 424.8,
+      "descricao": "D.O. Alto de Pinto Bandeira, Rio Grande do Sul | Método Tradicional 48 meses | Nosso ícone, representa toda a tradição que a Família Geisse detém sobre seu terroir, sendo um blend, originário sempre dos mesmos vinhedo demarcados. Gastronômico e elegante, que somente é liberado após ser realizada uma criteriosa degustação ás cegas, na qual o vinho base deste espumante deve ser identificado por unanimidade como o mais complexo dentre todos os demais vinhos base da safra.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/89271D211AFEC-8938-40E5-97FF-768FFD12D9D920181105234803.jpg"
+    },
+    {
+      "id": "rotava-herget-extra-brut-chardonnay-nv",
+      "nome": "Rotava & Herget Extra-Brut | Chardonnay",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Extra-Brut",
+      "tipo": "espumante",
+      "uvas": [
+        "Chardonnay"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 140.8,
+      "descricao": "Mariópolis, Paraná | Método Tradicional 48 meses | Este Chardonnay de região fria possui uma acidez incrível e os 48 meses de autólise lhe proporcionam estrutura, tempo de guarda e notas de frutas secas. Eleito o melhor Extra-Brut do Brasil em degustação a cegas na Grande Prova de Vinhos do Brasil. Pode acompanhar entradas, saladas, carnes brancas, aves, peixes e massas em geral.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/85b26410-f810-11ee-9b68-179017335969.jpg"
+    },
+    {
+      "id": "cave-geisse-extra-brut-d-o-chardonnay-pinot-noir-nv",
+      "nome": "Cave Geisse Extra-Brut D.O. | Chardonnay - Pinot Noir",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Extra-Brut",
+      "tipo": "espumante",
+      "uvas": [
+        "Chardonnay, Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 280.1,
+      "descricao": "D.O. Alto de Pinto Bandeira, Rio Grande do Sul | Método Tradicional 36 meses | Descubra o equilíbrio perfeito entre delicadeza e intensidade com o Espumante Cave Geisse Extra Brut. Com uma maturação de 3 anos, este rótulo apresenta características marcantes e harmônicas, tornando-o uma escolha ideal para momentos especiais. Harmonize com frutos do mar e peixes e experimente o sabor sofisticado e equilibrado da Vinícola Família Geisse. Adquira agora o Espumante Cave Geisse Extra Brut e transforme qualquer ocasião em um momento inesquecível.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/d3ab6e50-b732-11ef-aff9-d1b98f4953c6.jpg"
+    },
+    {
+      "id": "tapera-brut-nv",
+      "nome": "Tapera Brut",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Brut e Brut-Rose",
+      "tipo": "espumante",
+      "uvas": [
+        "Chardonnay, Prosecco"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 75.3,
+      "descricao": "Com aromas finos e delicados, notas frescas de abacaxi, pêra, maçã-verde, e um toque floral. Um espumante com boa acidez e frescor intenso.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/87756770-9b63-11ee-b85e-19122f498f0d.jpg"
+    },
+    {
+      "id": "sincronia-ros-brut-merlot-nv",
+      "nome": "Sincronia Rosé Brut | Merlot",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Brut e Brut-Rose",
+      "tipo": "espumante",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 106.1,
+      "descricao": "Vinícola Franco Italiano (Paraná) | Feito no método tradicional com 12 meses de autólise, apresenta coloração em tons de rosa salmão com perlage fina e persistente. De aroma predominantemente frutado, com notas de cítircos e pequenas frutas vermelhas. Sendo elegante, fresco e cremoso. Uvas proveniente do Vale dos Vinhedos.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/bf752550-864e-11ed-928a-b72d395a669a.jpg"
+    },
+    {
+      "id": "faces-do-brasil-brut-chardonnay-nv",
+      "nome": "Faces do Brasil Brut | Chardonnay",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Brut e Brut-Rose",
+      "tipo": "espumante",
+      "uvas": [
+        "Chardonnay"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 111.0,
+      "descricao": "Vinícola Lídio Carraro (Rio Grande do Sul) | Amarelo palha, persistente e delicado. O perfil aromático é elegante e vivaz, condizendo com o estilo da linha essencialmente frutados, lembrando notas de limão siciliano, maçã verde, pera, abacaxi e melão.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/108840CE5392A1-FC24-4C1B-9098-696B79C8B8EC20190211115107.jpg"
+    },
+    {
+      "id": "justina-fardo-brut-chardonnay-pinot-noir-nv",
+      "nome": "Justina Fardo Brut | Chardonnay - Pinot Noir",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Brut e Brut-Rose",
+      "tipo": "espumante",
+      "uvas": [
+        "Chardonnay, Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 128.3,
+      "descricao": "Vinícola Família Fardo | Delicado, elegante na qualidade das características de mel, flores do campo, pão torrado, frutas cristalizadas e aniz.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/57850860-c969-11ef-b41a-7da330f1893d.jpg"
+    },
+    {
+      "id": "rosa-da-neve-brut-rose-i-p-sangiovese-pinot-noir-nv",
+      "nome": "Rosa da Neve Brut Rose I.P. | Sangiovese - Pinot Noir",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Brut e Brut-Rose",
+      "tipo": "espumante",
+      "uvas": [
+        "Sangiovese, Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 117.0,
+      "descricao": "Vinícola Quinta da Neve (I.P. Vinhos de Altitude SC) | Apresenta cor rosado leve. Perlage fina e persistente. Aromas típicos de pequenas frutas vermelhas silvestres. Frescor e acidez marcante. O paladar é rico e preenche a boca, com excelente frescor o que convida para degustar mais uma taça. Retrogosto de notas frutadas e um toque de fermento. Harmonização com peixes e frutos do mar cru ou marinados ou ao bafo, também com aperitivos, entradas, saladas e canapés leves. Uma ótima escolha para acompanhar a culinária japonesa e ceviches.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/6aaaf560-61e4-11ed-939d-636e0dc390fc.jpg"
+    },
+    {
+      "id": "belavista-desir-e-blanc-de-noir-pinot-noir-nv",
+      "nome": "Belavista Desirée Blanc de Noir | Pinot Noir",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Brut e Brut-Rose",
+      "tipo": "espumante",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 144.6,
+      "descricao": "Campanha Gaúcha, Rio Grande do Sul | Análise visual: Iluminado e brilhante. De coloração amarelo-cintilante com matizes verdes,perlage fina e elegante. Análise olfativa: Com elevada complexidade aromática, revela delicados nuances de flores brancas, tília e alperce, além de refrescantes notas cítricas. Análise gustativa: Sua cremosidade vibrante, expande a sensação de volume em boca de forma sedutora e persistente.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/5fd8a280-c67c-11ec-8d8c-9ff24cc8efb0.jpg"
+    },
+    {
+      "id": "cuv-e-nilva-brut-ros-pinot-noir-chardonnay-nv",
+      "nome": "Cuvée Nilva Brut Rosé | Pinot Noir - Chardonnay",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Brut e Brut-Rose",
+      "tipo": "rose",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 144.9,
+      "descricao": "Campos de Cima da Serra, Rio Grande do Sul | Médio corpo, com acidez delicada aliada a boa cremosidade, retrogosto refrescante e ﬁnal de boca prolongado.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/6fcf2b70-d317-11ed-8794-d7cae05c5c50.jpg"
+    },
+    {
+      "id": "cave-amadeu-brut-chardonnay-pinot-noir-nv",
+      "nome": "Cave Amadeu Brut | Chardonnay - Pinot Noir",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Brut e Brut-Rose",
+      "tipo": "espumante",
+      "uvas": [
+        "Chardonnay, Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 155.0,
+      "descricao": "Pinto Bandeira, Rio Grande do Sul | Possui bela cor amarelo palha, com reflexos esverdeados. Sua perlage e fina e persistente. No olfato, delicada mistura de frutas secas como damasco e amêndoa. Na boca, acidez agradável e boa persistência.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/2148900DB711E-7143-4BF2-9312-24E437B8D20F20190916163447.jpg"
+    },
+    {
+      "id": "flair-millesime-brut-viognier-2020",
+      "nome": "Flair Millesime Brut | Viognier",
+      "safra": 2020,
+      "pais": "Brasil",
+      "secao_carta": "Brut e Brut-Rose",
+      "tipo": "espumante",
+      "uvas": [
+        "Viognier"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 190.7,
+      "descricao": "Campo Largo (Paraná) | Amarelo palha brilhante, com borbulhas finas e persistentes. Quando jovem exibe um aroma delicado de frutas cítricas e pêssego branco com notas de acácia e brioche. Com a propriedade de evoluir em garrafa devido à sua estrutura, passa a acrescentar com a guarda aromas de pêssego maduro, caramelo e amêndoas. Após o ataque da espuma refrescante e cremosa, no paladar equilibra a acidez, o frescor de suas frutas e deixa o final de boca mineral e com notas de torrefação, agregando maior cremosidade com sua evolução. Sozinho ou com aperitivos como folhados salgados, frutas secas, queijos untuosos e de mofo branco. Nas refeições harmoniza seu toque mineral com peixes e frutos do mar e ostras cozidos de maneira refinada, carnes brancas em preparação delicada, cozinha asiática e picante.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/dae559f0-1402-11f1-8c29-d5849a7410b9.jpg"
+    },
+    {
+      "id": "luiz-argenta-cave-48-i-p-chardonnay-nv",
+      "nome": "Luiz Argenta Cave 48 I.P. | Chardonnay",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Brut e Brut-Rose",
+      "tipo": "espumante",
+      "uvas": [
+        "Chardonnay"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 324.4,
+      "descricao": "I.P. Altos Montes, Rio Grande do Sul | Perlage fina, elegante e persistente, de coloração amarela com reflexos esverdeados. Aromas intensos e delicados, que lembram principalmente frutas secas, nozes, amêndoas e damascos. Espumante bastante cremoso e com ótimo volume em boca. Ótima persistência e muito equilibrado. WBA: GP:",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/937149F07A8A6-5D5B-4CC6-B5E3-09BEB58ABBBF20171107175203.jpg"
+    },
+    {
+      "id": "ferrari-maximum-brut-ros-nv",
+      "nome": "Ferrari Maximum Brut Rosé",
+      "safra": null,
+      "pais": "Itália",
+      "secao_carta": "Brut e Brut-Rose",
+      "tipo": "espumante",
+      "uvas": [
+        "Chardonnay, Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 558.0,
+      "descricao": "Coloração rosada delicada. Elegante olfato de cítricos e frutas vermelhas frescas, os aportes de crosta de pão seguem sempre ao fundo a dar mais complexidade ao perfil sedutor. Ingresso cremoso em boca, com acidez firme e mineralidade apaixonante. Ótima persistência.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/35410CC2E35F6-0C64-4370-ADC5-268EF2ACB02A20121004160132.jpg"
+    },
+    {
+      "id": "barnaut-r-serve-grand-cru-pinot-noir-chardonnay-nv",
+      "nome": "Barnaut Réserve Grand Cru | Pinot Noir - Chardonnay",
+      "safra": null,
+      "pais": "França",
+      "secao_carta": "Brut e Brut-Rose",
+      "tipo": "champagne",
+      "uvas": [
+        "Chardonnay, Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 756.0,
+      "descricao": "Vinícola Barnaut (Champagne Ardenees - Bouzy) | Para quem busca e valoriza qualidade e sabor, e não somente o rótulo, produzido com uvas Grand Cru dos vinhedos de Bouzy. Coloração amarelo-palha intenso e brilhante. Bolhas muito finas, numerosas e persistentes. Rico bouquet de frutas secas e frutas silvestres vermelhas, maçã ao forno e tostado. Volume e vinosidade, impacto e frescor, perfeito desdobrar da espuma.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/24579CF5F8D-B82F-4CC0-9EF1-D32CE29C5E3920130201110650.jpg"
+    },
+    {
+      "id": "poty-lazzarotto-demi-sec-chardonnay-viognier-nv",
+      "nome": "Poty Lazzarotto Demi Sec | Chardonnay - Viognier",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Démi-sec",
+      "tipo": "espumante",
+      "uvas": [
+        "Chardonnay, Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 138.6,
+      "descricao": "Vinícola Araucária (São José dos Pinhais, Paraná) | VISUAL: Com reflexos verdes, o tom dourado pálido e vivo é animado por borbulhas finas. AROMA: O nariz é limpo, fresco, dando vazão a notas de frutas brancas, frutas secas e alguns toques de confeitaria. SABOR: Na boca é bastante aromático, franco e refrescante. Uma expressão alegre se desprende do seu todo.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/58067D211AFEC-8938-40E5-97FF-768FFD12D9D920150117195054.jpg"
+    },
+    {
+      "id": "altitude-1329-d-mi-sec-riesling-2025",
+      "nome": "Altitude 1329 Démi-Sec | Riesling",
+      "safra": 2025,
+      "pais": "Brasil",
+      "secao_carta": "Démi-sec",
+      "tipo": "espumante",
+      "uvas": [
+        "Riesling"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 142.6,
+      "descricao": "Vinícola Villaggio Grando (Serra Catarinense - Água Doce) | Visual: É um espumante de cor amarelo palha, com perlage intensa e persistente. Nasal: Aromas que remetem a frutas tropicais, além de frutas como maçã madura e pêssego. Boca: Em boca apresenta equilíbrio entre acidez e doçura. Um produto que agrada o paladar dos que preferem uma bebida mais adocicada. É um ótimo produto para brindar e comemorar e que acompanha sobremesas também. O nome Le Chasseur, no francês, significa Caçador, uma homenagem à cidade natal do proprietário.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/473eeba0-c1c5-11f1-9eab-0b1bf09363c1.jpg"
+    },
+    {
+      "id": "campos-de-cima-rose-pinot-noir-chardonnay-2021",
+      "nome": "Campos de Cima Rose | Pinot Noir - Chardonnay",
+      "safra": 2021,
+      "pais": "Brasil",
+      "secao_carta": "Démi-sec",
+      "tipo": "espumante",
+      "uvas": [
+        "Pinot Noir, Chardonnay"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 146.2,
+      "descricao": "Vinícola Campos de Cima (Itaqui, Campanha Gaúcha) | Salmão blush rosado, com perlage fina, intensa e persistente. Aromas frescos e frutados, bem sutis e integrados. Elegante e bem complexo, uma experiência única. Por si só, petiscos leves, frutos do mar e peixes, bem como sobremesas não muito doces.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/776e63c0-9b56-11ee-b85e-19122f498f0d.jpg"
+    },
+    {
+      "id": "miolo-terranova-moscatel-nv",
+      "nome": "Miolo Terranova Moscatel",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Doce",
+      "tipo": "espumante",
+      "uvas": [
+        "Moscatel"
+      ],
+      "volume_ml": 187,
+      "preco_brl": 47.93,
+      "descricao": "Vinícola Miolo (Vale do São Francisco) | Espumante natural elaborado, pelo processo italiano Asti, com uvas Moscato, cultivadas no Vale do São Francisco/BA. É um vinho espumante para sobremesa, mas também pode ser servido como aperitivo. É uma bebida típica do Verão (de baixa graduação alcoólica) que encanta pelo seu aroma floral e seu fácil paladar, doçura e leveza em boca. Visão: Cor amarelo-esverdeada clara, perlage fino, intenso e persistente que termina com ótima coroa. Olfato: Aroma intenso, fresco e típico, com notas de jasmim e outras flores brancas, guaraná, cítricos e mel. Gosto: Leve e doce ao paladar, com um final de boca jovial e refrescante.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/2360879CF5F8D-B82F-4CC0-9EF1-D32CE29C5E3920161124174824.jpg"
+    },
+    {
+      "id": "terrazza-curitidoce-moscatel-rose-nv",
+      "nome": "Terrazza Curitidoce | Moscatel Rose",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Doce",
+      "tipo": "espumante",
+      "uvas": [
+        "Moscatel Blanco, Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 98.4,
+      "descricao": "Vinícola Santa Augusta (Serra Catarinense – Videira) | Coloração rosa claro límpido e brilhante. Aroma fino, delicado e intenso com notas florais e frutas frescas. Ótima acidez, equilíbrio entre a doçura e a acidez, boa cremosidade, persistente e com retro-olfato agradável e muito frutado. Fino, abundante e persistente, delicada coroa de espuma em taça. Sobremesas a base de frutas, frutas secas, sorvetes, salada de fruta, pudim, doces em geral e queijo gorgonzola e roquefort.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/89c756a0-ff37-11ed-aa37-0d88fef32f60.jpg"
+    },
+    {
+      "id": "vintage-liqueur-i-p-casa-perini-moscatel-2022",
+      "nome": "Vintage Liqueur I.P. Casa Perini | Moscatel",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Doce",
+      "tipo": "espumante",
+      "uvas": [
+        "Moscato R2, Moscato Giallo, Moscato Bianco"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 141.0,
+      "descricao": "Vinícola Casa Perini (I.P. Farroupilha - Serra Gaúcha) | Originário da renomada região da Serra Gaúcha, o Espumante Casa Perini Vintage Liqueur Moscatel Blended é uma celebração da vinicultura brasileira. Proveniente da Vinícola Casa Perini, ele é a junção harmoniosa das variedades Moscato R2, Moscato Giallo e Moscato de Hamburgo. Sua coloração dourada convida a uma experiência olfativa de aromas de frutas cítricas, castanhas e avelãs caramelizadas. Seguido por um paladar harmônico e refrescante, ele se destaca por sua fragrância repleta de notas que a variedade Moscatel manifesta. Em \"Liqueur\", reconhecemos o ápice da expressão Moscatel, evidenciando a riqueza e a harmonia genuína da variedade.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/e377d710-87e0-11ee-a0c2-19e24b9f8058.jpg"
+    },
+    {
+      "id": "millesimato-bel-colle-asti-docg-nv",
+      "nome": "Millesimato Bel Colle Asti DOCG",
+      "safra": null,
+      "pais": "Itália",
+      "secao_carta": "Doce",
+      "tipo": "espumante",
+      "uvas": [
+        "Moscatel Blanco"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 221.0,
+      "descricao": "Vinícola Bel Colle (Asti DOCG) | Delicioso exemplar deste clássico estilo piemontês. Cor limão claro, perlage fino. Nariz delicado e complexo, com frutas brancas frescas (pera, pêssego) e toques de flor de laranjeira, jasmim e mel. Leve, cremoso, doçura e frescor em perfeita harmonia.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/82afc1d0-2e19-11ed-afb5-d9315c5ada84.jpg"
+    },
+    {
+      "id": "donnatella-zero-moscato-nv",
+      "nome": "Donnatella Zero | Moscato",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Espumante sem Álcool",
+      "tipo": "espumante",
+      "uvas": [
+        "Moscato"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 54.9,
+      "descricao": "Espumante sem álcool, bebida refrescante elaborada a partir do mosto de Uva Moscato, levemente gaseificada. Apresenta uma coloração amarelo-esverdeada, que chama a atenção logo à primeira vista. No paladar, destaca-se pelo seu perfil doce, com notas tropicais que conferem uma leveza e delicadeza únicas. É importante ressaltar que não há adição de açúcares, resultando em uma opção de baixa caloria, ideal para aqueles que buscam uma alternativa saborosa e saudável.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/34a490f0-5063-11f0-ba25-5b2e8206a0be.jpg"
+    },
+    {
+      "id": "la-zero-lcool-bubble-chardonnay-riesling-2026",
+      "nome": "LA Zero Álcool Bubble | Chardonnay - Riesling",
+      "safra": 2026,
+      "pais": "Brasil",
+      "secao_carta": "Espumante sem Álcool",
+      "tipo": "espumante",
+      "uvas": [
+        "Chardonnay, Riesling, Gewürztraminer"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 126.1,
+      "descricao": "Flores da Cunha, Rio Grande do Sul | Espumante sem álcool, elaborado a partir de vinhos base fermentados normalmente e posteriormente submetidos a um processo tecnológico de desalcoolização, preservando os compostos aromáticos, a acidez natural e a expressão varietal.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/9ee66660-22e9-11f1-ad63-57e150cbf2a9.jpg"
+    },
+    {
+      "id": "hermann-jovem-alvarinho-2023",
+      "nome": "Hermann Jovem | Alvarinho",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Sugestão do Sommelier",
+      "tipo": "branco",
+      "uvas": [
+        "Alvarinho"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 179.8,
+      "descricao": "Vinícola Hermann (Serra do Sudeste, RS) | Cor limão brilhante. Intenso aroma de pêssegos e nectarinas, notas florais e minerais. Paladar leve e suculento, muito elegante, com acidez fresca e final persistente, conde surgem notas cítricas e minerais.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/6e2c8770-bbed-11ef-aff9-d1b98f4953c6.jpg"
+    },
+    {
+      "id": "tozetti-i-g-casca-dura-2025",
+      "nome": "Tozetti I.G. | Casca Dura",
+      "safra": 2025,
+      "pais": "Brasil",
+      "secao_carta": "Brancos Brasileiros",
+      "tipo": "branco",
+      "uvas": [
+        "Complexa"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 78.3,
+      "descricao": "Vinícola Sanber (I.G. Bituruna - Paraná) | Elaborado a partir da uva Casca Dura, uma uva rara que exige condições peculiares de clima, solo e manejo. Originada do cruzamento natural de uma uva moscato com uma variedade autóctone, esta variedade acabou desaparecendo de outras regiões vitícolas; encontrando em Bituruna as condições ideais para mostrar todo seu potencial. Vinho com Indicação de Procedência 'IG Vinhos de Bituruna'. Expressa o terroir de Bituruna com uma tipicidade marcante e um paladar envolvente. Fresco, elegante e repleto de aromas intensos de frutas e flores tropicais.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/01997100-5787-11f0-8699-497bab735791.jpg"
+    },
+    {
+      "id": "encontro-fruttato-viognier-chardonnay-nv",
+      "nome": "Encontro Fruttato | Viognier - Chardonnay",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Brancos Brasileiros",
+      "tipo": "branco",
+      "uvas": [
+        "Viognier, Chardonnay"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 105.8,
+      "descricao": "Vinícola Família Fardo (Quatro Barras, Paraná) | Vinho fino branco seco, combinação de diferentes uvas 70% Viognier e 30% Chardonnay. Vinho distinto para diferentes paladares. Aromas florais e frutas. Refrescante, suculento. Fruttato, Encontro, Cortes da Casa.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/c3a5e200-34ec-11f0-a264-c53076c9f7d1.jpg"
+    },
+    {
+      "id": "lowine-low-calorie-viognier-2023",
+      "nome": "LoWine Low Calorie | Viognier",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Brancos Brasileiros",
+      "tipo": "branco",
+      "uvas": [
+        "Viognier"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 106.8,
+      "descricao": "O LoWine é um vinho leve de baixo índice calórico com notas florais, chá branco e frutas cítricas frescas como abacaxi, limão siciliano, maçã verde, pera e melão. Possui acidez presente e equilibrada, deixando um retrogosto longo e persistente. Ideal para quem prefere levar uma vida mais saudável, leve e prazerosa, sem abrir mão de uma boa taça de vinho.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/db963640-2dd3-11f1-8757-1764c7686300.jpg"
+    },
+    {
+      "id": "miolo-single-vineyard-i-p-riesling-renano-2023",
+      "nome": "Miolo Single Vineyard I.P. | Riesling Renano",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Brancos Brasileiros",
+      "tipo": "branco",
+      "uvas": [
+        "Riesling"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 128.5,
+      "descricao": "Vinícola Miolo (I.P. Campanha Gaúcha) | O Single Vineyard é um vinho de vinhedos únicos: o melhor retrato da verdadeira tipicidade do terroir. A uva Riesling Johannisberg, casta mais conhecida por Riesling Renano, deve o seu nome ao Schloss Johannisberg, castelo alemão da região do Rheingau que desde 1720 cultiva exclusivamente Riesling. A singularidade deste Riesling Johannisberg provém da característica de solo do micro-lote selecionado em que foram produzidas as uvas nos vinhedos da Almadén. O vinhedo que faz o Riesling foi plantado em 1978 na região gaúcha da Campanha Central. Trata-se de uma raridade líquida e antiga, muito típica, delicada, fina, com muito perfume e acidez vívida. Aroma de fruta de polpa branca, com lembranças florais. Em suma, um nariz que remete a coisas boas, felizes. Vinho jovem, muito agradável, vívida estrutura ácida, pontiagudo e fresco.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/49399ee0-1757-11ed-9fbb-97364fbcb703.jpg"
+    },
+    {
+      "id": "angustif-lia-chardonnay-2023",
+      "nome": "Angustifólia | Chardonnay",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Brancos Brasileiros",
+      "tipo": "branco",
+      "uvas": [
+        "Chardonnay"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 132.8,
+      "descricao": "São José dos Pinhais, Paraná | Amarelo palha claro com reflexos dourados. Notas de damascos maduros. Em seguida, destacam-se aromas cítricos e de frutas secas. Ao final aparecem as características de mel, chocolate branco e amêndoas tostadas. Encorpado e amplo. Sua densidade é acompanhada por notas amanteigadas e de amêndoas. Possui bom equilíbrio entre a acidez e a estrutura do vinho, finalizando com notas minerais. Harmonização – As texturas acentuam o sabor em pratos com carnes brancas e frutos do mar, especialmente peixes com molhos. Acompanha sobremesas com pouco açúcar, à base de cremes ou de pêssegos e damascos.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/128167D211AFEC-8938-40E5-97FF-768FFD12D9D920210108190805.jpg"
+    },
+    {
+      "id": "rar-collezione-gew-rztraminer-2023",
+      "nome": "RAR Collezione | Gewürztraminer",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Brancos Brasileiros",
+      "tipo": "branco",
+      "uvas": [
+        "Gewürztraminer"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 147.2,
+      "descricao": "Vinícola RAR (Campos de Cima da Serra) | Suas uvas são colhidas com a presença do fungo Botrytis Cinerea, que desperta o paladar adocicado e o olfato. Esse vinho é rico em aromas que remetem ao melão, pêssego, pêra, limão siciliano e mel. De estrutura média e leve cremosidade, cativa pelos seus taninos doces e agradáveis que o tornam um belo aliado, principalmente, para a culinária asiática.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/2f5dc9b0-9585-11f0-b5b1-65794f7271c7.jpg"
+    },
+    {
+      "id": "sfizio-viognier-2022",
+      "nome": "Sfizio | Viognier",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Brancos Brasileiros",
+      "tipo": "branco",
+      "uvas": [
+        "Viognier"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 170.0,
+      "descricao": "Campos Gerais Paranaenses - Campo Largo | Passando alguns meses em tanques de inox com aduelas de carvalho francês de meia tosta pós fermentação. Traz aromas típico de pêssego, damasco e notas florais com um toque delicado de mel, somados ao ligeiro amadeirado e à manteiga, evoluem agradavelmente para frutas secas. No paladar tem um corpo médio e boa persistência com perceptível mineralidade, confirmando os aromas e com boa persistência. Sua cor é brilhante, amarelo claro e com o tempo evolui para um belo tom dourado. Harmonização: Com uma estrutura elegante e uma combinação do frescor da fruta e amanteigado, harmoniza muito bem com saladas, peixes, aves e massas. Tem afinidade com queijos maduros e de estilo gorgonzola e também com castanhas e chutney.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/0e40a930-be16-11ed-a62f-91fd510f771f.jpg"
+    },
+    {
+      "id": "geo-vermentino-2022",
+      "nome": "Geo | Vermentino",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Brancos Brasileiros",
+      "tipo": "branco",
+      "uvas": [
+        "Vermentino"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 190.7,
+      "descricao": "Vinícola Abreu Garcia (Serra Catarinense, Campo Belo do Sul) | Tem delicadeza desde a cor amarelo citrino brilhante. Aromas de flores campestres, lembrando flor de laranjeira, combinados com frutas de polpa branca. Em boca é muito vivo, tem corpo médio, persistem as notas florais e evidencia uma suave mineralidade. É elegante, sedutor e profundo. Creme de abóbora ou de cenoura, caldo de mandioquinha, frango cozido ou assado, massas com molhos cremosos e noz moscada, creme de milho, risotos com sutil toque agridoce, torta de legumes, panqueca de espinafre, verduras grelhadas, peixes ensopados em molho com leite de coco. Vinho de produção limitada, 1460 garrafas",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/4b401390-df46-11ef-8a73-8d608f7dfcdd.jpg"
+    },
+    {
+      "id": "legato-chardonnay-2022",
+      "nome": "Legato | Chardonnay",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Brancos Brasileiros",
+      "tipo": "branco",
+      "uvas": [
+        "Chardonnay"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 196.8,
+      "descricao": "Água Doce, Santa Catarina | Amarelo dourado, límpido e brilhante. Aromas intensos, agradáveis, frutas pêssego, maça verde, abacaxi e baunilha, ligeiro cítrico sobre um fundo ligeiramente esfumaçado. 24 meses em carvalho frânces.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/b6623c60-c1c7-11f1-9eab-0b1bf09363c1.jpg"
+    },
+    {
+      "id": "quinta-da-neve-i-p-sauvignon-blanc-2025",
+      "nome": "Quinta da Neve I.P. | Sauvignon Blanc",
+      "safra": 2025,
+      "pais": "Brasil",
+      "secao_carta": "Brancos Brasileiros",
+      "tipo": "branco",
+      "uvas": [
+        "Sauvignon Blanc"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 197.7,
+      "descricao": "I.P. Vinhos de Altitude SC, Santa Catarina | De cor amarelo-esverdeado, apresenta uma complexidade de aromas de frutas brancas – pêssego fresco, maçã verde – cítricas, maracujá e um leve toque vegetal típico da Sauvignon Blanc cultivada na altitude da Serra Catarinense. Jovem e refrescante, porém com acidez marcante, intenso, persistente e equilibrado em boca. Harmoniza com frutos do mar crus, peixes crus (culinária japonesa), ao bafo, canapés leves. Altamente gastronômico.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/20867b10-61e6-11ed-aba5-f30cdd80883b.jpg"
+    },
+    {
+      "id": "madre-chardonnay-2024",
+      "nome": "Madre | Chardonnay",
+      "safra": 2024,
+      "pais": "Brasil",
+      "secao_carta": "Brancos Brasileiros",
+      "tipo": "branco",
+      "uvas": [
+        "Chardonnay"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 200.0,
+      "descricao": "Guarapuava, Paraná | Com aroma delicado e brilho dourado, Madre traduz em cada taça a leveza da fé e a pureza das origens. O manto azul que protege a garrafa é símbolo de gratidão e devoção: um gesto de amor àquela que nos ensinou que a graça floresce no silêncio da terra e no cuidado das mãos.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/38e81db0-b2ca-11f1-b9ec-25e246586212.jpg"
+    },
+    {
+      "id": "la-jovem-sauvignon-blanc-2024",
+      "nome": "LA Jovem | Sauvignon Blanc",
+      "safra": 2024,
+      "pais": "Brasil",
+      "secao_carta": "Brancos Brasileiros",
+      "tipo": "branco",
+      "uvas": [
+        "Sauvignon Blanc"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 215.6,
+      "descricao": "Vinícola Luiz Argenta (Serra Gaúcha - Flores da Cunha) | Coloração amarela com intensos reflexos esverdeados. Aromas muito intensos que lembram frutas tropicais, como o maracujá e pêssego.Sabor elegante, jovem e refrescante. Com boa acidez e persistência.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/72259190A882B-36DC-4989-9C00-8ADD72DC213420160107104019.jpg"
+    },
+    {
+      "id": "individuum-alvarinho-2023",
+      "nome": "Individuum | Alvarinho",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Brancos Brasileiros",
+      "tipo": "branco",
+      "uvas": [
+        "Alvarinho"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 240.0,
+      "descricao": "São Luiz do Purunã, Paraná| Equilíbrio de frescor, identidade e elegância. Perfil sensorial de frutas tropicais, cítricos, mel e flor de laranjeira.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/a9133c00-48d5-11f1-830a-8f94a01008ec.jpg"
+    },
+    {
+      "id": "legno-d-o-chardonnay-2023",
+      "nome": "Legno D.O. | Chardonnay",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Brancos Brasileiros",
+      "tipo": "branco",
+      "uvas": [
+        "Chardonnay"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 249.0,
+      "descricao": "D.O. Vale dos Vinhedos, Rio Grande do Sul | É de cor amarelo palha brilhante. Possui um aroma complexo, frutas tropicais maduras, manteiga, baunilha e mel. Toque leve de menta. Acidez equilibrada, final persistente e complexo.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/4068079CF5F8D-B82F-4CC0-9EF1-D32CE29C5E3920130925095920.jpg"
+    },
+    {
+      "id": "maison-millaux-sauvignon-blanc-2023",
+      "nome": "Maison Millaux | Sauvignon Blanc",
+      "safra": 2023,
+      "pais": "França",
+      "secao_carta": "Brancos Importados",
+      "tipo": "branco",
+      "uvas": [
+        "Sauvignon Blanc"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 142.4,
+      "descricao": "Bordeaux, França | Vivo e brilhante. Vibrante, delicioso e cheio, com aromas de flores brancas, pera branca, groselha, raspas de limão e urtiga. Cristalino e elegante, com um final agradável de toranja",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/d55416c0-ebf8-11f0-bd45-0925a08716a3.jpg"
+    },
+    {
+      "id": "los-haroldos-estate-chardonnay-2024",
+      "nome": "Los Haroldos Estate | Chardonnay",
+      "safra": 2024,
+      "pais": "Argentina",
+      "secao_carta": "Brancos Importados",
+      "tipo": "branco",
+      "uvas": [
+        "Chardonnay"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 143.8,
+      "descricao": "Argentina | Maipu, Mendoza | Amarelo-dourado com tons esverdeados. Complexo, frutas tropicais, toques de baunilha e madeira. Untuoso, complexo e persistente. 6 meses em barril.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/1a8f57d0-0fbe-11f0-a54b-b1d2d2010b52.jpg"
+    },
+    {
+      "id": "giacondi-terre-siciliane-pinot-grigio-2024",
+      "nome": "Giacondi Terre Siciliane | Pinot Grigio",
+      "safra": 2024,
+      "pais": "Itália",
+      "secao_carta": "Brancos Importados",
+      "tipo": "branco",
+      "uvas": [
+        "Pinot Grigio"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 150.3,
+      "descricao": "Produzido com as uvas Pinot Grigio provenientes da sicilia. Sua coloração amarelada apresenta nuances esverdeadas, com um paladar bem equilibrado e notas delicadas de frutas exóticas.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/c9098360-60ac-11ef-b4c4-dd68dd0d4f78.jpg"
+    },
+    {
+      "id": "flor-de-crastro-doc-blend-2023",
+      "nome": "Flor de Crastro DOC | Blend",
+      "safra": 2023,
+      "pais": "Portugal",
+      "secao_carta": "Brancos Importados",
+      "tipo": "branco",
+      "uvas": [
+        "Codega do Larinho, Moscatel Galego, Rabigato"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 166.2,
+      "descricao": "Portugal (Douro DOC) | As uvas, provenientes de talhões previamente selecionados, foram transportadas em caixas de plástico alimentar de 22 kg e sujeitas a uma rigorosa triagem à entrada da adega. Foram posteriormente desengaçadas e prensadas. O mosto prensado foi transferido para uma cuba de inox onde se manteve a uma temperatura de 8°C durante 48 horas até à sua decantação. Seguidamente decorreu a fermentação alcoólica em cuba de inox com temperaturas controladas de 14°C durante um período de 20 dias. Estágio: 20 dias em cubos de aço inox Idade das vinhas: mais de 20 anos.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/49714010-c342-11ed-9cb8-ed5340179af7.jpg"
+    },
+    {
+      "id": "campelo-doc-alvarinho-nv",
+      "nome": "Campelo DOC | Alvarinho",
+      "safra": null,
+      "pais": "Portugal",
+      "secao_carta": "Brancos Importados",
+      "tipo": "branco",
+      "uvas": [
+        "Avesso, Loureiro, Pedernã, Trajadura"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 167.6,
+      "descricao": "Portugal (Vinho Verde DOC, Monção e Melgaço) | De cor límpido, amarelo citrino. No paladar intenso, citrino, com notas florais. Ao paladar é volumoso, com boa acidez, evidenciando aromas a frutos exóticos. Toque final é refrescante e elegante.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/29969C81778FC-1B13-46A9-A431-CB301AA8107720120423131449.jpg"
+    },
+    {
+      "id": "ndica-reserva-sauvignon-blanc-2024",
+      "nome": "Ándica Reserva | Sauvignon Blanc",
+      "safra": 2024,
+      "pais": "Chile",
+      "secao_carta": "Brancos Importados",
+      "tipo": "branco",
+      "uvas": [
+        "Sauvignon Blanc"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 167.8,
+      "descricao": "Chile (Valle de Curicó) | 100% orgânico certificado é feito com o maior respeito através dos ecossistemas chilenos onde são cultivadas as uvas, ao norte da Patagônia, com uma abordagem sustentável para agricultura e conscientes das alterações climáticas. Bela e delicada cor amarela. Ao nariz recordam as frutas tropicais, frutas cítricas como toranja e leve notas herbáceas. Na boca é doce, fresco e intenso. Um vinho para desfrutar.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/c9176510-a031-11ef-903f-c185f7c5920b.jpg"
+    },
+    {
+      "id": "arrogant-frog-tutti-frutti-blend-2023",
+      "nome": "Arrogant Frog Tutti-Frutti | Blend",
+      "safra": 2023,
+      "pais": "França",
+      "secao_carta": "Brancos Importados",
+      "tipo": "branco",
+      "uvas": [
+        "Grenache"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 177.8,
+      "descricao": "França (Sud-France) | Um vinho rico e saboroso que desperta prazer já na sua coloração limão claro brilhante com tons de verde. Nariz cítrico, tropical, também de ervas e flores. Macio e bem integrado em boca, muito fácil de se beber, belo frescor que aporta suculência.Perfeito como vinho de aperitivo; cozinha japonesa de peixe cru; peixes em geral, em preparações leves; curry de legumes. 35% Grenache Blanc, 25% Vermentino, 15% Chasan, 10% Mauzac, 10% Sauvignon Blanc, 5% Chenin",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/19817A347921D-1D34-48AE-9D23-444190BFC5D220110420145639.jpg"
+    },
+    {
+      "id": "colom-estate-torront-s-2024",
+      "nome": "Colomé Estate | Torrontés",
+      "safra": 2024,
+      "pais": "Argentina",
+      "secao_carta": "Brancos Importados",
+      "tipo": "branco",
+      "uvas": [
+        "Torrontés"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 179.8,
+      "descricao": "Argentina (Salta, Valles Calchaquíes) | De coloração amarelo palha, revela, no nariz, aromas florais, como de rosas, notas de frutas cítricas, como de toranja, além de nuances de especiarias. Em boca, é um vinho branco fresco, contando com bom corpo e um final longo e elegante.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/033f5c90-e1bf-11ec-96c4-0b335deb50f0.jpg"
+    },
+    {
+      "id": "tarapac-gran-reserva-d-o-chardonnay-2025",
+      "nome": "Tarapacá Gran Reserva D.O. | Chardonnay",
+      "safra": 2025,
+      "pais": "Chile",
+      "secao_carta": "Brancos Importados",
+      "tipo": "branco",
+      "uvas": [
+        "Chardonnay"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 204.8,
+      "descricao": "D.O. Aconcagua, Chile | A boca é sedosa e marcada por uma mineralidade irresistível. Trata-se de uma excelente versão da Chardonnay do Novo Mundo, com final longo e equilibrado",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/86f72dd0-2308-11ed-bf70-0db9131d084a.jpg"
+    },
+    {
+      "id": "gustave-lorentz-r-serve-gew-rztraminer-2022",
+      "nome": "Gustave Lorentz Réserve | Gewürztraminer",
+      "safra": 2022,
+      "pais": "França",
+      "secao_carta": "Brancos Importados",
+      "tipo": "branco",
+      "uvas": [
+        "Gewürztraminer"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 404.2,
+      "descricao": "França (Alsácia, Bergheim) | Cor amarelo escuro. Aroma floral expressivo com algumas sugestões de rosas, fragrâncias de damasco e frutas tropicais. Suave e fresco, complexo e rico, mas ainda elegante e amigável devido à sua frescura. Peixe em molhos picantes (molho de gengibre, robalo com erva-doce), salmão fumado, apreciado com pratos doces e azedos, pratos étnicos especialmente (tailandês, indiano ou chinês) Queijos fortes como Munster, Epoisse, Queijo Azul ou Brie de Meaux.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/c9a7a390-f3f4-11ed-ac63-359c0f4885b0.jpg"
+    },
+    {
+      "id": "franz-k-nstler-estate-trocken-riesling-2020",
+      "nome": "Franz Künstler Estate Trocken | Riesling",
+      "safra": 2020,
+      "pais": "Desconhecido",
+      "secao_carta": "Brancos Importados",
+      "tipo": "branco",
+      "uvas": [
+        "Alemanha",
+        "Riesling"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 401.8,
+      "descricao": "Alemanha (Rheingau) | Produzido por uma das estrelas da Alemanha, este é um belíssimo exemplar de Riesling ao melhor estilo Rheingau. Muito típico, com aromas cítricos, de maçã verde, floral e ervas frescas. De corpo leve, elegante, com acidez fresca, equilibrado e persistente.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/22523C81778FC-1B13-46A9-A431-CB301AA8107720110627142404.jpg"
+    },
+    {
+      "id": "chablis-pascal-bouchard-le-classic-2023",
+      "nome": "Chablis Pascal Bouchard Le Classic",
+      "safra": 2023,
+      "pais": "França",
+      "secao_carta": "Brancos Importados",
+      "tipo": "branco",
+      "uvas": [
+        "Chardonnay"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 511.2,
+      "descricao": "França (Chablis) | Um vinho produzido pela vinícola Jean Bouchard, que opera com o maior cuidado para revelar os sabores e aromas que sejam fiéis à tradição da região de Borgonha (França). Concebido a partir da instigante Chardonnay, seu líquido amarelo-palha apresenta aroma com toques citrinos e notas minerais. No paladar apresenta frescor e elegância, harmonizando com ostras e peixes assados.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/374f6320-2f30-11ef-90b3-8d4dd9e3e205.jpg"
+    },
+    {
+      "id": "schlumberger-les-princes-abb-s-riesling-2021",
+      "nome": "Schlumberger Les Princes Abbés | Riesling",
+      "safra": 2021,
+      "pais": "França",
+      "secao_carta": "Brancos Importados",
+      "tipo": "branco",
+      "uvas": [
+        "Riesling"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 775.0,
+      "descricao": "A roupa é amarelo limão com reflexos verdes, de boa intensidade. O disco é brilhante, límpido e transparente. O vinho apresenta juventude. O nariz é franco, agradável, de boa intensidade. Sentimos um aroma dominante de frutas cítricas, limão, flores brancas e um toque defumado sutil. A aeração amplifica esses odores e revela zest de limão, vegetal fino, capim-limão e um registro mineral pronunciado de gás. A excelente qualidade da matéria-prima exalta um perfil distinto, marcado pelo terroir. Nesta fase de evolução, é notável.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/4a054a20-97ed-11f1-831d-0100a867e284.jpg"
+    },
+    {
+      "id": "faces-do-brasil-chardonnay-2025",
+      "nome": "Faces Do Brasil | Chardonnay",
+      "safra": 2025,
+      "pais": "Brasil",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "branco",
+      "uvas": [
+        "Chardonnay, Moscato, Riesling Italico"
+      ],
+      "volume_ml": 187,
+      "preco_brl": 36.8,
+      "descricao": "Serra do Sudeste, Rio Grande do Sul | 80% Chardonnay, 15% Riesling Itálico, 5% MoscatoColoração amarelo-palha com reflexos esverdeados. Aroma intenso e primaveril de rosas brancas, margarida, melão, limão-siciliano, pera, maçã-verde, erva-cidreira e um toque sutil de mineralidade. Bom volume de boca e grande harmonia. Agradável retrogosto prolongado, cítrico e refrescante.Combina bem com carnes brancas, de peixes (como salmão e tainha) a aves, frutos do mar em geral, pratos da culinária vegetariana (como legumes grelhados), queijos leves, saladas de folhas verdes com temperos suaves e finger food, aperitivos e canapés.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/8304499E40B3B-F6BA-4B70-BD5C-999F279D305620161105221539.jpg"
+    },
+    {
+      "id": "miolo-sele-o-chardonnay-viognier-2024",
+      "nome": "Miolo Seleção | Chardonnay - Viognier",
+      "safra": 2024,
+      "pais": "Brasil",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "branco",
+      "uvas": [
+        "Chardonnay, Viognier"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 42.6,
+      "descricao": "Campanha Gaúcha (Rio Grande do Sul) | Esse branco que traz frutas em evidência, mescla a uva Chardonnay com a Viognier. Com um estilo descomplicado, moderno e fácil de beber, esse exemplar combina com diversos momentos, desde um almoço em família a um dia de praia ou piscina com os amigos.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/ca8d41f0-05b4-11ec-a304-b1a797e4d4a1.jpg"
+    },
+    {
+      "id": "alto-madero-reserva-sauvignon-blanc-2024",
+      "nome": "Alto Madero Reserva | Sauvignon Blanc",
+      "safra": 2024,
+      "pais": "Chile",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "branco",
+      "uvas": [
+        "Sauvignon Blanc"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 54.8,
+      "descricao": "Frescor define a este vinho, com suas suaves notas de limão, erva cortada e frutas tropicais, acompanhado de uma boca intensa, boa acidez e final volumoso e longo.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/7517879CF5F8D-B82F-4CC0-9EF1-D32CE29C5E3920160211193458.jpg"
+    },
+    {
+      "id": "pizzato-reserva-d-o-chardonnay-2023",
+      "nome": "Pizzato Reserva D.O. | Chardonnay",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Chardonnay"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 95.9,
+      "descricao": "Vinícola Pizzato (D.O. Vale dos Vinhedos - Serra Gaúcha) | De coloração amarelo-esverdeado, atraente e limpidez excelente. Intenso e elegante, floral, frutado com notas cítricas como maçã, pêra madura e abacaxi em calda. Generoso, de bom corpo e complexidade. Equilibrado, de boa persistência e vivo.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/43014990-b86c-11ed-8c24-85aa7e6765cc.jpg"
+    },
+    {
+      "id": "selo-ros-suave-blend-2024",
+      "nome": "Selo Rosé Suave | Blend",
+      "safra": 2024,
+      "pais": "Brasil",
+      "secao_carta": "Roses Brasileiros",
+      "tipo": "rose",
+      "uvas": [
+        "Pinot Noir, Merlot, Touriga Nacional"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 96.9,
+      "descricao": "Serra do Sudeste, Rio Grande do Sul | Blend de Pinot Noir, Touriga Nacional e Merlot, este vinho apresenta uma coloração salmão brilhante e aromas florais, com notas de rosas, framboesa, cereja, morango e especiarias. Seu paladar é frutado, volumoso e equilibrado, proporcionando uma experiência única e refinada. Combinando perfeitamente com aves, queijos e sobremesas.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/de234760-6032-11ef-8b79-1d6149ef83bb.jpg"
+    },
+    {
+      "id": "soleil-rose-pinot-noir-2023",
+      "nome": "Soleil Rose | Pinot Noir",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Roses Brasileiros",
+      "tipo": "rose",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 103.2,
+      "descricao": "Vinícola Rotava & Werget (Sudoeste Paranaense) | Coloração rosa-salmão, brilhante e envolvente. Aromas com notas florais de rosas e frutas como framboesa, cereja, morango, com um toque de especiarias. Ressalta um agradável toque frutado, com ótimo volume e equilíbrio entre suavidade e acidez. Harmoniza com pratos leves, a base de temperos agridoces, carnes brancas, queijos frescos, azuis e sobremesas.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/0d2ccb10-9173-11ee-a7ef-9d73c578d02c.jpg"
+    },
+    {
+      "id": "gralha-azul-rose-viognier-merlot-2024",
+      "nome": "Gralha Azul Rose | Viognier - Merlot",
+      "safra": 2024,
+      "pais": "Brasil",
+      "secao_carta": "Roses Brasileiros",
+      "tipo": "rose",
+      "uvas": [
+        "Gamay, Viognier"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 117.3,
+      "descricao": "São José dos Pinhais, Paraná | Típico da primavera e do outono, é ideal para recepcionar convidados, curtir um piquenique ao ar livre ou iniciar qualquer refeição. Com paladar agradável e refrescante, acompanha bem saladas, canapés e pratos leves, desde peixes e frutos do mar até pizzas e carnes assadas. Os aromas se destacam pela riqueza das notas florais e das frutas frescas como morango, pera, cereja e amora silvestre.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/8bdd1ae0-3b71-11ed-9845-557ac1b39d59.jpg"
+    },
+    {
+      "id": "peculiare-rose-cabernet-sauvignon-2022",
+      "nome": "Peculiare Rose | Cabernet Sauvignon",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Roses Brasileiros",
+      "tipo": "rose",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 165.9,
+      "descricao": "Vinícola Peculiare (Vale dos Vinhedos) | Coloração rosa salmão, límpido e brilhante. Aroma delicado de flores vermelhas e frutas como morango maduro e cereja. Com ataque inicial que demonstra todo seu frescor, acidez vibrante e final agradável.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/84297f30-733f-11ee-931d-bf2edfb1c960.jpg"
+    },
+    {
+      "id": "abreu-garcia-rose-i-p-malbec-2020",
+      "nome": "Abreu Garcia Rose I.P. | Malbec",
+      "safra": 2020,
+      "pais": "Brasil",
+      "secao_carta": "Roses Brasileiros",
+      "tipo": "rose",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 202.0,
+      "descricao": "Vinícola Abreu Garcia (I.P. Vinhos de Altitude de SC - Campo Belo do Sul) | Sedutora cor rosé-salmão, lembrando os vinhos rosados da região da Provence. Aromas de frutas silvestres, associados ao frescor de ervas.Corpo leve, porém com excelente persistência. Substancioso sem perder vivacidade, bastante refrescante, saboroso e com final de boca que mantém sua finesse até o último gole.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/6c305b70-4253-11ec-a3f5-53965a895616.jpg"
+    },
+    {
+      "id": "la-jovem-rose-pinot-noir-syrah-2024",
+      "nome": "LA Jovem Rose | Pinot Noir - Syrah",
+      "safra": 2024,
+      "pais": "Brasil",
+      "secao_carta": "Roses Brasileiros",
+      "tipo": "rose",
+      "uvas": [
+        "Cabernet Franc, Cabernet Sauvignon, Merlot, Shiraz/Syrah"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 215.6,
+      "descricao": "Vinícola Luiz Argenta (Serra Gaúcha - Flores da Cunha) | De cor rosa tênue. Nos aromas é intenso e delicado, que lembra muito flores e frutas vermelhas. É um vinho leve que apresenta um bom volume de boca. Possui uma acidez equilibrada e uma média persistência gustativa.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/124914D211AFEC-8938-40E5-97FF-768FFD12D9D920200922200000.jpg"
+    },
+    {
+      "id": "llama-rosado-malbec-2022",
+      "nome": "Llama Rosado | Malbec",
+      "safra": 2022,
+      "pais": "Argentina",
+      "secao_carta": "Roses Importados",
+      "tipo": "rose",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 144.8,
+      "descricao": "Vinícola Belasco de Baquedano (Luján de Cuyo) | Este vinho bem estruturado apresenta uma acidez fresca, framboesas maduras e morangos no nariz. No paladar tem um final elegante e refrescante. Nosso Rosé é uma ótima combinação com qualquer tipo de refeição mais leve, como saladas frescas ou massas. Este vinho perfeito para dias quentes também combina bem com queijo de cabra e peixe grelhado.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/9d476d10-5fe8-11ef-8b79-1d6149ef83bb.jpg"
+    },
+    {
+      "id": "guyot-reserva-d-o-grenache-2023",
+      "nome": "Guyot Reserva D.O. | Grenache",
+      "safra": 2023,
+      "pais": "Chile",
+      "secao_carta": "Roses Importados",
+      "tipo": "rose",
+      "uvas": [
+        "Grenache"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 157.4,
+      "descricao": "Vinícola Aresti (Valle de Curicó) | Cor rosa claro, com aromas de romã e toranja, em boa tem uma ótima acidez e um prazeroso final frutado.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/f09c7500-f2e6-11ef-bbe9-f3fcda2968b4.jpg"
+    },
+    {
+      "id": "ch-teau-miraval-cot-s-de-provence-2024",
+      "nome": "Château Miraval Cotês De Provence",
+      "safra": 2024,
+      "pais": "França",
+      "secao_carta": "Roses Importados",
+      "tipo": "rose",
+      "uvas": [
+        "Cinsault, Grenache"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 622.8,
+      "descricao": "Rosa pálido. Intenso, notas frescas de grapefruit e limão. Um ataque afiado em sabores doces, cítrus e morango ao final. Boa persistência.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/57561E0C79B81-2F07-4EAA-BD0D-ABD41B5674B520140527100716.jpg"
+    },
+    {
+      "id": "colom-lote-especial-bonarda-2023",
+      "nome": "Colomé Lote Especial | Bonarda",
+      "safra": 2023,
+      "pais": "Argentina",
+      "secao_carta": "Sugestão do Sommelier",
+      "tipo": "tinto",
+      "uvas": [
+        "Bonarda"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 379.9,
+      "descricao": "Produzido a partir de uvas de vinhedo único, este tinto da uva Bonarda exibe um nariz intenso de frutas negras, geleia de amoras, notas sutis de menta e baunilha, além de tons terrosos. Volumoso, fresco, com taninos bem maduros e integrados.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/50785050-e2ba-11ed-8579-2973e6aa6aee.jpg"
+    },
+    {
+      "id": "casarena-estate-cabernet-sauvignon-2023",
+      "nome": "Casarena Estate | Cabernet Sauvignon",
+      "safra": 2023,
+      "pais": "Argentina",
+      "secao_carta": "Sugestão do Sommelier",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 147.8,
+      "descricao": "Luján de Cuyo | De cor rubi brilhante e intensa. No nariz apresenta aromas sutis de frutos negros como cassis e o figo, acompanhado de notas de especiarias e pimentas. Na boca, é um vinho de excelente volume com taninos que colaboram para um final persistente e equilibrado.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/de467e50-97d7-11f0-8f2e-1597d9c1a50a.jpg"
+    },
+    {
+      "id": "venturo-ancelotta-cabernet-sauvignon-2023",
+      "nome": "Venturo | Ancelotta - Cabernet Sauvignon",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Sugestão do Sommelier",
+      "tipo": "tinto",
+      "uvas": [
+        "Ancellotta, Cabernet Sauvignon"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 132.0,
+      "descricao": "Venturo é mais do que um vinho, é uma viagem no tempo. Inspirado na jornada do colonizador Giovani Sandi, que escolheu as terras de Bituruna para cultivar o sonho do lote 71, este rótulo celebra as raízes italianas da vinícola Sanber e a união das famílias que construíram esse legado. Com um corte sofisticado de Ancellota e Cabernet Sauvignon, Venturo oferece aromas marcantes de frutas negras maduras, toques de especiarias e uma elegância única com nuances de baunilha e cacau, resultado de sua passagem por barricas de madeira. Tudo isso envolto em um rótulo azul, símbolo da união das regiões italianas e do espírito de renovação e esperança.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/346cbe60-958b-11f0-b5b1-65794f7271c7.jpg"
+    },
+    {
+      "id": "manac-suave-cabernet-sauvignon-nv",
+      "nome": "Manacá Suave | Cabernet Sauvignon",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 103.2,
+      "descricao": "Vinícola Araucária (São José dos Pinhais) | Vinho suave apresenta um estilo leve e frutado. Cabernet Sauvignon é uma uva que produz vinhos de sabor pronunciado, que ao ser complementado com a sensação de doçura, revela um equilíbrio ideal. deal para servir com entradas e refeições encorpadas. Acompanha muito bem pratos da cozinha brasileira.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/48fb3320-498b-11f1-830a-8f94a01008ec.jpg"
+    },
+    {
+      "id": "sincronia-syrah-2020",
+      "nome": "Sincronia | Syrah",
+      "safra": 2020,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Shiraz/Syrah"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 107.7,
+      "descricao": "Vinícola Franco Italiano (Campos Gerais Paranaenses - Porto Amazonas) | Cor intensa e tonalidade vermelho rubi. Notas suaves de frutas, como cereja e amora e toques intensos de caramelo, fumaça e baunilha. Notas intensas de frutas maduras e em calda. Toques requintados de especiarias e alcaçuz. Amadurecimento em barricas de carvalho francês e americano por 12 meses. Carnes bovina e cordeiro, massas e queijos.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/38526b70-0149-11ee-bd93-c9e9b2f778ee.jpg"
+    },
+    {
+      "id": "josephine-pinot-noir-2023",
+      "nome": "Josephine | Pinot Noir",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 111.6,
+      "descricao": "Vinícola Franco Italiano (Campos de Cima da Serra - Vacaria) | Coloração vermelho rubi com reflexos cereja de média intensidade. Notas elegantes de frutas vermelhas, cerejas e mirtilos, complementado com notas de café, chocolate e toffee vindos do carvalho. Corpo médio que une delicadeza e uma excelente estrutura aportada pelo carvalho. Fácil de tomar, excelente para harmonizações. Amadurecimento em barricas de carvalho francês e americano por 12 meses. Peixes, carnes, massas e queijos.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/95f88e40-223d-11f1-822a-5d2404a7450d.jpg"
+    },
+    {
+      "id": "extrus-tannat-2022",
+      "nome": "Extrus | Tannat",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Tannat"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 124.5,
+      "descricao": "Vinícola Dezem (Oeste Paranaense - Toledo) | Vermelho púrpura de boa intensidade. Maduro e selvagem, exala perfumes de framboesa, de frutas pretas, caças, terra, especiarias fortes, vegetação rasteira, trufa, tostado que se tornam complexos. Acompanha perfeitamente pratos elaborados a partir da carne de cordeiro, carnes e aves fortes e gordas, queijos gordos bem curados e caças de pena e pelo, com a idade o vinho desenvolve perfumes de caça. 6 meses carvalho francês.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/a2d3ed50-1fa8-11f0-b3a2-d96cd851d23c.jpg"
+    },
+    {
+      "id": "gralha-azul-cabernet-franc-2022",
+      "nome": "Gralha Azul | Cabernet Franc",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Franc"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 132.0,
+      "descricao": "Vinícola Araucária (Serra do Mar - São José dos Pinhais) | VISUAL: Atraente, boa intensidade e profundidade de cor. AROMA: Maduro e complexo, ressaltando as frutas vermelhas e pretas, maduras e maceradas, de especiarias, de couro. Com o amadurecimento na garrafa adquire notas de champignon, húmus e de caça. SABOR: O paladar equilibrado, generoso, acidez refrescante, estrutura adequada, o envelhecimento em barris de carvalho reforça o tanino e perfuma o paladar com baunilha e fumaça, bom para apreciar os pratos simples e saborosos do nosso dia a dia.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/76064D211AFEC-8938-40E5-97FF-768FFD12D9D920160310171457.jpg"
+    },
+    {
+      "id": "atmo-cabernet-sauvignon-2009",
+      "nome": "Atmo | Cabernet Sauvignon",
+      "safra": 2009,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 137.1,
+      "descricao": "Vinícola Dezem (Oeste Paranaense - Toledo) | Limpo, vermelho rubi de boa tonalidade e intensidade de cor. Franco, nítido, frutas maduras como a cereja e a ameixa, mesclados com notas de caramelo e coco queimado. Bom corpo, com ótima concentração de fruta e taninos doces com agradável final frutado.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/a75cc640-1fa7-11f0-b3a2-d96cd851d23c.jpg"
+    },
+    {
+      "id": "la-esperanza-syrah-2023",
+      "nome": "La Esperanza | Syrah",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Shiraz/Syrah"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 141.9,
+      "descricao": "Porto Amazonas, Paraná | Coloração rubi. Aromas de frutas vermelhas, pimenta preta, café e um toque de eucalipto. Em boca é equilibrado apresentando bom corpo, acidez que fica perfeita com os taninos. Carnes assadas e molhos de queijo ou tomate.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/fb7c9270-47f9-11f1-830a-8f94a01008ec.jpg"
+    },
+    {
+      "id": "ristretto-tannat-2023",
+      "nome": "Ristretto | Tannat",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Tannat"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 147.0,
+      "descricao": "Vinícola Sanber (Bituruna) | Vermelho violeta muito intenso. Seus aromas são de frutas silvestres mais maduras, como cereja, amora e mirtilo. Encontramos também notas de especiarias, madeira e chocolate. Quando bebemos notamos grande presença na boca, bastante intensidade e boa estrutura. Sensação de adstringência e uma ótima persisitência. Pratos à base de defumados e miúdos suínos, como tradicional feijoada brasileira, também são uma ótima pedida para acompanhar uma taça de Tannat.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/d19aa050-76b3-11ef-8b2c-81519cfd688c.jpg"
+    },
+    {
+      "id": "censurato-reserva-cabernet-sauvignon-2022",
+      "nome": "Censurato Reserva | Cabernet Sauvignon",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 150.2,
+      "descricao": "Vinícola Franco Italiano (Serra Gaúcha - Dois Lajeados) | Cor intensa e tonalidade violeta. Notas suaves de especiarias finas, pimentas, cravo, notas doces de coco queimado, passas café e alcaçuz. Civilizado e gastronômico, porém de taninos firmes e prazerosos de grande potencial de guarda. Amadurecimento em barricas de carvalho francês e americano por 18 meses.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/abda3b40-4985-11f1-830a-8f94a01008ec.jpg"
+    },
+    {
+      "id": "sfizio-reserva-merlot-2022",
+      "nome": "Sfizio Reserva | Merlot",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Merlot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 178.0,
+      "descricao": "Campo Largo, Paraná | Resultado de um cuidadoso trabalho no vinhedo próprio da Vinícola, temos um vinho tinto aveludado e harmonioso. Com parcelas envelhecidas em barrica de carvalho é um tinto macio com aromas de frutas vermelhas e negras em harmonia com o tostado de madeira e taninos redondos. Harmoniza com carnes bovinas, cordeiro e suínos grelhados ou ao forno, assados suculentos, preparos com cogumelos, ervas e molhos do próprio vinho, queijos untuosos, risotos e massas encorpadas. Uva: 100% merlot",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/b5f99e50-38f9-11ec-95b6-3367782ea0e9.jpg"
+    },
+    {
+      "id": "tr-s-torres-sangiovese-2024",
+      "nome": "Três Torres | Sangiovese",
+      "safra": 2024,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Sangiovese"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 186.0,
+      "descricao": "Guarapuava (Paraná) | No coração da vinícola, entre fileiras de parreirais que dançam com o vento, erguem-se três torres metálicas que, à distância, compõem uma paisagem marcante. Elas se tornaram símbolo da força e da constância do lugar eretas, firmes e silenciosas, observando o ciclo da videira e o passar das estações. É justamente ali, sob a sombra dessas torres, que nasce o Sangiovese Três Torres, um vinho que traduz a energia do solo e a eletricidade quase poética do cenário que o cerca. Um tinto vibrante, de alma italiana e coração brasileiro, que carrega em cada gole o poder da terra, do tempo e da memória.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/9d4fa810-0611-11f1-a457-b9c5441dc000.jpg"
+    },
+    {
+      "id": "cisne-negro-pinot-noir-2024",
+      "nome": "Cisne Negro | Pinot Noir",
+      "safra": 2024,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 200.0,
+      "descricao": "Guarapuava (Paraná) | Um Pinot Noir de alma refinada e espírito indomável. Com notas sutis e textura aveludada, é um vinho que traduz a harmonia entre o poder e a graciosidade como a ave que o inspirou, que ainda hoje, de vez em quando, volta para lembrar que o extraordinário acontece quando menos se espera.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/f3fb2810-0611-11f1-a457-b9c5441dc000.jpg"
+    },
+    {
+      "id": "individuum-lagrein-2023",
+      "nome": "Individuum | Lagrein",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Lagrein"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 256.0,
+      "descricao": "São Luiz do Purunã (Paraná) | Uva típica do Alto Adge - Trentino na Itália, que em meio a Serra de São Luiz do Purunã encontrou um terroir de excelência para seu cultivo, equilíbrio de frescor, identidade e elegância. Perfil sensorial de frutas tropicais, cítricos, mel e flor de laranjeira, com uma marcante presença das notas da passagem por barrica de carvalho.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/1b59b0a0-48d6-11f1-830a-8f94a01008ec.jpg"
+    },
+    {
+      "id": "dom-alberto-malbec-2023",
+      "nome": "Dom Alberto | Malbec",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 260.0,
+      "descricao": "Guarapuava (Paraná) | No tom intenso e nas notas profundas do Malbec, encontra-se a mesma força que moveu o fundador da vinícola: o amor pela terra, o respeito pela família e a presença constante de Deus em cada recomeço. Mais que um vinho, Dom Alberto é um tributo àqueles que constroem com alma e deixam na história o sabor da eternidade.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/724839b0-0612-11f1-9b4e-fb72f4afd166.jpg"
+    },
+    {
+      "id": "angustif-lia-reserva-cabernet-sauvignon-2018",
+      "nome": "Angustifólia Reserva | Cabernet Sauvignon",
+      "safra": 2018,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 298.0,
+      "descricao": "Vinícola Araucária (Serra do Mar - São José dos Pinhais) | Harmonização – Combina com pratos de textura e sabor intensos, ideal para o gran final e de um grande jantar ou comemoração especial. Destinado aos apreciadores mais exigentes, permanece 24 meses em barrica de carvalho francês. Coloração – Denso, volumoso, cor intensa e tonalidade rubi Aroma – Sinfonia de aromas que se apresentam durante a evolução do vinho no copo. Se inicia com notas de frutas em calda, passa para notas balsâmicas e posteriormente aparecem as nuances de especiarias e chocolate Paladar – Clássico e instigante, encanta pela sua nitidez e sutileza, sabor marcante e final de boca longo lembrando especiarias, caramelo e frutas secas.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/126852D211AFEC-8938-40E5-97FF-768FFD12D9D920201113214423.jpg"
+    },
+    {
+      "id": "enigma-blend-2022",
+      "nome": "Enigma | Blend",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Syrah/Shiraz, Tannat, Cabernet Sauvignon, Malbec, Bonarda"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 337.4,
+      "descricao": "Porto Amazonas, Paraná | Coloração rubi de média profundidade. Frutas vermelhas, doce de leite, café, um leve toque de envelhecimento e tostado. Equilibrado, médio corpo, taninos macios, boa acidez e persistência. Pratos de estrutura equilibrada, carnes vermelhas assadas e grelhadas.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/10c644c0-08d9-11f0-9682-c391c888d800.jpg"
+    },
+    {
+      "id": "sfizio-gran-reserva-lote-13-merlot-nv",
+      "nome": "Sfizio Gran Reserva Lote 13 | Merlot",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Paraná",
+      "tipo": "tinto",
+      "uvas": [
+        "Merlot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 444.0,
+      "descricao": "Vinícola Legado (Campos Gerais Paranaenses - Campo Largo) | Um vinho inspirado em um clássico italiano, prestigiado em todo mundo, o Amarone. Nosso Sfizio Lote 13 tem uma técnica única e cuidadosa de elaboração. Apenas as melhores parcelas do nosso vinhedo são pré-selecionadas para a colheita das suas uvas no auge da sua maturação e em condições perfeitas de sanidade. Após a colheita manual, as uvas são colocadas, uma a uma, em caixas treliçadas em uma sala com ventilação para que, com o passar dos dias, percam uma grande parte de seu volume de água naturalmente, chegando a perder até 40% do seu peso. Sendo que no fim do processo cada quilo de uva resultará em cerca de 250 ml de mosto. Durante esse processo de apassimento os compostos sólidos da uva, como os polifenóis e antocianinas, que dão características aos vinhos e os açucares, se concentram e sofrem alterações enzimáticas, e só após essa desidratação essas uvas são maceradas e fermentadas. O afinamento do vinho é feito com estágio em barricas novas de carvalho francês e essa II edição foi elaborada com um corte dos vinhos produzidos dessa forma nos anos de 2017, 2018, 2019 e 2020 . O assemblage dessas barricas foi efetuado em maio de 2021 com subsequente engarrafamento sem filtragem. O tempo de permanência em barrica variou portanto da safra, sendo de 18 a 42 meses e após engarrafado estagiou em nossa adega ainda mais um ano antes do lançamento. O resultado final é um vinho potente e encorpado, com boa estrutura tânica e boa acidez, podendo evoluir ainda por um mínimo de 5 anos em garrafa. No momento predominam no paladar as notas de frutas pretas e vermelhas como cereja, ameixa e amora, complementados por um toque balsâmico e caramelado que devem se acentuar com o tempo, desenvolvendo ainda notas de chocolate e frutos secos.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/1c973770-498b-11f1-830a-8f94a01008ec.jpg"
+    },
+    {
+      "id": "8-gran-reserva-blend-2018",
+      "nome": "8 Gran Reserva | Blend",
+      "safra": 2018,
+      "pais": "Brasil",
+      "secao_carta": "Nordeste",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Shiraz/Syrah, Alicante Bouschet, Touriga Nacional, Aragonês"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 198.9,
+      "descricao": "Vinícola Rio Sol (Vale do São Francisco, Pernambuco) | Límpido, rubi intenso com ligeira evolução, fruta bem madura, como goiaba, morango e frutas silvestres, com ligeiras notas balsâmicas. Volumoso e longo, com taninos bem sedosos e persistentes. Acompanha bem carnes vermelhas, cozidas ou assadas no forno e queijos estruturados.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/afc28810-b3dd-11ee-b87e-01a6bc1eef96.jpg"
+    },
+    {
+      "id": "testardi-syrah-2022",
+      "nome": "Testardi | Syrah",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Nordeste",
+      "tipo": "tinto",
+      "uvas": [
+        "Syrah/Shiraz"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 291.6,
+      "descricao": "Vale do São Francisco - Bahia | Apresenta coloração rubi intensa com traços violáceos. Aroma intenso e complexo, bom equilíbrio fruta/madeira. Os aromas lembram ameixa preta, gengibre, noz moscada e nuances defumadas. Possui boa estrutura e volume em boca, devido à precoce integração ocorrida durante a fermentação entre os taninos da uva e do carvalho. No cômputo geral, apresenta equilíbrio, untuosidade e longa persistência em boca.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/96589D211AFEC-8938-40E5-97FF-768FFD12D9D920180111105121.jpg"
+    },
+    {
+      "id": "th-sis-colheita-de-inverno-malbec-2024",
+      "nome": "Thésis Colheita de Inverno | Malbec",
+      "safra": 2024,
+      "pais": "Brasil",
+      "secao_carta": "Sudeste",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 138.6,
+      "descricao": "Leste Paulista (São Paulo) | Vinho límpido e brilhante, com boa intensidade, vermelho rubi/violáceo. Destaque aromático para frutas vermelhas, como mirtilo, groselha, cereja, notas de carvalho sutis, tutti-frutti, geléias e frutas em calda. Apresenta excelente estrutura em boca, taninos presentes porém equilibrados.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/e72dffe0-110b-11f1-90f4-37801d51bcd9.jpg"
+    },
+    {
+      "id": "philosophia-cabernet-franc-2022",
+      "nome": "Philosophia | Cabernet Franc",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Sudeste",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Franc"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 248.0,
+      "descricao": "Vinícola Góes (Leste Paulista - São Roque) |Límpido e brilhante, apresenta excelente coloração e tonalidade vermelho rubi intenso e carmim profundo. Aroma frutado marcante e intenso para destaque de frutas vermelhas, morangos doces e um toque de pimenta negra com notas de carvalho elegantes. No paladar apresenta excelente estrutura em boca, acidez presente e equilibrada, taninos pungentes garantindo longevidade. Cassis e ameixa disputam o paladar atrativo. Final longo.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/05833760-0c70-11ee-aa35-4385473278e5.jpg"
+    },
+    {
+      "id": "altitude-1329-merlot-2020",
+      "nome": "Altitude 1329 | Merlot",
+      "safra": 2020,
+      "pais": "Brasil",
+      "secao_carta": "Santa Catarina",
+      "tipo": "tinto",
+      "uvas": [
+        "Merlot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 159.6,
+      "descricao": "Vinícola Villaggio Grando (Serra Catarinense - Água Doce) | Sinônimo de elegância e evolução. Elegância oriunda de sua vinificação clássica, buscando mostrar a fruta e o terroir de altitude a que pertence. Vinho de grande equilíbrio entre taninos, corpo e álcool, este vinho ganha estrutura suficiente para durar e evoluir por muitos anos. Estágio por sete meses em barricas francesas de tostagem média.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/37ee4930-c1c4-11f1-9eab-0b1bf09363c1.jpg"
+    },
+    {
+      "id": "le-o-baio-blend-nv",
+      "nome": "Leão Baio | Blend",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Santa Catarina",
+      "tipo": "tinto",
+      "uvas": [
+        "Montepulciano, Merlot, Malbec, Touriga Nacional"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 160.3,
+      "descricao": "São Joaquim, Santa Catarina | Blend de Montepulciano, Merlot, Malbec e Sangiovese. Cor vermelho-rubi intenso com reflexos violáceos. Aromas de frutas de bosque, framboesa, frutas vermelhas em compota, geleia, em harmonia com aromas de baunilha e especiarias provindos da barrica de carvalho francês.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/b62cfae0-b91c-11f1-a967-b141e1c28564.jpg"
+    },
+    {
+      "id": "quinta-da-neve-montepulciano-nv",
+      "nome": "Quinta da Neve | Montepulciano",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Santa Catarina",
+      "tipo": "tinto",
+      "uvas": [
+        "Sangiovese"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 292.6,
+      "descricao": "Vinícola Quinta da Neve (São Joaquim) | Vermelho-rubi intenso com reflexos violáceos. Aromas típicos de frutas de bosque como amora silvestre, mirtilo fresco, figo e frutas cristalizadas, com um leve toque de especiarias marcado por sua passagem em barrica de carvalho francês. Em boca mostra-se encorpado com boa estrutura e taninos marcantes. Retrogosto com notas frutadas e especiarias. Harmoniza com carnes vermelhas gordurosas ou de caça e massas com molhos mais condimentados.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/0d7ff530-61e8-11ed-b22f-db23864eca26.jpg"
+    },
+    {
+      "id": "villaggio-grando-pinot-noir-2018",
+      "nome": "Villaggio Grando | Pinot Noir",
+      "safra": 2018,
+      "pais": "Brasil",
+      "secao_carta": "Santa Catarina",
+      "tipo": "tinto",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 304.2,
+      "descricao": "Vinícola Villaggio Grando (Serra Catarinense - Água Doce) | Em uma degustação a cegas você pode achar que está bebendo um Borgonha. De cor rubi vibrante, apresenta bouquet de frutas vermelhas, um toque de especiarias. No paladar é delicado e equilibrado",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/111029AEAC99E6-7B3F-4057-A5B0-8CB479D3CCB120190503103724.jpg"
+    },
+    {
+      "id": "abreu-garcia-gran-reserva-malbec-2020",
+      "nome": "Abreu Garcia Gran Reserva | Malbec",
+      "safra": 2020,
+      "pais": "Brasil",
+      "secao_carta": "Santa Catarina",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 390.4,
+      "descricao": "Vinícola Abreu Garcia (Serra Catarinense - Campo Belo do Sul) | Tinto de cor rubi vibrante com sutis notas alaranjadas, revelando boa evolução. No nariz aparecem notas de frutas frescas silvestres, cassis, toque de chocolate e delicada paleta de especiarias. Tem corpo médio (+). No paladar é bastante equilibrado, fresco e com taninos sedosos. Um vinho elegante, sedutor e persistente. Carnes vermelhas preparadas de diferentes formas – costela assada, ossobuco, magret de pato, churrasco e queijos com boa cura.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/118184D211AFEC-8938-40E5-97FF-768FFD12D9D920210108183213.jpg"
+    },
+    {
+      "id": "abreu-garcia-cab-sauvignon-merlot-2012",
+      "nome": "Abreu Garcia | Cab. Sauvignon - Merlot",
+      "safra": 2012,
+      "pais": "Brasil",
+      "secao_carta": "Santa Catarina",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Merlot"
+      ],
+      "volume_ml": 1500,
+      "preco_brl": 510.0,
+      "descricao": "Vinícola Abreu Garcia (Serra Catarinense, Campo Belo do Sul) | Tem cor rubi intenso com delicado alaranjado, denotando notas de evolução. Corpo médio, revelando-se translúcido em taça. No olfato é bastante complexo, mesclando frutas vermelhas, principalmente amoras e cassis. Também aparece toque floral, lembrando violeta, salientado pela doçura da baunilha e as notas de chocolate.Em boca tem volume, as frutas vermelhas se confirmam, incorporadas ao toque terroso. Tem bom frescor, final sedoso, com álcool em harmonia com os taninos maduros e mostrando vivacidade. Fácil de gostar, a considerar o equilíbrio de seu importante tripé: taninos, acidez e álcool. 12 meses em carvalho francês de primeiro uso e 40 meses em garrafa (60% Cabernet Sauvignon e 40% Merlot)",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/4065479CF5F8D-B82F-4CC0-9EF1-D32CE29C5E3920130903110443.jpg"
+    },
+    {
+      "id": "al-m-mar-gran-reserva-blend-2020",
+      "nome": "Além-Mar Gran Reserva | Blend",
+      "safra": 2020,
+      "pais": "Brasil",
+      "secao_carta": "Santa Catarina",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Franc, Malbec, Merlot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 176.0,
+      "descricao": "Vinícola Villaggio Grando (Serra Catarinense, Água Doce) | Sua coloração profunda, intensa e brilhante. Aromas concentrados, lembrando frutos vermelhos, notas de menta e especiarias. Nota-se o casamento com o carvalho francês de 1º e 2º uso com notas tostadas, lembrando o café, caixa de charutos e termina com delicadeza lembrando algum floral. É um vinho cheio, untuoso, envolvente com uma acidez equilibrada. Encorpado com taninos firmes mas elegantes. Com enorme complexidade de sabores o vinho termina num \"grand final\" .",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/759ef450-774e-11ee-931d-bf2edfb1c960.jpg"
+    },
+    {
+      "id": "avvento-merlot-2023",
+      "nome": "Avvento | Merlot",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Merlot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 98.4,
+      "descricao": "Vinícola RAR (Campos de Cima da Serra) | Sua cor intensa e aroma marcante são partes fundamentais para mostrar toda a sua magia. Seus taninos agradáveis e seu final persistente, o revelam como uma ótima companhia. Ele é uma combinação perfeita para um arroz carreteiro, carne de panela, dobradinha, feijoada carioca, macarrão ao ragu, arroz de frango caipira, frango com quiabo, baião de dois, codornas recheadas, pernil de cordeiro ao vinho tinto e alecrim, rodízio de massas, pizzas clássicas e queijos maturados de massa semi e dura.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/9ed3bbb0-5d70-11ed-bb59-1bff6992e9be.jpg"
+    },
+    {
+      "id": "casa-perini-solid-rio-cab-sauvignon-merlot-2024",
+      "nome": "Casa Perini Solidário | Cab. Sauvignon - Merlot",
+      "safra": 2024,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Merlot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 102.6,
+      "descricao": "Serra Gaúcha (Rio Grande do Sul) | Cor bordô com nuances avermelhadas. Aroma que lembra especiarias, frutas maduras e notas de café e baunilha. Equilibrado e macio ao paladar. Equilibrado e macio ao paladar. Harmoniza de forma versátil com aves e carnes vermelhas com molhos variados, além de queijo e embutidos. Unindo sabor e propósito, parte de sua renda apoia ONGs no combate ao câncer de mama e no tratamento da hemofilia.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/4c16f960-1be9-11f1-98ba-a9d5174a9618.jpg"
+    },
+    {
+      "id": "wild-noveau-gamay-2025",
+      "nome": "Wild Noveau | Gamay",
+      "safra": 2025,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Gamay"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 113.1,
+      "descricao": "Campanha Gaúcha Meridional (Rio Grande do Sul) | Impossível não perceber a inspiração do francês Beaujolais Noveau. A versão da Campanha é um vinho fresco, que combina com uma boa conversa e pratos de sabores mais suaves, como queijos de massa mole, saladas e carnes brancas. Muito frutado, seus aromas lembram morangos, goiaba. Em boca, é leve, com taninos delicados e muito frutado. Vinho de produção vegana.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/bb0c4060-0bf8-11ec-92e0-65124d81cc4f.jpg"
+    },
+    {
+      "id": "fausto-tannat-nv",
+      "nome": "Fausto | Tannat",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Tannat"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 123.6,
+      "descricao": "Vinícola Pizzato (Serra Gaúcha - Dois Lajeados) | Esse produto amadureceu em barricas de carvalho durante 10 meses. De coloração vermelho rubi, esse vinho traz consigo aromas de frutas negras, especiarias e amora, com paladar de corpo médio, persistente, equilibrado e com notas de especiarias.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/a637e920-56c9-11ec-b14c-d97b5e891a92.jpg"
+    },
+    {
+      "id": "almejo-cl-ssico-cabernet-sauvignon-2022",
+      "nome": "Almejo Clássico | Cabernet Sauvignon",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 132.0,
+      "descricao": "Serra Gaúcha (Rio Grande do Sul) | Límpido e brilhante, coloração rubi. Aroma de frutas negras e vermelhas, especiarias e tostado. Bom volume de boca com final macio e agradável.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/db12d4c0-4b2d-11ee-a445-931b55ef05b0.jpg"
+    },
+    {
+      "id": "rar-collezione-pinot-noir-2022",
+      "nome": "RAR Collezione | Pinot Noir",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 132.3,
+      "descricao": "Vinícola RAR (Campos de Cima da Serra) | Com origem nos vinhedos plantados em um terroir de excelente amplitude térmica, o Collezione Pinot Noir possui uma interessante variedade de aromas encontrados só nos melhores Pinot Noirs, com notas frutadas, canela, especiarias e frutas secas. Devido à sua acidez e estrutura, o Collezione Pinot Noir é ideal para comidas mais untuosas e suculentas.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/8aca5630-a30a-11ed-9466-dde8ac3b1cd7.jpg"
+    },
+    {
+      "id": "vitis-barbera-2023",
+      "nome": "Vitis | Barbera",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Barbera"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 133.1,
+      "descricao": "Vinícola Casa Perini (Serra Gaúcha - Farroupilha) | Cor rubi intensa; Aromas que remetem amoras e cerejas; Vinho marcante de acidez equilibrada. Harmoniza com carnes pouco condimentadas, pizzas e pratos com base de molho de tomate.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/c9da08a0-498a-11f1-830a-8f94a01008ec.jpg"
+    },
+    {
+      "id": "fra-o-nica-cabernet-franc-2022",
+      "nome": "Fração Única | Cabernet Franc",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Franc"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 141.9,
+      "descricao": "Vinícola Casa Perini (Serra Gaúcha, Farroupilha) | Na boca, este vinho se destaca pelo seu equilíbrio e taninos macios, além de notas de especiarias, amêndoas, pimenta e tabaco que o tornam ainda mais sofisticado. Por conta de sua versatilidade, o Casa Perini Fração Única Cabernet Franc é uma excelente escolha para acompanhar carnes, massas, queijos e pratos típicos.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/fc813040-c9b2-11ed-b6c1-9d12d97b6048.jpg"
+    },
+    {
+      "id": "tosquia-lote-v-blend-nv",
+      "nome": "Tosquia Lote V | Blend",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Malbec, Tannat, Tempranillo"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 144.1,
+      "descricao": "Campanha Gaúcha (Rio Grande do Sul) | Um corte de Tannat, Tempranillo, Malbec e Cabernet Sauvignon. Vermelho intenso com reflexos violeta, seus aromas de frutas negras, salentando groselha preta e ameixas, com notas de chocolate e especiarias. Em boca tem um corpo médio e equilibrado com taninos aveludados.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/32be4060-5798-11f0-8003-09f087c26602.jpg"
+    },
+    {
+      "id": "tra-nodo-marselan-2023",
+      "nome": "Tra Nodo | Marselan",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Marselan"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 151.2,
+      "descricao": "Serra Gaúcha, Rio Grande do Sul | Vinho límpido e brilhante. Coloração violácea de alta intensidade. Lagrimas densas e numerosas. Aromas intensos de frutas negras e vermelhas maduras como ameixa, morango, amora e mirtilo. Toque defumado e tostado que traz alta complexidade e caráter varietal. Toques doces como confeitaria, baunilha e chocolate amargo. Vinho seco, apresenta álcool em equilíbrio com taninos macios e que agregam estrutura. Corpo médio-mais, traz boa persistência e acidez refrescante. Vinho com bom potencial e marcante. No retrogosto, destaca-se as frutas, o defumado, café, baunilha e chocolate. Harmonização com carnes com médio teor de gordura, pratos a base de cogumelos, queijos de longa cura e embutidos defumados.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/7fbe6ed0-c480-11f0-9585-257b5fcb4983.jpg"
+    },
+    {
+      "id": "agnvs-malbec-2023",
+      "nome": "Agnvs | Malbec",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 160.9,
+      "descricao": "Serra do Sudeste (Rio Grande do Sul) | Coloração vermelho púrpura com reflexos violáceos. Intenso, maduro e frutado. Notas de frutas pretas como ameixa, amora e mirtilo e um toque floral, típico desta uva no terroir da Serra do Sudeste.Paladar cativante e vigoroso. Ótimo volume de boca e agradável frescor. Taninos macios, retrogosto frutado, longo e saboroso. Churrasco e carnes vermelhas em geral, grelhados e massas com acompanhamento a base de cogumelos e queijos de média à longa maturação.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/69681C3E2C84C-B998-497E-AB66-709BA697495C20151007163753.jpg"
+    },
+    {
+      "id": "bueno-reserva-pinot-noir-2022",
+      "nome": "Bueno Reserva | Pinot Noir",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 170.6,
+      "descricao": "Sob influência de solo pedregoso e clima quente, a Pinot Noir evidencia toda sua essência e ancestralidade. De textura incrivelmente sedosa, enaltece a diversidade de expressões, permeando entre frutas, flores e mineralidade.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/dd8959a0-7f9a-11ec-b219-212ef8da6473.jpg"
+    },
+    {
+      "id": "pizzato-reserva-d-o-merlot-2024",
+      "nome": "Pizzato Reserva D.O. | Merlot",
+      "safra": 2024,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Merlot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 179.9,
+      "descricao": "D.O. Vale dos Vinhedos, Rio Grande do Sul | Vermelho-rubi; aromas de pequenas frutas vermelhas e amoras; traços de especiarias doces, couro, tostado, tabaco e trufas. De textura envolvente, taninos marcantes, estruturado. Sabor permanente em boca e frutado, com aromas finais lembrando cerejas negras, trufas e especiarias doces. Bom potencial de guarda.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/1769feb0-b7a6-11ed-ad03-4ff88b8c1ab9.jpg"
+    },
+    {
+      "id": "valmarino-petit-verdot-2023",
+      "nome": "Valmarino | Petit Verdot",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Petit Verdot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 196.8,
+      "descricao": "Pinto Bandeira, Serra Gaúcha | Coloração rubi com tons violáceos, límpido e brilhante. Notas de frutas como amoras, framboesa e ameixa. Notas de figo em calda e frutas cristalizadas e sútil amadeirado. Paladar fresco com notas de ervas finas, figo fresco com acidez média e corpo pronunciado e taninos doces e persistentes. 15 meses em barricas de carvalho americano.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/d7366050-5784-11f0-95cb-4f57ea102db7.jpg"
+    },
+    {
+      "id": "pizzato-reserva-i-g-alicante-bouschet-2022",
+      "nome": "Pizzato Reserva I.G. | Alicante Bouschet",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Alicante Bouschet"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 198.46,
+      "descricao": "I.G. Vale dos Vinhedos, Rio Grande do Sul | Vermelho-rubi; aromas de pequenas frutas vermelhas e amoras; traços de especiarias doces, couro, tostado, tabaco e trufas. De textura envolvente, taninos marcantes, estruturado. Sabor permanente em boca e frutado, com aromas finais lembrando cerejas negras, trufas e especiarias doces.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/64736c40-4985-11f1-830a-8f94a01008ec.jpg"
+    },
+    {
+      "id": "fam-lia-bebber-reserva-malbec-2021",
+      "nome": "Família Bebber Reserva | Malbec",
+      "safra": 2021,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 200.9,
+      "descricao": "Serra do Sudeste (Rio Grande do Sul) | Límpido e brilhante, rubi intenso, com notas de flores, rosas secas, pimenta negra e traços de especiarias, apresenta bom corpo, com final de boca persistente e taninos macios. Carnes vermelhas, churrasco e massas com molhos condimentados. Maturou 12 meses em barricas de carvalho francês e americano.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/83458840-43b0-11ec-a76e-b92af06edfc5.jpg"
+    },
+    {
+      "id": "paralelo-31-gran-reserva-i-p-blend-2022",
+      "nome": "Paralelo 31 Gran Reserva I.P. | Blend",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Merlot, Petit Verdot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 203.9,
+      "descricao": "I.P. Campanha Gaúcha, Rio Grande do Sul | Aroma penetrante de fruta madura de casca escura, envolta em elegantes notas de tosta e de tabaco de charuto. Gosto denso e equilibrado, com refrescantes notas balsâmicas e uma muito balanceada acidez fixa. Os taninos estão plenos de vigor, garantindo uma sólida e sedutora estrutura. Estágio de 12 meses em barrica nova de carvalho francês.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/fd9457f0-ab9f-11ec-a220-41d35fbdbb51.jpg"
+    },
+    {
+      "id": "quinta-do-seival-castas-portuguesas-tinta-roriz-touriga-nacional-2022",
+      "nome": "Quinta Do Seival Castas Portuguesas | Tinta Roriz - Touriga Nacional",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Touriga Nacional, Tinta Roriz"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 208.9,
+      "descricao": "Vinícola Miolo (Campanha Gaúcha) | Coloração vermelho-rubi profunda. Elevada intensidade e complexidade aromática, surgindo em primeiro plano o típico floral da Touriga Nacional, bem mesclado com fruta em compota, figo ameixa preta e notas de madeira tostada. Vinho potente e altamente estruturado, com bom volume de boca e acidez refrescante.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/123529D211AFEC-8938-40E5-97FF-768FFD12D9D920200818192226.jpg"
+    },
+    {
+      "id": "peculiare-gran-reserva-ancellotta-2017",
+      "nome": "Peculiare Gran Reserva | Ancellotta",
+      "safra": 2017,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Ancellotta"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 242.0,
+      "descricao": "Vinícola Peculiare (Serra Gaúcha - Bento Gonçalves) | Vinho de coloração negra, profunda e intensa, mostrando notas evolutivas nas bordas da taça.Apresenta aromas intensos e sedutores de frutas vermelhas sobremaduras, alcaçuz e cereja com evolução para especiarias, tabaco e notas defumadas. No paladar é potente e suculento, emoldurado por uma longa persistência, rico em taninos maduros e delicados, textura cremosa e final longo.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/5736779CF5F8D-B82F-4CC0-9EF1-D32CE29C5E3920140521091246.jpg"
+    },
+    {
+      "id": "luiz-argenta-cave-cabernet-sauvignon-2018",
+      "nome": "Luiz Argenta Cave | Cabernet Sauvignon",
+      "safra": 2018,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 257.5,
+      "descricao": "Vinícola Luiz Argenta (Flores da Cunha) | Para elaboração deste vinho foram utilizadas uvas 100% desta variedade colhidas no seu pico máximo de maturação fenólica, aliado as mais modernas técnicas de elaboração e passagem por um leve amadurecimento em barricas de carvalho, fez deste um excelente vinho. Descrevem-se aromas de grande complexidade que lembram Frutas vermelhas, pimenta, licor de cassis, café e chocolate. Características de vinhos elaborados com excelentes uva e que tiveram uma perfeita maturação em barris de carvalho. É um vinho estruturado que apresenta um ótimo volume em boca e um grande corpo. Apresenta um ataque inicial doce e os taninos são perfeitamente evoluídos e equilibrados.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/cf0470d0-e5b8-11eb-b19d-255df4e061b5.jpg"
+    },
+    {
+      "id": "dos-netos-tannat-ruby-cabernet-2021",
+      "nome": "Dos Netos | Tannat - Ruby Cabernet",
+      "safra": 2021,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Ruby Cabernet, Tannat"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 270.0,
+      "descricao": "Campanha Gaúcha, Rio Grande do Sul | Vinho tinto límpido e brilhante de coloração rubi intenso. Frutas negras e silvestres, cravo, café e baunilha. Encorpado, com taninos marcantes e 12 meses em carvalho francês. Carnes vermelhas, caças, massas, queijos fortes.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/5e3e8380-7263-11f1-8ca3-0bd9ae1496ed.jpg"
+    },
+    {
+      "id": "peculiare-d-o-merlot-2017",
+      "nome": "Peculiare D.O | Merlot",
+      "safra": 2017,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Merlot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 274.0,
+      "descricao": "Vinícola Peculiare (D.O. Vale dos Vinhedos) | De ton violáceo intenso, rico em potentes aromas de frutas negras e especiarias. No paladar é poderoso persistente, com taninos marcantes porém agradáveis.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/122973DAE6B345-DCAF-416B-8241-7C7BF606A2D420200730201503.jpg"
+    },
+    {
+      "id": "perini-qua4tro-blend-2020",
+      "nome": "Perini Qua4tro | Blend",
+      "safra": 2020,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Merlot, Tannat, Ancellotta"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 289.7,
+      "descricao": "Este vinho fica 9 meses em barricas de carvalho francesas e o número 4 está ligado, além das castas utilizadas, às 4 estações necessárias para o desenvolvimento das uvas, às 4 fases da lua que interferem no crescimento das videiras e também às 4 décadas de produção de vinhos da Casa Perini.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/12088047621B13-6319-4C7E-8A20-66DC1E36648520200507120138.jpg"
+    },
+    {
+      "id": "lote-43-d-o-cab-sauvignon-merlot-2022",
+      "nome": "Lote 43 D.O. | Cab. Sauvignon - Merlot",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Merlot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 346.4,
+      "descricao": "Homenagem ao italiano Giuseppe Miolo, patriarca da família, que chegou ao sul do Brasil no ano de 1897, na região em que hoje está localizado o belo Vale dos Vinhedos. O vinho carrega o nome da terra comprada pelo imigrante no ano da sua chegada. Em 2008, estas terras ficaram dentro da demarcação com DO da primeira região vitivinícola do Brasil. Produzido em um corte harmônico selecionado pelo enólogo da família, Adriano Miolo // Cor rubi muito intensa e profunda. Elevada intensidade aromática, ameixa, tabaco, trufas, cacau, cravinho e subtis e elegantes aromas terciários. Elevada estrutura e bom volume de boca. Taninos redondos que aliados à adequada acidez, fruto da excelente maturação, conferem ao seu desfrute um singular frescor e impar equilíbrio. Temp.: 16 a 18°C. Pede pratos sofisticados, de ingredientes nobres. Os assados de carnes de caça, o churrasco gaúcho, o espeto de medalhões de picanha e as carnes com certo teor de doçura, alta maciez e suculência realçam o seu brilho",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/78800D211AFEC-8938-40E5-97FF-768FFD12D9D920160616184713.jpg"
+    },
+    {
+      "id": "valmarino-xxiv-i-p-cabernet-franc-2021",
+      "nome": "Valmarino XXIV I.P. | Cabernet Franc",
+      "safra": 2021,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Franc"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 386.7,
+      "descricao": "Vinícola Valmarino (I.P. Pinto Bandeira) | Tinto elaborado exclusivamente a partir de Cabernet Franc, com estágio de 16 meses em barricas de carvalho. Apesar do estilo de fruta vermelha e negra mais madura, tem refrescante acidez e taninos de boa textura que trazem tensão ao conjunto. Seu final é final persistente, com toques terrosos, especiados, de tabaco e de ervas secas.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/e1c17a20-10be-11f1-b4fc-2dceb7740571.jpg"
+    },
+    {
+      "id": "grande-vindima-quorum-blend-2012",
+      "nome": "Grande Vindima Quorum | Blend",
+      "safra": 2012,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Franc, Cabernet Sauvignon, Merlot, Tannat"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 578.7,
+      "descricao": "Vinícola Lidio Carraro (Serra Gaúcha, Vale dos Vinhedos) | Merlot (38%), Cab. Sauvignon (30%), Cab. Franc (20%) e Tannat (12%). Uma verdadeira viagem sensorial, pela riqueza aromática, complexidade e fineza. Aromas frutados e toque floral, evoluindo para café, chocolate e especiarias. Envolvente, taninos firmes e maduros. A interação mágica das uvas e dos sentimentos envolvidos na concepção do Quorum simbolizam o equilíbrio necessário e a poesia na arte do bem viver.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/7248143015EF3-236D-4C5C-B1B0-AEA63B66DF0E20160311161717.jpg"
+    },
+    {
+      "id": "rar-riserva-di-famiglia-cab-sauvignon-merlot-2018",
+      "nome": "RAR Riserva Di Famiglia | Cab. Sauvignon - Merlot",
+      "safra": 2018,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Merlot, Cabernet Sauvignon"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 2180.0,
+      "descricao": "Harmonização Carnes Vermelhas. Massas e Risotos. Charcutaria e Queijos. Acompanha pratos de textura rica. Carnes suculentas assadas ou grelhados. Pernil de cordeiro. Javali. Picanha de gado ou suíno. Massas com molhos de cogumelos. Risotos. Arroz carreteiro. Ensopado de carnes com ervas. Queijos de maduros de massa dura. Elaboração Seleção manual dos cachos em mesa selecionadora. Desengace total, sem esmagamento das bagas. Maceração pré-fermentativa a frio por 4 dias para maior aporte de cor e maciez. Maceração durante a fermentação por 7 dias a temperatura controlada de 28 a 30°C. Remontagens abertas, fechadas, pigeages e delestages. Maceração pós-fermentativa por 20 dias para maior aporte de estrutura. Fermentação malolática espontânea e completa.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/862791b0-936a-11ed-a8e9-b9fb531b6766.jpg"
+    },
+    {
+      "id": "terroir-xxvii-marselan-tannat-nv",
+      "nome": "Terroir XXVII | Marselan - Tannat",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "Rio Grande do Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Marselan, Tannat"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 122.7,
+      "descricao": "Vinícola Luiz Argenta (Serra Gaúcha - Flores da Cunha) | Vermelho Rubi intenso. Aromas delicados de frutas vermelhas, como cereja, ameixa e mirtilo, com toques de baunilha. Vinho agradável de média estrutura, acidez equilibrada e bom volume de boca, os aromas percebidos no olfato podem ser facilmente identificados no retrogosto.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/5218bfd0-3c2b-11f1-9f57-d5bcd9304ad2.jpg"
+    },
+    {
+      "id": "rio-grandense-cabernet-franc-1955",
+      "nome": "Rio-Grandense | Cabernet Franc",
+      "safra": 1955,
+      "pais": "Brasil",
+      "secao_carta": "Vinhos de Guarda do Brasil",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Franc"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 980.0,
+      "descricao": "Serra Gaúcha (Rio Grande do Sul) | Não pode ser comparado com vinhos atuais. Se essa for sua primeira experiência com vinhos antigos, sugerimos deixar o preconceito de lado e se abrir à oportunidade de provar um vinho brasileiro com média de 70 anos! Coloração atijolada que reflete seus anos. Olfato: Algumas notas de oxidação aparecem no início, mas logo volatizam e dão lugar as incríveis notas de frutas maduras e outos aromas , que não mencionaremos para não estragar a experiência.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/b2be9440-0684-11f1-9013-d752d54a385b.jpg"
+    },
+    {
+      "id": "rio-grandense-cabernet-franc-1951",
+      "nome": "Rio-Grandense | Cabernet Franc",
+      "safra": 1951,
+      "pais": "Brasil",
+      "secao_carta": "Vinhos de Guarda do Brasil",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Franc"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 1071.0,
+      "descricao": "Serra Gaúcha (Rio Grande do Sul) | Não pode ser comparado com vinhos atuais. Se essa for sua primeira experiência com vinhos antigos, sugerimos deixar o preconceito de lado e se abrir à oportunidade de provar um vinho brasileiro com média de 70 anos! Coloração atijolada que reflete seus anos. Olfato: Algumas notas de oxidação aparecem no início, mas logo volatizam e dão lugar as incríveis notas de frutas maduras e outos aromas , que não mencionaremos para não estragar a experiência.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/b2be9440-0684-11f1-9013-d752d54a385b.jpg"
+    },
+    {
+      "id": "lutzville-pinotage-2022",
+      "nome": "Lutzville | Pinotage",
+      "safra": 2022,
+      "pais": "África do Sul",
+      "secao_carta": "ÁFRICA DO SUL",
+      "tipo": "tinto",
+      "uvas": [
+        "Pinotage"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 146.3,
+      "descricao": "Vinho elegante, macio e com destaque de frutas silvestres como framboesa, amora e ameixa passa. Perfeito para acompanhar alimentos condimentados, pizzas, massas, risotos e carnes. Ideal para quem gosta de curtir bons momentos.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/67000D211AFEC-8938-40E5-97FF-768FFD12D9D920150416214544.jpg"
+    },
+    {
+      "id": "backsberg-dry-red-blend-nv",
+      "nome": "Backsberg Dry Red | Blend",
+      "safra": null,
+      "pais": "África do Sul",
+      "secao_carta": "ÁFRICA DO SUL",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Merlot, Shiraz/Syrah"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 159.2,
+      "descricao": "Visual: Cor rubi. Aroma: Maduro a frutos silvestres e florais. Paladar: Suave e frutado. Um vinho leve e fácil de beber. Harmonização: Um vinho para qualquer ocasião.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/a4bce3c0-090e-11f0-95da-8bb3338b7c09.jpg"
+    },
+    {
+      "id": "malma-patag-nico-pinot-noir-2025",
+      "nome": "Malma Patagônico | Pinot Noir",
+      "safra": 2025,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 124.1,
+      "descricao": "San Patricio de Chañar, Patagônia | Cor vermelho rubi brilhante. Aroma frutado, com notas de cereja, amoras e doce de leite, combinado com um toque de baunilha e coco. Na boca é suave, muito frutado, com taninos sedosos e equilibrados, tem final prolongado e macio.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/424f3c80-5920-11f0-b629-3709f5d46212.jpg"
+    },
+    {
+      "id": "casarena-505-vineyards-malbec-2024",
+      "nome": "Casarena 505 Vineyards | Malbec",
+      "safra": 2024,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 129.6,
+      "descricao": "Luján de Cuyo, Mendoza | Cor violeta intensa e brilhante. Aromas intensos de geléias de frutas vermelhas, especiarias doces. Vinho de bom corpo e complexidade. Taninos adocicados e redondos. De agradável persistência e equilíbrio.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/9499f6c0-758e-11f1-88c0-3350d9e629f0.jpg"
+    },
+    {
+      "id": "bariloche-malbec-nv",
+      "nome": "Bariloche | Malbec",
+      "safra": null,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 134.8,
+      "descricao": "San Patrício del Chañar, Patagônia |Aroma muito convidativo, repleto de cerejas vermelhas, ameixas, violeta, toques de frutos secos. Médio corpo, fresco e sedoso, com frutado vibrante e taninos macios. Perfeito com churrasco, massas em geral, ou pode simplesmente ser apreciado sozinho.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/efc6d010-28f4-11ef-bcf6-b125a32f7c81.jpg"
+    },
+    {
+      "id": "los-haroldos-estate-bonarda-2022",
+      "nome": "Los Haroldos Estate | Bonarda",
+      "safra": 2022,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Bonarda"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 137.4,
+      "descricao": "Vinícola Los Haroldos (Valle de Uco) | Vermelho rubi intenso com tons violeta. No olfato complexo, frutas vermelhas e fundo picante mais como couro. No paladar, se aprecia seus taninos robustos e abundantes e o frescor que lhe confere a sua acidez interessante. Carnes assadas e grelhadas. Culinária italiana e portuguesa.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/051fd880-3847-11ed-bd36-0f089084bc29.jpg"
+    },
+    {
+      "id": "llama-old-vine-malbec-cab-franc-2023",
+      "nome": "Llama Old Vine | Malbec - Cab. Franc",
+      "safra": 2023,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Franc, Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 144.7,
+      "descricao": "Luján de Cuyo (Mendoza) | Malbec (50%) Cabernet Franc (50%). Apresenta cor vermelho-rubi. Aroma de frutas maduras integradas com as notas da maturação em carvalho. Na boca tem estrutura média, com um final harmonioso e equilibrado. Harmonização: Massas, carnes vermelhas grelhadas ou assadas ou queijos curados.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/70b2c3a0-b102-11f0-bfcd-03f1a87a128e.jpg"
+    },
+    {
+      "id": "pipone-malbec-2024",
+      "nome": "Pipone | Malbec",
+      "safra": 2024,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 150.3,
+      "descricao": "Luján de Cuyo, Mendoza | Aromas de frutas vermelhas, ameixa e violeta. Na boca é macio, alta acidez, taninos macios, corpo médio e final médio-longo . Carnes vermelhas grelhadas, carnes de caça, molhos com cogumelos, queijos e embutidos.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/d6ed4f90-597f-11ef-9f62-7387e8bfaf87.jpg"
+    },
+    {
+      "id": "melipal-malbec-2019",
+      "nome": "Melipal | Malbec",
+      "safra": 2019,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 179.8,
+      "descricao": "O Melipal Malbec é um vinho que expressa a tradição e o terroir de Agrelo, em Luján de Cuyo, a partir de uma combinação equilibrada entre uvas de vinhedos centenários, plantados em 1923, e vinhas mais jovens de 2003. Produzido com leveduras indígenas e maturado por 12 meses em barricas de carvalho francês, reflete a elegância e profundidade típicas da região. A vinícola Melipal, recentemente adquirida pela Achaval Ferrer, preserva práticas tradicionais como a irrigação por sulcos, garantindo vinhos de identidade marcante e grande autenticidade.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/80104980-2321-11f1-a8ff-99601425445e.jpg"
+    },
+    {
+      "id": "ar-guentota-malbec-2019",
+      "nome": "Ar Guentota | Malbec",
+      "safra": 2019,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 189.1,
+      "descricao": "Vinícola Belasco de Baquedano (Luján de Cuyo - Agrelo) | A complexidade e profundidade de vinhas velhas com carvalho na medida. Um jogo muito assertivo de carvalho oferece muitas especiarias imediatamente complexas, tocadas em pimentões, violetas, mirtilos e grafite. Muito para oferecer aqui. O paladar é envolto em taninos ricos e suaves e tem uma sensação de profundidade e intensidade, com um final de boca madura e ameixa vermelha.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/31489395277C8-6EC3-4647-8621-24097995425320120608143530.jpg"
+    },
+    {
+      "id": "alta-yar-reserva-cabernet-franc-2023",
+      "nome": "Alta-Yarí Reserva | Cabernet Franc",
+      "safra": 2023,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Franc"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 204.8,
+      "descricao": "Vinícola Alta-Yarí (Valle de Uco - Gualtallary) | Seu Cabernet Franc é muito expressivo no nariz, com notas de frutas vermelhas (morango, cereja), ervas e especiarias, tostado e baunilha. Amplo, suculento e sedoso, grande expressão dessa variedade. Excelente vinho para carnes em geral; pernil de cordeiro assado com ervas, servido com molho de hortelã; picanha grelhada ao ponto.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/72930040-d058-11ee-b453-139dee7724be.jpg"
+    },
+    {
+      "id": "malma-gran-reserve-malbec-2023",
+      "nome": "Malma Gran Reserve | Malbec",
+      "safra": 2023,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 194.4,
+      "descricao": "San Patricio de Chañar, Patagônia | Cor vermelha violácea, intensa. Aromas de ameixas maduras e amoras com suaves notas de violetas. Na boca, frutas maduras, ameixas secas; com toques de especiarias e baunilha contribuídos pelo carvalho. Vinho de longo final, elegante e equilibrado. Harmonização: Ideal com carnes vermelhas, com grelhados e carne de caça.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/128347D211AFEC-8938-40E5-97FF-768FFD12D9D920210116183557.jpg"
+    },
+    {
+      "id": "colom-estate-malbec-2023",
+      "nome": "Colomé Estate | Malbec",
+      "safra": 2023,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 253.8,
+      "descricao": "Valle Calchaquí, Salta | Coloração rubi concentrada, borda violácea. Luxuriante olfato de frutas negras (cassis) e vermelhas (cereja), especiarias variadas, violeta e chocolate. Importante estrutura gustativa, os taninos são firmes, o frescor é convidativo, integrado e muito longo no fim-de-boca.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/105953FA8E9571-D160-42B6-AEF2-3E35649DC1E220190822110608.jpg"
+    },
+    {
+      "id": "saurus-select-pinot-noir-2022",
+      "nome": "Saurus Select | Pinot Noir",
+      "safra": 2022,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 253.8,
+      "descricao": "Vinícola Família Schroeder | Um vinho com paladar muito redondo e de corpo médio, cultivado nos ares da Patagônia, Argentina. Envelhecido por 12 meses em carvalho francês e americano, o que potencializou seu aroma floral como violetas e rosas. Apresenta uma cor rubi profundo que casa perfeitamente com massas com molho branco e queijos macios. Harmonia perfeita para uma noite fria a dois.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/e53e46d0-b91d-11f1-a967-b141e1c28564.jpg"
+    },
+    {
+      "id": "achaval-ferrer-quimerino-blend-2024",
+      "nome": "Achaval Ferrer Quimerino | Blend",
+      "safra": 2024,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Pinot Noir, Malbec, Syrah, Sauvignon Blanc"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 271.8,
+      "descricao": "inovadores. Onde o lado artesanal da marca e sua abordagem mais inovadora encontram expressão. Para complementar o portfólio Quimerino, na busca constante pela perfeição, é lançada esta combinação de um blend tinto e branco.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/98c62570-0e6e-11f1-9f99-993fd186ef3c.jpg"
+    },
+    {
+      "id": "dv-catena-hist-rico-blend-2023",
+      "nome": "DV Catena Histórico | Blend",
+      "safra": 2023,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Blend de uvas tintas"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 322.0,
+      "descricao": "O DV Catena Tinto Histórico é elaborado com o mesmo corte do DV Catena Bicentenário, a edição comemorativa lançada para celebrar em 2022 os 200 anos da independência do Brasil. Trata-se de um delicioso blend de Malbec com uma parcela de Bonarda e um toque de Petit Verdot. O Tinto Histórico resgata os vinhos de guarda elaborados por Domingo Vicente Catena, pai de Nicolás Catena e famoso por ser o \"mestre dos assemblage\". É um vinho complexo e cativante, com ótimo potencial de guarda. Um belíssimo rótulo histórico.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/f5066270-5d2a-11ee-8123-0fcc262027e0.jpg"
+    },
+    {
+      "id": "alta-yar-gran-malbec-2023",
+      "nome": "Alta-Yarí Gran | Malbec",
+      "safra": 2023,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 332.5,
+      "descricao": "Vinícola Alta-Yarí (Valle de Uco - Gualtallary) | Com impressionantes 96 pontos no Descorchados, o Gran Malbec é repleto de frutas pretas, ameixa, cereja, violeta e especiarias. Encorpado, potente, combinando estrutura firme de taninos, acidez e frutado profundo. Excelente vinho para carnes em geral; bife de chorizo, fraldinha, picanha e outros cortes, na grelha; cabrito assado.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/05aee720-597c-11ef-9f62-7387e8bfaf87.jpg"
+    },
+    {
+      "id": "bressano-malbec-2021",
+      "nome": "Bressano | Malbec",
+      "safra": 2021,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 455.6,
+      "descricao": "Vinícola Família Falasco (Valle de Uco - Altamira, Gualtallary e Vista Flores) | Este corte de terroirs do Valle de Uco tem cor vermelha violeta com fundo negro. No palato, destaca-se a sua estrutura, volume e sedosidade. Acabamento muito elegante e longo. Aromas complexos e intensos, com notas de creme brulee e frutas cristalizadas. 18 meses em barricas de carvalho francês.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/97df2b50-f3a6-11ee-bca4-6b665f53f9f1.jpg"
+    },
+    {
+      "id": "casarena-sinergy-lauren-blend-2021",
+      "nome": "Casarena Sinergy Lauren | Blend",
+      "safra": 2021,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Franc, Merlot, Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 459.6,
+      "descricao": "Vinícola Casarena (Luján de Cuyo - Agrelo) | 60% Cabernet Franc / 30% Merlot / 10% Malbec. Color violeta y reflejos rojos brillantes muestran su exuberante personalidad, que ofrece en nariz frutos rojos y negros con un final vegetal, como espárragos. En boca no pasa desapercibido el pimiento, que llena de vivacidad su redondez lograda por la fruta y la elegancia del merlot y el malbec.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/796fec30-6af3-11ef-8f8e-59c2ade33bde.jpg"
+    },
+    {
+      "id": "cavas-de-weinert-cask-selection-blend-2012",
+      "nome": "Cavas de Weinert Cask Selection | Blend",
+      "safra": 2012,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Merlot, Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 662.7,
+      "descricao": "Vinícola Cavas de Weinert (Luján de Cuyo) | Este vinho se destaca por sua cor vermelha escura, realçada por toques violetas e tonalidades marrons. O aroma é profundo e persistente, destacando-se pelos frutos vermelhos. Na degustação, revela-se uma experiência harmoniosa e complexa em sabor, com uma agradável doçura e um equilíbrio notável entre taninos, acidez e álcool. O vinho culmina com um final amplo e suave.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/4b976a80-47c1-11f0-a307-ab97883bff5e.jpg"
+    },
+    {
+      "id": "nicasia-vineyard-malbec-2022",
+      "nome": "Nicasia Vineyard | Malbec",
+      "safra": 2022,
+      "pais": "Argentina",
+      "secao_carta": "ARGENTINA",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 1240.0,
+      "descricao": "Vinícola Catena Zapata (Valle de Uco, La Consulta) | Apresenta uma profunda cor violácea com reflexos vermelhos. Este Malbec, proveniente do vinhedo mais alto da família Catena, oferece aromas de frutos negros maduros, especiarias doces e tomilho. Em boca é um vinho muito expressivo, de boa complexidade, que remete a violetas, pequenos frutos negros, alcaçuz, chocolate amargo e pan de gengibre.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/0770bc60-3208-11ee-a86e-1b626bd6df85.jpg"
+    },
+    {
+      "id": "wakefield-estate-shiraz-2022",
+      "nome": "Wakefield Estate | Shiraz",
+      "safra": 2022,
+      "pais": "Austrália",
+      "secao_carta": "AUSTRÁLIA",
+      "tipo": "tinto",
+      "uvas": [
+        "Shiraz/Syrah"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 192.7,
+      "descricao": "Vinícola Wakefield (Clare Valley) | Vermelho rubi intenso. Frutas escuras (ameixa e cereja), especiarias, baunilha e notas de violeta. Seco, encorpado, acidez elegante, taninos vivos e muito equilibrados , final de boca harmônico com retrogosto de chocolate amargo. amargo.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/fa43cd80-6507-11f1-abbc-b12362102f68.jpg"
+    },
+    {
+      "id": "guyot-reserva-d-o-carmen-re-2024",
+      "nome": "Guyot Reserva D.O. | Carmenère",
+      "safra": 2024,
+      "pais": "Chile",
+      "secao_carta": "Região Costa",
+      "tipo": "tinto",
+      "uvas": [
+        "Carménère"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 165.7,
+      "descricao": "Vinícola Aresti | Cor vermelho-cereja profundo. Nos aromas destaca notas de morango, pimenta e cravo. Em boca apresenta se macio e prolongado, grande concentração, taninos maduros e final persistente. Ideal para acompanhar massas e carnes brancas.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/28909d90-bd21-11ed-b6ec-856a6472912e.jpg"
+    },
+    {
+      "id": "terranoble-civis-pinot-noir-2023",
+      "nome": "Terranoble Civis | Pinot Noir",
+      "safra": 2023,
+      "pais": "Chile",
+      "secao_carta": "Região Costa",
+      "tipo": "tinto",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 219.8,
+      "descricao": "Región Aconcagua - Valle de Casablanca | Pinot floral e delicado, 15% do vinho estagiou em barricas, com madeira na medida certa! Cor rubi claro. Aroma de frutas vermelhas, como morango e framboesa, baunilha e fundo herbáceo. Em boca é leve, com taninos macios e agradáveis. Torta folhada com cogumelos; excelente com aves de caça, como perdiz e codorna; queijos Brie e Camembert, de pouca maturação.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/ec8109d0-3449-11ed-92fd-4f5eebefacc1.jpg"
+    },
+    {
+      "id": "el-sue-o-mario-geisse-d-o-carmen-re-2022",
+      "nome": "El Sueño Mario Geisse D.O. | Carmenère",
+      "safra": 2022,
+      "pais": "Chile",
+      "secao_carta": "Região Costa",
+      "tipo": "tinto",
+      "uvas": [
+        "Carménère"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 249.3,
+      "descricao": "Valle de Colchagua - D.O. Marchigue | De atraente coloração rubi brilhante, apresenta exuberante olfato, onde percebe-se aroma de frutas vermelhas e especiarias, com um leve toque de café. Na boca, é marcado por taninos doces, macios e arredondados, com uma excelente harmonização entre o carvalho e a fruta, proporcionando um final persistente e ao mesmo tempo elegante.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/cb8a2fd0-a5da-11f0-9456-1b1d9e6967d1.jpg"
+    },
+    {
+      "id": "marchig-e-private-collection-d-o-cabernet-sauvignon-2020",
+      "nome": "Marchigüe Private Collection D.O. | Cabernet Sauvignon",
+      "safra": 2020,
+      "pais": "Chile",
+      "secao_carta": "Região Costa",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 425.5,
+      "descricao": "D.O. Valle de Colchagua - Marchihue | Vinho não filtrado, no nariz apresenta-se concentrado e atrativo, aroma maduro que lembra cassis, com um toque elegante de baunilha, proveniente do barril de carvalho. Na boca apresenta sabores maduros, concentrados, dão boa estrutura e gosto persistente.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/bde7c5d0-e7ba-11ed-ac63-359c0f4885b0.jpg"
+    },
+    {
+      "id": "terranoble-estate-cabernet-sauvignon-2025",
+      "nome": "Terranoble Estate | Cabernet Sauvignon",
+      "safra": 2025,
+      "pais": "Chile",
+      "secao_carta": "Região Entre Cordilheiras",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 107.9,
+      "descricao": "Valle Central | Coloração rubi. Revela frutas vermelhas, tabaco, notas de pimenta. De médio corpo, frutado fresco, taninos presentes, porém macios e agradável final.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/ae704e10-38e3-11ec-95b6-3367782ea0e9.jpg"
+    },
+    {
+      "id": "veo-grande-reserva-d-o-cab-sauvignon-syrah-2024",
+      "nome": "Veo Grande Reserva D.O. | Cab. Sauvignon - Syrah",
+      "safra": 2024,
+      "pais": "Chile",
+      "secao_carta": "Região Entre Cordilheiras",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Syrah/Shiraz"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 119.1,
+      "descricao": "D.O. Valle de Colchagua | Mostra coloração roxa intensa com alguns toques violáceos. Ao nariz apresenta aromas de frutas vermelhas maduras como framboesa e cereja, provenientes da uva Cabernet Sauvignon, com teor apimentado proveniente da uva Syrah. Na boca é maduro, concentrado e de suave textura com final prolongado.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/273541F1076F5-C3AE-4530-B2D5-9F7D668988E920120130151125.jpg"
+    },
+    {
+      "id": "don-jorge-geisse-cab-sauvignon-carmen-re-2025",
+      "nome": "Don Jorge Geisse | Cab. Sauvignon - Carmenère",
+      "safra": 2025,
+      "pais": "Chile",
+      "secao_carta": "Região Entre Cordilheiras",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Carménère"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 121.1,
+      "descricao": "Valle de Colchagua | 70% Cabernet Sauvignon - 30% Carmenère - Coloração rubi intenso, aromas de frutas escuras com toques de café e especiarias. Em Boca tem agradável acodez e taninos suaves, o que permite apreciar muito bem as sutis notas de frutas escuras, como aroma, além de leves toques de café e especiarias.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/ac811fc0-e024-11eb-a7cf-41faefe297a9.jpg"
+    },
+    {
+      "id": "loco-de-piedra-reserva-cabernet-sauvignon-2024",
+      "nome": "Loco de Piedra Reserva | Cabernet Sauvignon",
+      "safra": 2024,
+      "pais": "Chile",
+      "secao_carta": "Região Entre Cordilheiras",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 121.9,
+      "descricao": "Conta-se que um homem dono de um vinhedo incrível estava obcecado com que nunca lhe roubassem suas uvas, já que era um vinhedo único e cada cacho era importante. Ele para afastar as pessoas começou a colocar crânios de animais com chifre feitos de pedra em todo seu vinhedo e foi comentado que seu vinhedo tinha uma maldição que afetava a todos que roubavam suas uvas. Foi tanta sua obsessão que sua própria história o fez perder a cabeça e as pessoas vendo isso não os fez mais acreditar na lenda.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/0505ec40-23d0-11f1-a8ff-99601425445e.jpg"
+    },
+    {
+      "id": "errazuriz-peque-as-producciones-pinot-noir-2024",
+      "nome": "Errazuriz Pequeñas Producciones | Pinot Noir",
+      "safra": 2024,
+      "pais": "Chile",
+      "secao_carta": "Região Entre Cordilheiras",
+      "tipo": "tinto",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 132.3,
+      "descricao": "Cor vermelho rubi de intensidade média. No nariz, apresenta aromas de bagas vermelhas (morangos) e frutos do bosque combinados com notas suaves que lembram violetas. O paladar é suave e fresco. Taninos macios e equilibrados com sua acidez natural.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/70d70c20-39c8-11f1-9023-23eae20107e2.jpg"
+    },
+    {
+      "id": "tarapac-reserva-cabernet-sauvignon-2024",
+      "nome": "Tarapacá Reserva | Cabernet Sauvignon",
+      "safra": 2024,
+      "pais": "Chile",
+      "secao_carta": "Região Entre Cordilheiras",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 143.9,
+      "descricao": "Harmonização Churrasco, filé de carne vermelha ao molho de pimentas.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/e522c0b0-536f-11ef-9c01-b3c40dd92966.jpg"
+    },
+    {
+      "id": "punto-m-ximo-limited-edition-cab-sauvignon-syrah-2022",
+      "nome": "Punto Máximo Limited Edition | Cab. Sauvignon - Syrah",
+      "safra": 2022,
+      "pais": "Chile",
+      "secao_carta": "Região Entre Cordilheiras",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Shiraz/Syrah"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 161.8,
+      "descricao": "D.O. Valle de Colchagua | Notas de cor: Intenso e complexo. Aroma: Aromas e sabores de cerejas, amoras, morangos, cassis, rosas, violetas, baunilha, couro e tosta. Paladar: Estrutura muito boa, com taninos firmos, fruta preta fresca e carácter fumado e picante. Barrica: 14 meses em barril de carvalho francês",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/5b245980-7c42-11f0-8628-9136396bb9b1.jpg"
+    },
+    {
+      "id": "lapostolle-apalta-d-o-blend-2021",
+      "nome": "Lapostolle Apalta D.O. | Blend",
+      "safra": 2021,
+      "pais": "Chile",
+      "secao_carta": "Região Entre Cordilheiras",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Merlot, Carménère, Cabernet Franc, Syrah/Shiraz"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 299.5,
+      "descricao": "D.O. Apalta | Um tinto muito elegante, profundo e complexo, elaborado com as uvas Syrah, Carménère Merlot e Cabernet Sauvignon, todas de cultivo biodinâmico e baixos rendimentos. O vinho reúne o toque de especiarias da Carménère, a maciez da Merlot, a estrutura da Cabernet Sauvignon e a complexidade aromática da Syrah. Envelhece por 12 meses em carvalho francês. Um tinto que reflete a identidade de Apalta com a assinatura inconfundível da Lapostolle. Cabernet Sauvignon (54%), Merlot (23%), Carmenère (10%), Cabernet Franc (7%) e Syrah (6%)",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/ee7b69c0-2a5b-11ee-a86e-1b626bd6df85.jpg"
+    },
+    {
+      "id": "cuv-e-alexandre-d-o-carmen-re-2021",
+      "nome": "Cuvée Alexandre D.O. | Carmenère",
+      "safra": 2021,
+      "pais": "Chile",
+      "secao_carta": "Região Entre Cordilheiras",
+      "tipo": "tinto",
+      "uvas": [
+        "Carménère"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 469.2,
+      "descricao": "Vinícola Lapostolle (D.O. Apalta) | 58% dos cachos são desengaçados e fermentados em pequenas barricas de carvalho. O restante é fermentado em cubas de aço. Leveduras indígenas. 97% Carmenère e 3% Merlot",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/c12271a0-a51d-11f0-9456-1b1d9e6967d1.jpg"
+    },
+    {
+      "id": "sugest-o-do-sommelier-de-martino-cuv-e-blend-2020",
+      "nome": "Sugestão do Sommelier De Martino Cuvée | Blend",
+      "safra": 2020,
+      "pais": "Chile",
+      "secao_carta": "Região Entre Cordilheiras",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Malbec, Petit Verdot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 995.8,
+      "descricao": "Valle del Maipo, Isla de Maipo | Cabernet Sauvignon (88%), Malbec (9%) e Petit Verdot (3%). Notas complexas de cassis e frutas vermelhas, combinando com notas minerais e de grafite, pedra molhada evoluindo para notas de violeta e tabaco. O vinho mostra grande complexidade e sucessivas camadas aromáticas. De corpo médio, com uma acidez fresca e tensão marcada no paladar, o vinho apresenta uma verticalidade muito clara, onde os taninos se integram com muita elegância e em perfeita harmonia com a intensidade da fruta. O final é longo e persistente.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/1a15d200-3c72-11ee-a9b4-9910f37900cd.jpg"
+    },
+    {
+      "id": "por-tr-s-blend-nv",
+      "nome": "Por Três | Blend",
+      "safra": null,
+      "pais": "Chile",
+      "secao_carta": "Região Entre Cordilheiras",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Carménère, Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 179.8,
+      "descricao": "Valle Colchagua, Chile | Coloração rubi com reflexos do mesmo tom, intenso e profundo. Notas que lembram morango, mirtilo, amora, chocolate, tabaco, couro e eucalipto. Bom equilibrio entre álcool e acidez, além de boa estrutura, taninos elegantes e untuosos, boa persistência e retrogosto que lembra frutas vermelhas e especiarias. Carnes vermelhas como entrecot e costela, carré de cordeiro e magret de pato.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/e83c6a80-73e3-11f1-ae5b-afd072931bdc.jpg"
+    },
+    {
+      "id": "ndica-gran-reserva-carmen-re-2022",
+      "nome": "Ándica Gran Reserva | Carmenère",
+      "safra": 2022,
+      "pais": "Chile",
+      "secao_carta": "Região Andes",
+      "tipo": "tinto",
+      "uvas": [
+        "Carménère"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 167.8,
+      "descricao": "Vinícola Miguel Torres (Valle del Maule) | Cor cereja escuro. Aromas finos de frutas, com notas balsâmicas e de especiarias. Paladar elegante, aveludado e doce, com uma acidez suculenta que fecha num final longo e agradável. Perfeito com vitela. Responda a todos os desafios, de peixes a molhos quentes.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/4da99a80-00b7-11ee-b94b-2d4cbaf1fcba.jpg"
+    },
+    {
+      "id": "casa-silva-reserva-d-o-merlot-2023",
+      "nome": "Casa Silva Reserva D.O. | Merlot",
+      "safra": 2023,
+      "pais": "Chile",
+      "secao_carta": "Região Andes",
+      "tipo": "tinto",
+      "uvas": [
+        "Merlot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 188.5,
+      "descricao": "D.O. Valle de Colchagua - Viñedo de Los Andes | Cor vermelho rubi com as bordas violeta. Aroma de frutas pretas como amoras, ameixas pretas, mirtilos, ginja, lavanda, pimenta preta e café torrado. Na boca é fresco, com fruta preta madura, acidez média-alta, floral, com taninos suaves, picante e um final marcado pela fruta.Acompanhe com massas à base de molho vermelho como: Lasanha à Bolonhesa.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/fd925d30-386a-11ed-8c65-c7ca03001642.jpg"
+    },
+    {
+      "id": "guyot-gran-reserva-d-o-cabernet-sauvignon-2020",
+      "nome": "Guyot Gran Reserva D.O. | Cabernet Sauvignon",
+      "safra": 2020,
+      "pais": "Chile",
+      "secao_carta": "Região Andes",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 239.8,
+      "descricao": "Vinícola Aresti (D.O. Valle de Maipo) | No nariz é complexo e apresenta notas frutadas como ameixas e amoras entrelaçadas com aromas picantes e doces, como pimenta preta e moka, devido ao seu armazenamento em carvalho. Cor vermelho-rubi intensa e profunda. Doce e suculento na boca, com boa estrutura e taninos maduros e suaves.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/c77e1b90-6495-11ef-8b79-1d6149ef83bb.jpg"
+    },
+    {
+      "id": "el-principal-memorias-d-o-cabernet-sauvignon-carmen-re-2021",
+      "nome": "El Principal Memorias D.O. | Cabernet Sauvignon - Carmenère,",
+      "safra": 2021,
+      "pais": "Chile",
+      "secao_carta": "Região Andes",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Cabernet Franc, Petit Verdot, Syrah/Shiraz"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 651.5,
+      "descricao": "Vinícola El Principal (D.O. Maipo - Cordilheira) | Grande concentração na cor purpúrea. Exibe um nariz potente de frutas pretas (cassis, mirtilo), menta, tabaco e ervas. Na boca o conjunto impressiona pela maciez, taninos finos, fresco e persistente.Bastante elegante no olfato com cassis maduro, tabaco, malte tostado e eucalipto. Concentrado, rico em taninos finos, fresco. Interminável final. Amadurecimento: 14 meses em barricas de carvalho francês novas (30%) e (70%) em barricas de 2º uso. Um ano em garrafa antes de sair ao mercado. 80% Cabernet Sauvignon com 20% de Carmenère",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/8def3420-39d3-11ed-bd36-0f089084bc29.jpg"
+    },
+    {
+      "id": "luis-ca-as-tempranillo-viura-2023",
+      "nome": "Luis Cañas | Tempranillo - Viura",
+      "safra": 2023,
+      "pais": "Espanha",
+      "secao_carta": "ESPANHA",
+      "tipo": "tinto",
+      "uvas": [
+        "Tempranillo, Viura"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 179.8,
+      "descricao": "O Luis Cañas Tempranillo 2023 é um vinho tinto de excelente qualidade da renomada bodega Luis Cañas, localizada na região de Rioja, na Espanha. Este vinho é feito 100% com a uva Tempranillo, a variedade mais emblemática da região e da Espanha, conhecida por sua versatilidade e capacidade de expressar a tipicidade de Rioja. Características: Visual: O vinho apresenta uma cor vermelha intensa, com reflexos rubis, típica da uva Tempranillo. Aroma: No olfato, é um vinho com boa intensidade aromática, destacando notas de frutas vermelhas frescas, como cereja e morango, além de toques sutis de especiarias e um leve toque de baunilha. Sabor: Na boca, o Luis Cañas Tempranillo 2023 tem uma estrutura equilibrada, com taninos macios e boa acidez. A fruta vermelha permanece presente, e o final é suave e persistente. O vinho tem uma boa personalidade, com um excelente equilíbrio entre frescor e suavidade. Envelhecimento: Embora seja um vinho jovem, ele pode ter sido parcialmente estagiado em barris de carvalho, o que adiciona complexidade e uma leve influência do carvalho, sem perder a frescura característica dos vinhos da uva Tempranillo. Harmonização: Este vinho é bastante versátil para acompanhar uma ampla gama de pratos. Vai bem com carnes grelhadas, queijos curados, embutidos, e até mesmo pratos italianos como massas com molho de tomate. Com a safra 2023, o Luis Cañas Tempranillo mantém o estilo fiel da vinícola, com um vinho fresco, elegante e fácil de beber. Se você gosta de vinhos espanhóis frutados e bem equilibrados, este é uma excelente escolha!",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/62215ADF83A65-8B21-4FE0-9207-CD3A62863A3020141006114718.jpg"
+    },
+    {
+      "id": "111-reserva-d-o-blend-2018",
+      "nome": "111 Reserva D.O. | Blend",
+      "safra": 2018,
+      "pais": "Espanha",
+      "secao_carta": "ESPANHA",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Merlot, Tempranillo"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 220.7,
+      "descricao": "Vinícola Manzanos | Granada com reminiscência de tijolo vermelho. Excelente intensidade. Destaca-se pelo seu aroma de fruta madura, especiarias e aromas tostados. É um vinho equilibrado e bem estruturado, com um final de boca duradouro como uma grande reserva. 70% em barril de carvalho francês e 30% em barril de carvalho americano por 24 meses. (40% Cabernet Sauvignon 40% Merlot 20% Tempranillo) Harmonização perfeita com carnes de caça, assados ​​e queijo azul.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/0d29c610-50a9-11ed-b22f-db23864eca26.jpg"
+    },
+    {
+      "id": "coto-mayor-reserva-d-o-c-tempranillo-2019",
+      "nome": "Coto Mayor Reserva D.O.C. | Tempranillo",
+      "safra": 2019,
+      "pais": "Espanha",
+      "secao_carta": "ESPANHA",
+      "tipo": "tinto",
+      "uvas": [
+        "Tempranillo"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 489.4,
+      "descricao": "Rioja D.O.C. | Cor rubi intenso com borda em tom de telha.No nariz é apreciado especiarias doces, cacau fino e fruta madura, complexo. Na boca é elegante e encorpado, com toques de chocolate e especiarias, é agradável e equilibrado. Envelhece no mínimo 18 meses em barricas de carvalho americano e outros 18 meses em garrafa. Ideal para carnes assadas e queijos fortes.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/c46a6230-2967-11ed-86ac-0f61cac73821.jpg"
+    },
+    {
+      "id": "arzuaga-crianza-d-o-tempranillo-cab-sauvignon-2020",
+      "nome": "Arzuaga Crianza D.O. | Tempranillo - Cab. Sauvignon",
+      "safra": 2020,
+      "pais": "Espanha",
+      "secao_carta": "ESPANHA",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Merlot, Tinta Fina"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 549.4,
+      "descricao": "Ribeira del Duero D.O. | Rubi concentrado e luminoso. Rica expressão de frutos negros maduros (amoras), couro, notas balsâmicas e minerais. Volumoso, com taninos potentes mas muito sedosos. Longo fim-de-boca.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/1899522B52D23-CCF6-45CB-B1CC-F557D3F7F7AA20160114165924.jpg"
+    },
+    {
+      "id": "vi-a-tondonia-reserva-blend-2010",
+      "nome": "Viña Tondonia Reserva | Blend",
+      "safra": 2010,
+      "pais": "Espanha",
+      "secao_carta": "ESPANHA",
+      "tipo": "tinto",
+      "uvas": [
+        "Tempranillo, Garnacha, Graciano, Mazuelo"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 829.9,
+      "descricao": "Rioja (Espanha) | Tempranillo (75%), Garnacha (15%), Graciano (5%) e Mazuelo (5%) Considerado por Robert Parker como \"um dos melhores dos últimos tempos\", este Reserva passa por uma maturação excepcional de 6 anos em barricas de carvalho antes de ser engarrafado, resultando em uma expressão singular da Rioja. No paladar, entrega uma combinação de complexidade e finesse, com taninos refinados e uma estrutura impressionante, capaz de evoluir por décadas.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/50af18a0-73e9-11ed-af26-3391f82a254f.jpg"
+    },
+    {
+      "id": "wente-southern-hills-cabernet-sauvignon-2020",
+      "nome": "Wente Southern Hills | Cabernet Sauvignon",
+      "safra": 2020,
+      "pais": "Estados Unidos",
+      "secao_carta": "ESTADOS UNIDOS",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Petite Syrah, Petit Verdot, Tempranillo, Malbec, Shiraz/Syrah, Cabernet Franc"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 326.9,
+      "descricao": "O Southern Hills é o Cabernet Sauvignon de entrada da Wente Vineyards! Isto significa que ele se apresenta como um cartão de visitas da empresa, tendo a MISSÃO de cativar o enófilo, fazendo-o se questionar como devem ser os vinhos superiores, já que o mais simples é fantástico!",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/dea488c0-d738-11ef-84cc-bbb8edadee32.jpg"
+    },
+    {
+      "id": "ch-teau-les-millaux-prestige-bordeaux-sup-rieur-merlot-cabernet-sauvignon-2022",
+      "nome": "Château Les Millaux Prestige Bordeaux Supérieur | Merlot - Cabernet Sauvignon",
+      "safra": 2022,
+      "pais": "França",
+      "secao_carta": "Bordeaux",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Franc, Cabernet Sauvignon, Merlot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 165.5,
+      "descricao": "Apresenta-se frutado e elegante, tem uma cor rubi profunda e brilhante. Seu bouquet complexo de frutas vermelhas e especiarias. Excelente equilíbrio entre os taninos e a acidez. Corpo médio e final frutado.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/56612D211AFEC-8938-40E5-97FF-768FFD12D9D920160114173129.jpg"
+    },
+    {
+      "id": "ch-teau-peyrelongue-saint-emilion-grand-cru-750-ml-2019",
+      "nome": "Château Peyrelongue Saint-Emilion Grand Cru (750 ml)",
+      "safra": 2019,
+      "pais": "França",
+      "secao_carta": "Bordeaux",
+      "tipo": "tinto",
+      "uvas": [
+        "Merlot, Cabernet Franc"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 454.9,
+      "descricao": "Vinícola Château Peyrelongue (Saint-Émilion Grand Cru) | Merlot 78% - Cabernet Franc 22%, de cor rubi e aroma amadeirado proveniente dos 12 meses de carvalho fracês, complexo com notas picantes, alcaçuz e cominho. Em boca finamente floral com toques de frutas vermelhas e cereja. Harmoniza com cordeiro ou vitela e até tofu, varnes curadas, churrasco",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/316d1510-5202-11f0-ba25-5b2e8206a0be.jpg"
+    },
+    {
+      "id": "m-doc-ch-teau-potensac-2010",
+      "nome": "Médoc Château Potensac",
+      "safra": 2010,
+      "pais": "França",
+      "secao_carta": "Bordeaux",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Franc, Cabernet Sauvignon, Merlot, Petit Verdot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 1152.0,
+      "descricao": "O único vinho de Médoc considerado Cru Bourgeois Exceptionel. Este Chateau localizado em Ordonnac produz um vinho elegante, puro e ao mesmo tempo potente, com taninos densos e apimentados e longo final, tem aromas gloriosos.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/350881F1076F5-C3AE-4530-B2D5-9F7D668988E920131015093002.jpg"
+    },
+    {
+      "id": "ch-teau-pontet-canet-pauillac-2006",
+      "nome": "Château Pontet Canet Pauillac",
+      "safra": 2006,
+      "pais": "França",
+      "secao_carta": "Bordeaux",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Franc, Cabernet Sauvignon, Merlot, Petit Verdot"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 2655.0,
+      "descricao": "È um vinhos da região de Pauilac, encorpados, com taninos compactos e boa frescura. Seus aromas são frequentemente o que se associa aos bordeaux clássicos.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/ee09aab0-dff3-11eb-a92d-9708da98bab4.jpg"
+    },
+    {
+      "id": "beaujolais-villages-joseph-drouhin-2022",
+      "nome": "Beaujolais-Villages Joseph Drouhin",
+      "safra": 2022,
+      "pais": "França",
+      "secao_carta": "Borgogne",
+      "tipo": "tinto",
+      "uvas": [
+        "Gamay"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 344.1,
+      "descricao": "O Beaujolais-Villages de Joseph Drouhin é elaborado com o tratamento dos grandes vinhos da Borgonha. A densidade dos vinhedos é de impressionantes 9.000 plantas por hectare, garantindo uvas de grande concentração. Um Beaujolais profundo e cheio de fruta, com a elegância que só é encontrada nos melhores vinhos da Borgonha.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/475079CF5F8D-B82F-4CC0-9EF1-D32CE29C5E3920130703151234.jpg"
+    },
+    {
+      "id": "vaucher-pere-fils-bourgogne-pinot-noir-2022",
+      "nome": "Vaucher Pere & Fils Bourgogne | Pinot Noir",
+      "safra": 2022,
+      "pais": "França",
+      "secao_carta": "Borgogne",
+      "tipo": "tinto",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 350.5,
+      "descricao": "Vermelho cereja brilhante e límpido. Uma frutosidade dominante, amoras com uma pequena nota picante, evoluindo para ameixa cozida, notas de pimenta, e toques animais, de bosque, musgo e cogumelos. Suave e redondo no paladar com taninos derretidos. Um comprimento belo com muita finesse. Carnes vermelhas grelhadas ou assadas, uma tábua de frios, saladas de legumes, tortas de carne ou aves, ou cozidos de carne e vegetais. Sua elegância natural o predispõe a vitela, tabule frio ou queijos duros como o Gouda.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/bcf20670-9d5e-11f0-9456-1b1d9e6967d1.jpg"
+    },
+    {
+      "id": "c-tes-du-rh-ne-petit-legende-2021",
+      "nome": "Côtes Du Rhône Petit Legende",
+      "safra": 2021,
+      "pais": "França",
+      "secao_carta": "Sul da França",
+      "tipo": "tinto",
+      "uvas": [
+        "Grenache, Syrah/Shiraz"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 214.8,
+      "descricao": "Côtes Du Rhône Petit Legende apresenta cor vermelha-escura intensa e brilhante e se distingue por sua amplitude e intensidade aromática. Sua elegância, persistência e equilíbrio entre frutas e taninos o tornam uma “Pequena Lenda",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/015ce220-f5ba-11ed-b4f8-b705b5dd7129.jpg"
+    },
+    {
+      "id": "ch-teau-de-la-gardine-chateauneuf-du-pape-2020",
+      "nome": "Château de La Gardine Chateauneuf Du Pape",
+      "safra": 2020,
+      "pais": "França",
+      "secao_carta": "Sul da França",
+      "tipo": "tinto",
+      "uvas": [
+        "Grenache, Mourvèdre, Syrah/Shiraz"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 949.5,
+      "descricao": "Vinícola Château de La Gardine | Coloração vermelha rubi com bordas granadas. A intensidade de pequenos frutos vermelhos maduros está bem mesclada com aromas de ervas, húmus e especiarias picantes. É um vinho encorpado, mas com taninos já bem polidos e maduros, quente e longo final austero a alcaçuz. Permanece entre 9 e 14 meses em barricas e tonéis de carvalho, de segunda a sexta passagem.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/4363EC2FA08-CE44-433E-BB98-4BD704CA3AD420110609152118.jpg"
+    },
+    {
+      "id": "arrogant-frog-r-serve-a-o-p-grenache-syrah-mouv-dre-2022",
+      "nome": "Arrogant Frog Réserve A.O.P. | Grenache - Syrah - Mouvèdre",
+      "safra": 2022,
+      "pais": "França",
+      "secao_carta": "Sul da França",
+      "tipo": "tinto",
+      "uvas": [
+        "Grenache, Mourvèdre, Syrah/Shiraz"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 237.8,
+      "descricao": "Vinícola Paul Mas (A.O.P. Languedoc) | Intensa coloração rubi. O nariz oferece amoras e cerejas vermelhas, especiarias, tostado, violeta e um agregador traço animal. A riqueza gustativa é demonstrada na harmonia dos taninos de finíssima envergadura, no frescor tentador e na fruta copiosa. Longo final.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/458ac980-7c40-11f0-8628-9136396bb9b1.jpg"
+    },
+    {
+      "id": "valpolicella-classico-campo-del-biotto-blend-2024",
+      "nome": "Valpolicella Classico Campo del Biotto | Blend",
+      "safra": 2024,
+      "pais": "Itália",
+      "secao_carta": "Norte",
+      "tipo": "tinto",
+      "uvas": [
+        "Molinara, Rondinella, Blend de uvas tintas, Corvina Veronese"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 302.1,
+      "descricao": "Vermelho-rubi. Típicos aromas de flor de cerejeira e de cerejas ''marascas'' maduras, além de framboesas frescas. Estrutura vivaz e agradável, com bom nervo. Fim-de-boca frutado, com leve e típico amargor.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/7965e2c0-d5fb-11eb-8dd2-ab6b2bf7b999.jpg"
+    },
+    {
+      "id": "amarone-delle-valpolicella-docg-poesie-2022",
+      "nome": "Amarone delle Valpolicella DOCG Poesie",
+      "safra": 2022,
+      "pais": "Itália",
+      "secao_carta": "Norte",
+      "tipo": "tinto",
+      "uvas": [
+        "Corvina, Molinara, Rondinella"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 462.8,
+      "descricao": "Amarone delle Valpolicella DOCG | Vermelho-rubi intenso com reflexos granada. Aroma frutado com notas de cereja, amarena, frutas silvestres e chocolate. Harmonioso e encorpado, obtido a partir de uvas amadurecidas ao sol.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/2bb7ee50-180a-11f1-8764-49a55f8c41fe.jpg"
+    },
+    {
+      "id": "barolo-docg-mauro-molino-nebbiolo-2020",
+      "nome": "Barolo DOCG Mauro Molino | Nebbiolo",
+      "safra": 2020,
+      "pais": "Itália",
+      "secao_carta": "Norte",
+      "tipo": "tinto",
+      "uvas": [
+        "Nebbiolo"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 1182.6,
+      "descricao": "Vinícola Mauro Molino (Piemonte - Barolo DOCG) | No aroma apresenta um caráter pronunciado de frutas vermelhas e notas florais, com sugestões típicas de rosas e violetas. No paladar é muito bem equilibrado com ótima estrutura e taninos finos. Seu final é longo e nos convida a outra taça. Este vinho é feito com uva de três diferentes vinhedos, 02 localizados em La Morra e 01 em Monforte.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/e1fb06d0-185f-11f0-8cd1-e9509c829def.jpg"
+    },
+    {
+      "id": "giacondi-doc-montepulciano-d-abruzzo-2024",
+      "nome": "Giacondi DOC | Montepulciano D’Abruzzo",
+      "safra": 2024,
+      "pais": "Itália",
+      "secao_carta": "Central",
+      "tipo": "tinto",
+      "uvas": [
+        "Montepulciano"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 140.9,
+      "descricao": "Montepulciano d'Abruzzo DOC, Itália | Aromas frutados que remetem a ameixa e cereja, bem como notas picantes que se misturam com um toque herbáceo. Na boca é elegante, com boa persistência e ótimo frescor. É um vinho muito gastronômico e versátil.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/574d71b0-89af-11ef-bb65-3946a79eb729.jpg"
+    },
+    {
+      "id": "villa-card-to-sangiovese-2024",
+      "nome": "Villa Cardèto | Sangiovese",
+      "safra": 2024,
+      "pais": "Itália",
+      "secao_carta": "Central",
+      "tipo": "tinto",
+      "uvas": [
+        "Sangiovese"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 160.7,
+      "descricao": "Vermelho rubi. No nariz é simples e agradável, cereja e eve pimenta. Na boca é leve, com forte acidez e taninos finos, em equilíbrio. O paladar era mais uma vez frutado e apimentado, sendo a persistência boa.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/44354A010451C-A748-42D3-BC7B-0787B52D767820130717100822.jpg"
+    },
+    {
+      "id": "rar-masi-toscana-igt-blend-nv",
+      "nome": "RAR Masi Toscana IGT | Blend",
+      "safra": null,
+      "pais": "Itália",
+      "secao_carta": "Central",
+      "tipo": "tinto",
+      "uvas": [
+        "Sangiovese, Ciliegiolo, Canaiolo"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 208.0,
+      "descricao": "Apresentado em um intenso vermelho rubi com reflexos violáceos, o aroma de frutas maduras, framboesas e amoras se misturam com notas de especiarias, alcaçuz e cravo. Taninos perceptíveis mas suaves, com boa acidez para proporcionar frescura ao degustar, além de um final longo com frutas maduras e especiarias.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/1c14c1f0-ba39-11f0-ac38-3bdcdd346d45.jpg"
+    },
+    {
+      "id": "chianti-reserva-docg-duca-di-saragnano-2023",
+      "nome": "Chianti Reserva DOCG Duca di Saragnano",
+      "safra": 2023,
+      "pais": "Itália",
+      "secao_carta": "Central",
+      "tipo": "tinto",
+      "uvas": [
+        "Sangiovese"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 297.6,
+      "descricao": "Vinificação: As uvas são cuidadosamente colhidas à mão,garantindo a seleção das melhores frutas para o vinho. São desengaçadas para separar os bagos dos cachos. Em seguida, ocorre a maceração, onde os bagos são colocados em tanques de fermentação juntamente com as cascas. A fermentação alcoólica acontece naturalmente com a ação das leveduras presentes nas cascas das uvas. Durante este processo, os açúcares presentes no mosto são transformados em álcool,resultando na base do vinho. Visual: Possui uma coloração vermelha vívida com nuances de granada claras. Olfato: No aroma possui notas etéreas e delicadas de violeta que são percebidas inicialmente, seguidas por aromas pronunciados de frutas vermelhas maduras, como cerejas e amoras. Também são presentes aromas de especiarias picantes, como cravo.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/34534530-aacf-11f0-b7a8-590904ded590.jpg"
+    },
+    {
+      "id": "brunello-di-montalcino-docg-caprili-sangiovese-grosso-2020",
+      "nome": "Brunello di Montalcino DOCG Caprili | Sangiovese Grosso",
+      "safra": 2020,
+      "pais": "Itália",
+      "secao_carta": "Central",
+      "tipo": "tinto",
+      "uvas": [
+        "Sangiovese Grosso"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 995.3,
+      "descricao": "Uma das melhores versões já produzidas deste clássico. Lindo no aroma, cerejas, framboesas, lavanda, depois abre notas de alcaçuz, terra, ervas, mineral. Na boca é elegância pura, a riqueza de sabores está perfeitamente equilibrada pela acidez raçuda e os taninos de giz. Um vinho charmoso, encantador, entre os destaques da safra! Premiações : 96Wine Spectator 95Robert Parker 94Vinous",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/edd55ad0-0dcf-11f1-ba7d-c16ff89cd47a.jpg"
+    },
+    {
+      "id": "colomba-bianca-doc-nero-d-avola-2023",
+      "nome": "Colomba Bianca DOC | Nero d'Avola",
+      "safra": 2023,
+      "pais": "Itália",
+      "secao_carta": "Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Nero d'Avola"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 134.6,
+      "descricao": "Vermelho Rubi, vivo e impenetrável. No nariz decidido e intenso. Se percebem encantáveis notas de frutos vermelhos e amarena, contornado de agradáveis especiarias. No paladar se apresenta direto e com uma grande estrutura. Taninos macios e agradáveis, acompanhando nobremente notas frutadas.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/f6718390-180a-11f1-8764-49a55f8c41fe.jpg"
+    },
+    {
+      "id": "sensi-collezione-igt-primitivo-di-puglia-nv",
+      "nome": "Sensi Collezione IGT | Primitivo di Puglia",
+      "safra": null,
+      "pais": "Itália",
+      "secao_carta": "Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Primitivo"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 225.8,
+      "descricao": "Cor vermelho rubi, com um bouquet de cereja e ameixa misturada com notas tostadas de baunilha. É encorpado, redondo e bem estruturado, perfeito para acompanhar com salame, presunto, peixe picante, caça e qualquer tipo de carne assada. Você já conhece o Sensi Collezione Primitivo Puglia? Se não, está perdendo a chance de experimentar um vinho verdadeiramente excepcional. Proveniente da região Puglia, na Itália, este vinho é feito com a uva Primitivo, e envelhecido em tanques de aço com micro-oxigenação.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/6e221cf0-cfd0-11ed-9eec-f9e10ce9ede5.jpg"
+    },
+    {
+      "id": "primitivo-di-manduria-riserva-1932-dop-primitivo-2021",
+      "nome": "Primitivo di Manduria Riserva 1932 DOP | Primitivo",
+      "safra": 2021,
+      "pais": "Itália",
+      "secao_carta": "Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Primitivo"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 410.0,
+      "descricao": "Cor: vermelho rubi com reflexos granada intensos na unha PERFUME: intenso e complexo, de frutos silvestres maduros (cereja, framboesa,amora) e ameixa com claros sentidos de baunilha e notas balsâmicas no final. SABOR: seco, quente,macio,tânico,persistente. TEMPERATURA PARA SERVI-LO: 16-18° C ACOMPANHAMENTO: assados e carne cozida.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/80c6f330-1a07-11ef-9ce9-f7fd57bd01dc.jpg"
+    },
+    {
+      "id": "radici-taurasi-docg-aglianico-2018",
+      "nome": "Radici Taurasi DOCG | Aglianico",
+      "safra": 2018,
+      "pais": "Itália",
+      "secao_carta": "Sul",
+      "tipo": "tinto",
+      "uvas": [
+        "Aglianico"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 966.4,
+      "descricao": "Campania | Mastroberardino é o maior nome do Sul da Itália e seus Taurasi representam o máximo em finesse, potência e elegância que a casta Aglianico pode alcançar",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/330510C442963-B798-471D-8E51-933A2B72E8FD20120806152425.jpg"
+    },
+    {
+      "id": "porca-de-mur-a-doc-blend-2022",
+      "nome": "Porca de Murça DOC | Blend",
+      "safra": 2022,
+      "pais": "Portugal",
+      "secao_carta": "PORTUGAL",
+      "tipo": "tinto",
+      "uvas": [
+        "Tinta Roriz, Tinta Barroca, Touriga Nacional, Touriga Francesa"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 148.4,
+      "descricao": "Douro DOC | Esse corte de Touriga Nacional (30%), Touriga Franca (30%), Tinta Barroca (20%) e Tinta Roriz (10%) Na prova, é complementado por uma maciez que no final revela vigor graças a sua acidez equilibrada. Vai muito bem com massas, frangos, queijos e carnes vermelhas.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/8641bc30-4e71-11ee-b0e9-7b91f5d2f1e1.jpg"
+    },
+    {
+      "id": "escadas-da-beira-reserva-doc-blend-2017",
+      "nome": "Escadas da Beira Reserva DOC | Blend",
+      "safra": 2017,
+      "pais": "Portugal",
+      "secao_carta": "PORTUGAL",
+      "tipo": "tinto",
+      "uvas": [
+        "Touriga Nacional, Tinta Roriz, Alfrocheiro"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 160.2,
+      "descricao": "Dão DOC | Este corte de Touriga Nacional, Alfrocheiro e Tinta Roriz. Cor rubi intensa. Aroma elegante de frutas preta e especiarias mostrando um perfil balsâmico, mas nunca perdendo o caráter dos vinhos da região do Dão, a acidez em harmonia com a fruta fresca.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/7d4f5510-f2a9-11ee-9b68-179017335969.jpg"
+    },
+    {
+      "id": "vale-da-raposa-reserva-i-blend-2021",
+      "nome": "Vale da Raposa - Reserva I Blend",
+      "safra": 2021,
+      "pais": "Portugal",
+      "secao_carta": "PORTUGAL",
+      "tipo": "tinto",
+      "uvas": [
+        "Touriga Nacional, Touriga Franca, Tinta Roriz, Tinto Cão"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 263.4,
+      "descricao": "O Vinho Quinta do Vale da Raposa Reserva é um tinto português elegante, estruturado e cheio de personalidade, elaborado na icônica região do Douro — uma das áreas vinícolas mais antigas e prestigiadas do mundo. Produzido com castas típicas do Douro e envelhecido em madeira, este reserva apresenta grande profundidade aromática e equilíbrio entre fruta, estrutura e notas de carvalho. No nariz, revela aromas de amora, mirtilo, ameixa preta, aliados a nuances de baunilha, cacau, tabaco leve e especiarias, resultado do estágio em barricas. Em boca, mostra-se encorpado e macio, com taninos firmes porém sedosos, acidez equilibrada e um final longo e persistente, marcado por fruta madura e notas tostadas. Um vinho sofisticado, excelente opção para momentos especiais e harmonizações mais intensas.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/0d7daa90-bc49-11f1-a9c0-730fc9acba1b.jpg"
+    },
+    {
+      "id": "espor-o-reserva-do-blend-2022",
+      "nome": "Esporão Reserva DO | Blend",
+      "safra": 2022,
+      "pais": "Portugal",
+      "secao_carta": "PORTUGAL",
+      "tipo": "branco",
+      "uvas": [
+        "Alicante Bouschet, Aragonês, Cabernet Sauvignon, Trincadeira"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 380.9,
+      "descricao": "Alentejo DO | Este vinho tem origem na Herdade do Esporão, um território com mais de 750 anos produzindo a partir do corte Alicante Bouschet, Tricandeira, Touriga Nacional, Aragonez e Cabernet Sauvignon. em modo de produção orgânico.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/15639147C9916-D694-46FA-BB58-FA8E742569D520100203062555.jpg"
+    },
+    {
+      "id": "vadio-doc-baga-2020",
+      "nome": "Vadio DOC | Baga",
+      "safra": 2020,
+      "pais": "Portugal",
+      "secao_carta": "PORTUGAL",
+      "tipo": "tinto",
+      "uvas": [
+        "Baga"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 459.8,
+      "descricao": "Bairrada DOC, Portugal | Um tinto fiel à uva Baga que o compõe, cheio de personalidade. O nariz mostra a elegância clássica da baga e o frescor característica da Bairrada, com notas balsâmicas, de eucalipto, fruta vermelha madura e especiarias. O estágio em barricas de carvalho francês ajudou a domar a rusticidade dessa casta, resultando em um tinto em estilo clássico, encorpado, com ótima acidez, taninos robustos e um final longo e vibrante.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/29295147C9916-D694-46FA-BB58-FA8E742569D520120405165700.jpg"
+    },
+    {
+      "id": "folklore-tannat-petit-manseng-nv",
+      "nome": "Folklore | Tannat - Petit Manseng",
+      "safra": null,
+      "pais": "Uruguai",
+      "secao_carta": "URUGUAI",
+      "tipo": "tinto",
+      "uvas": [
+        "Tannat, Petit Manseng"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 174.2,
+      "descricao": "Riviera (Uruguai) | Vinho de cor rubi intensa e concentra, com toques violáceos nas bordas. Possui grande riqueza aromática, predomínio de frutas negras maduras, como amoras e mirtilos e leve toque de especiaria. De corpo médio, com taninos e acidez em perfeito equilíbrio. Bom volume de boca e um final persistente e macio. Bom potencial de evolução em garrafa",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/49463090-0c02-11f0-87aa-979aa62eeeb8.jpg"
+    },
+    {
+      "id": "bouza-tannat-2023",
+      "nome": "Bouza | Tannat",
+      "safra": 2023,
+      "pais": "Uruguai",
+      "secao_carta": "URUGUAI",
+      "tipo": "tinto",
+      "uvas": [
+        "Tannat"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 348.8,
+      "descricao": "Vinícola Bouza (Montevideu) | Coloração rubi concentrada, borda violácea luminosa. Um olfato maduro e sensual de amoras maduras, alcaçuz, violeta e notas anisadas ao fundo. Incrivelmente concentrado, mas com taninos já bem educados, quente, com longa persistência.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/65243E81C95C1-8238-45E1-A016-8EEB0CE8357E20150708184306.jpg"
+    },
+    {
+      "id": "violette-suave-blend-nv",
+      "nome": "Violette Suave | Blend",
+      "safra": null,
+      "pais": "Brasil",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Alicante Bouschet, Cabernet Sauvignon, Merlot"
+      ],
+      "volume_ml": 187,
+      "preco_brl": 32.7,
+      "descricao": "Vinícola Pizzato (Serra Gaúcha - Dois Lajeados) | Vinho tinto suave fino e jovem. Elegante, frutado e retrogosto prolongado. Elaborados com uvas Merlot, Cabernet Sauvignon e Alicante Bouschet.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/871061914CC95-5C64-4B70-9DBD-7172D2CA538C20170408145801.jpg"
+    },
+    {
+      "id": "faces-do-brasil-merlot-2024",
+      "nome": "Faces do Brasil | Merlot",
+      "safra": 2024,
+      "pais": "Brasil",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Merlot"
+      ],
+      "volume_ml": 187,
+      "preco_brl": 36.8,
+      "descricao": "Serra do Sudeste, Rio Grande do Sul | Vermelho-púrpura. Notas de cravo e de frutas vermelhas e negras. Redondo com retrogosto de cassis.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/782167D52B34E-21CD-4B78-8F42-C87B2529995220160527172947.jpg"
+    },
+    {
+      "id": "fausto-cabernet-sauvignon-2023",
+      "nome": "Fausto | Cabernet Sauvignon",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 187,
+      "preco_brl": 37.0,
+      "descricao": "Vinícola Pizzato (Serra Gaúcha - Dois Lajeados) | Vinho tinto seco. Maturação em tanques de aço inoxidável com breve passagem em barris de carvalho americano. De cor vermelho rubi, intenso e escuro. Aroma de banana caramelizada, frutas vermelhas e passas, pimenta, cacau. Gosto frutado inicialmente, de boa persistência, de boa acidez, com taninos de boa resolução.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/766734C1B20FD-CF32-45B6-BC6A-1522E4519A0F20160830122152.jpg"
+    },
+    {
+      "id": "da-fam-lia-safras-pinot-noir-2022",
+      "nome": "Da Família Safras | Pinot Noir",
+      "safra": 2022,
+      "pais": "Brasil",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Pinot Noir"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 48.0,
+      "descricao": "Vinícola Família Fardo (Quatro Barras) | Franco, bastante frutado com notas de morangos, cerejas, geleia de frutas, maduro e sofisticado com notas de especiarias e tostado. combina com os pratos leves e delicados da cozinha contemporânea, ressaltando seu sabor e evoluindo junto com a comida revelando-se mais agradável quando servido levemente refrescado entre 10 e 12°C.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/89c6c100-499d-11ec-9425-3d795acd6b70.jpg"
+    },
+    {
+      "id": "alto-madero-reserva-carmen-r-2023",
+      "nome": "Alto Madero Reserva Carmenérè",
+      "safra": 2023,
+      "pais": "Chile",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Carménère"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 54.8,
+      "descricao": "A primeira impressão que o Alto Madero deixa é de que seja um típico Carmenere chileno, sua notas herbáceas combinam-se com as de especiarias, principalmente pimenta-do-reino. Apresenta coloração vermelho escuro com tonalidade vívida. Aroma de frutas vermelhas maduras em predominância, com notas de coco no fundo. Na boca, sabor concentrado, com taninos maduros e suaves. Apresenta sabores que acompanham o olfato e final agradavelmente persistente.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/b3d8a090-d206-11ef-8a73-8d608f7dfcdd.jpg"
+    },
+    {
+      "id": "gralha-azul-merlot-2018",
+      "nome": "Gralha Azul | Merlot",
+      "safra": 2018,
+      "pais": "Brasil",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Merlot"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 65.3,
+      "descricao": "Vinícola Araucária (Serra do Mar Paranaense, São José dos Pinhais) | Vinho orientado a pratos que unem simplicidade e leveza. Indicado para fondues, entradas com pães, patês, presuntos, queijos e legumes. Acompanha bem risotos com cogumelos, cordeiros e carnes temperadas. Temperatura: Aconselha-se servir entre 14 e 15°C. Coloração: Atraente, boa intensidade de cor e tonalidade vermelho rubi. Aroma: Maduro e complexo, ressalta as especiarias. Tem notas de coco queimado, baunilha, frutas passas, café, tabaco e leve tostado. Apresenta aromas terrosos e de champignon. Paladar: Equilibrado, com textura aveludada e acidez refrescante, com uma estrutura adequada.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/a3ed0740-c8fb-11ed-ae7f-674985605c93.jpg"
+    },
+    {
+      "id": "callia-malbec-2022",
+      "nome": "Callia | Malbec",
+      "safra": 2022,
+      "pais": "Argentina",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 66.1,
+      "descricao": "Vinho de cor vermelho escuro. Aromas de frutas vermelhas como ameixas e cerejas, característicos da Malbec. Em boca grande frescura, equilíbrio, boa estrutura e taninos maduros. Ideal no acompanhamento de carne assada, churrasco ou parrilla.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/61c1d610-31a9-11ec-b425-45bfd814ce35.jpg"
+    },
+    {
+      "id": "miolo-reserva-cabernet-sauvignon-2023",
+      "nome": "Miolo Reserva | Cabernet Sauvignon",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 69.6,
+      "descricao": "Vermelha rubi intensa com traços violáceos. Boa intensidade aromática, com expressivo caráter varietal e harmonia entre a fruta e a madeira de carvalho. No palato é bem estruturado, com taninos presentes e bom volume de boca e retrogosto agradável com boa persistência.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/137879598247A-929E-40B0-AE29-BFD062A12B3E20151119174924.jpg"
+    },
+    {
+      "id": "casa-silva-estate-grown-cabernet-sauvignon-2024",
+      "nome": "Casa Silva Estate Grown | Cabernet Sauvignon",
+      "safra": 2024,
+      "pais": "Chile",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 70.9,
+      "descricao": "Cor Possui uma coloração vermelho rubi com bordas violetas. Aroma No nariz, um bouquet complexo e sedutor apresenta notas vibrantes de frutas silvestres, incluindo amoras, mirtilos e ameixas pretas. Fundem-se harmoniosamente com aromas de cardamomo, eucalipto e pétalas de rosa, enquanto notas terciárias de café torrado adicionam profundidade e riqueza. Sabor Na boca, revela-se uma textura vibrante, com acidez média-alta que anima os sentidos. Taninos abundantes, mas surpreendentemente suaves, conferem estrutura e sustentação ao vinho. O sabor é intensamente frutado, com notas de frutas negras e vermelhas, complementadas por especiarias sutis. A combinação de elementos cria um equilíbrio perfeito, enquanto o final médio deixa uma impressão persistente e agradável.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/cf187cf0-e4ca-11ef-936d-af997a9a6478.jpg"
+    },
+    {
+      "id": "d-divas-merlot-cab-sauvignon-2023",
+      "nome": "Dádivas | Merlot - Cab. Sauvignon",
+      "safra": 2023,
+      "pais": "Brasil",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Merlot"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 83.4,
+      "descricao": "Vinícola Lidio Carraro (Bento Gonçalves, RS) | Aroma sedutor de rosas, violetas e frutas do bosque, como morango, framboesa, cereja, amora, groselha, notas de especiarias e frutas secas. Vivaz e equilibrado. Envolvente, complexo e macio. Um vinho para apaixonar-se.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/38174A010451C-A748-42D3-BC7B-0787B52D767820130622214817.jpg"
+    },
+    {
+      "id": "almejo-cl-ssico-tannat-2021",
+      "nome": "Almejo Clássico | Tannat",
+      "safra": 2021,
+      "pais": "Brasil",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Tannat"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 82.0,
+      "descricao": "Límpido e brilhante, rubi violáceo, com notas de frutas vermelhas, tostado, com final macio e agradável, 6 meses em barricas de carvalho francês.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/506bc680-603f-11ed-bb59-1bff6992e9be.jpg"
+    },
+    {
+      "id": "punto-final-reserva-malbec-2024",
+      "nome": "Punto Final Reserva | Malbec",
+      "safra": 2024,
+      "pais": "Argentina",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 81.6,
+      "descricao": "Mendoza, Argentina | Tem cor vermelho intensa com reflexos violáceos. De frutas vermelhas e notas de tostado devido ao estágio que este vinho permanece em barrica francesa. Percebe-se um vinho complexo, estruturado, suntuoso e de grande persistência.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/66741E0C79B81-2F07-4EAA-BD0D-ABD41B5674B520150413201225.jpg"
+    },
+    {
+      "id": "ysern-roble-tannat-2020",
+      "nome": "Ysern Roble | Tannat",
+      "safra": 2020,
+      "pais": "Uruguai",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Tannat"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 87.0,
+      "descricao": "Tannat de coloração vermelho-rubi, aroma de frutas vermelhas e especiarias, em especial pimenta verde. É redondo e robusto, com taninos maduros e doces, e de final persistente.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/109978D211AFEC-8938-40E5-97FF-768FFD12D9D920210510121552.jpg"
+    },
+    {
+      "id": "terrazza-gran-reserva-sangiovese-2018",
+      "nome": "Terrazza Gran Reserva | Sangiovese",
+      "safra": 2018,
+      "pais": "Brasil",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Sangiovese"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 90.0,
+      "descricao": "Vinícola Villaggio Grando (Serra Catarinense, Água Doce) | Sua cor rubi se reflete em um vinho macio em boca, típico da uva Sangiovese, porém com taninos firmes provenientes dos 32 meses em carvalho francês de Allier unidos a uma acidez perfeita que o vinhedos da altitude da Serra Catarinense propiciam.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/9c800da0-3689-11ec-8d99-392d190c3ec3.jpg"
+    },
+    {
+      "id": "vallontano-indra-blend-2018",
+      "nome": "Vallontano Indra | Blend",
+      "safra": 2018,
+      "pais": "Brasil",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Merlot, Marselan"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 507.9,
+      "descricao": "O Indra, nas palavras do enólogo Luís Henrique Zanini, “é um vinho de corte para ser desvendado nos braços do tempo”. A fusão entre as três variedades, Cabernet Sauvignon, Merlot – duas das mais produzidas no Brasil, e Marselan, expressa bem as características da Serra Gaúcha, acidez, tanicidade e frescor, que sempre inspiraram as criações do enólogo.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/1af553d0-a47f-11ec-8493-c372bb72cded.jpg"
+    },
+    {
+      "id": "flor-de-crastro-tinta-roriz-touriga-franca-2020",
+      "nome": "Flor de Crastro | Tinta Roriz - Touriga Franca",
+      "safra": 2020,
+      "pais": "Portugal",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Tinta Roriz, Touriga Franca"
+      ],
+      "volume_ml": 750,
+      "preco_brl": 102.5,
+      "descricao": "Cor violeta brilhante, no nariz apresenta frescos aromas de frutos silvestres do Douro, muito bem integrados com elegantes notas florais. Na prova de boca, inicia de forma cativante, evoluindo para um vinho de estrutura média, com bom volume e taninos sedosos. Um vinho atrativo que termina equilibrado e com agradáveis sensações de frescura.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/dd43b8a0-1fb4-11ec-a8ca-c9f2da2265c7.jpg"
+    },
+    {
+      "id": "la-cl-ssico-cabernet-sauvignon-2020",
+      "nome": "LA Clássico | Cabernet Sauvignon",
+      "safra": 2020,
+      "pais": "Brasil",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 103.4,
+      "descricao": "Vinícola Luiz Argenta (Flores da Cunha, RS) | Vermelho rubi intenso. Aromas complexos que lembra frutas vermelhas, pimenta, licor de cassis e especiarias em geral. Vinho estruturado, bem equilibrado e com bom volume em boca.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/b968f660-0773-11ec-92e0-65124d81cc4f.jpg"
+    },
+    {
+      "id": "chianti-gentilesco-docg-2022",
+      "nome": "Chianti Gentilesco DOCG",
+      "safra": 2022,
+      "pais": "Itália",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Canaiolo, Sangiovese"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 149.5,
+      "descricao": "Elaborado a partir de uma seleção rigorosa das melhores uvas de Sangiovese, que compõem 90% do corte, sendo o restante Canaiolo. O resultado é um Chianti frutado e com boa acidez, perfeito para combinar com comida. A cantina Bonacchi fica em uma das oito denominações de Chianti. Destaca-se pela relação excelente entre qualidade e custo de seus vinhos. Seus dois vinhos mais populares são o Montepulciano d’Abruzzo e o Chianti Gentilesco. Já seus três melhores vinhos tintos, o Brunello di Montalcino, o Chianti Riserva e o Badesco, são maturados em carvalho. Fundada em 1965, Bonacchi é uma vinícola familiar situada no coração de Montalbano Hills, entre as cidades de Florença e Pistoia, na Itália. Trata-se de uma propriedade que dá origem a bons vinhos toscanos há mais de três gerações, bem como vinificam uvas cultivadas sob sua supervisão em outras regiões vinícolas do país. A família possui mais de 40 hectares de vinhas em Chianti Montalbano e Chianti Classico Gallo Nero, além de mais 10 hectares separados entre Sant’Antino DOC, Brunello DOCG e Rosso di Montalcino DOC e 15 hectares de vinhas cultivadas em Montecucco DOC. Seus Brunellos ganham inúmeros prêmios e recebem notas altíssimas da imprensa e de críticos. O novo edifício da propriedade conta com modernas máquinas de vinificação, duas linhas de engarrafamento automático e uma espaçosa adega para o armazenamento e o envelhecimento dos exemplares em barris. Os vinhos são distribuídos rotulados como “Bonacchi”, tanto no mercado interno quanto no externo. O envelhecimento em barricas de carvalho francês contribui para que os aromas perfumados dos exemplares sejam liberados. Além disso, os vinhos também podem ser armazenados em caves subterrâneas antigas, apresentando coloração vermelha e taninos perfeitamente equilibrados. Vinhedos: Vinhedos localizados na região de Firenze, Siena, Arezzo, Pistoia e Pisa. Rendimento controlado. Vinificação: Fermentação tradicional com controle de temperatura. Maturação: Não p",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/627c6400-1428-11ed-9eea-f3e573e2f449.jpg"
+    },
+    {
+      "id": "catena-malbec-2022",
+      "nome": "Catena | Malbec",
+      "safra": 2022,
+      "pais": "Argentina",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Malbec"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 153.9,
+      "descricao": "Vinícola Catena Zapata (Mendoza) | Este é o tinto que mostrou ao mundo o potencial da casta Malbec para originar vinhos de classe mundial. A safra 2019 conquistou 92 pontos de Robert Parker, que destacou seu palato “textura macia e aveludada da casta, com carvalho bem integrado”, além da excelente qualidade pelo que custa. Intenso e concentrado como os grandes tintos argentinos, o Catena Malbec mostra uma complexidade impressionante. Eleito mais de uma vez um dos “100 Melhores Vinhos do Mundo” pela Wine Spectator, é uma referência absoluta.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/91777910-68a6-11ee-a2fe-31a83e2f0f71.jpg"
+    },
+    {
+      "id": "ch-teau-rauzan-despagne-reserve-2016",
+      "nome": "Château Rauzan Despagne Reserve",
+      "safra": 2016,
+      "pais": "França",
+      "secao_carta": "187 ml até 375 ml",
+      "tipo": "tinto",
+      "uvas": [
+        "Cabernet Sauvignon, Merlot"
+      ],
+      "volume_ml": 375,
+      "preco_brl": 212.9,
+      "descricao": "Para Robert Parker, \"Bordeaux precisa desesperadamente de mais produtores como Despagne que elaborem vinhos como este\". Rico, saboroso e complexo, combina aromas e sabores típicos dos bons Bordeaux com bastante elegância, em um estilo fácil de gostar. Uma das melhores escolhas entre os Bordeaux para o dia a dia.",
+      "imagem_url": "https://websiteoficial-2026.github.io/fotos-carta-vinhos/1197479CF5F8D-B82F-4CC0-9EF1-D32CE29C5E3920130703135720.jpg"
+    }
+  ]
+}
