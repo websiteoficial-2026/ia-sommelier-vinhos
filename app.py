@@ -158,5 +158,5 @@ if prompt := st.chat_input("Ex: Quero um tinto argentino até R$ 150"):
             #         if v.get("imagem_url"):
             #             st.image(v["imagem_url"], width=100, caption=v["nome"])
             
-            else:
+ else:
             st.markdown(msg.content)
