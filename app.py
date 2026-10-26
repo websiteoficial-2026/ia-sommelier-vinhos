@@ -116,7 +116,7 @@ if prompt := st.chat_input("Ex: Quero um tinto argentino até R$ 150"):
 
     with st.chat_message("assistant"):
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="qwen/qwen3.8-27b",
             messages=limpar_mensagens(st.session_state.messages),
             tools=tools,
             tool_choice="auto",
@@ -140,7 +140,7 @@ if prompt := st.chat_input("Ex: Quero um tinto argentino até R$ 150"):
                 })
             
             response2 = client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
+                model="qwen/qwen3.8-27b",
                 messages=limpar_mensagens(st.session_state.messages),
                 tools=tools,
                 max_tokens=600
