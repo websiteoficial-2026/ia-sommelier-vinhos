@@ -2,6 +2,9 @@ import json
 import streamlit as st
 from groq import Groq
 
+# ==========================================
+# CONFIGURAÇÕES (GROQ)
+# ==========================================
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 @st.cache_data
@@ -11,6 +14,9 @@ def carregar_carta():
 
 carta = carregar_carta()
 
+# ==========================================
+# PROMPT DO SOMMELIER (ADICIONADO O VOLUME)
+# ==========================================
 SYSTEM_PROMPT = """
 Você é o Sommelier Virtual do Terrazza 40 (Curitiba).
 Seja simpático, direto e objetivo.
@@ -18,14 +24,19 @@ Sempre que o cliente pedir uma sugestão, use a ferramenta `buscar_vinhos`.
 Se a ferramenta retornar uma lista vazia ou um aviso de que não há vinhos, avise o cliente educadamente e ofereça uma alternativa (ex: outro tipo de vinho).
 Recomende no máximo 3 vinhos. Informe: Nome, Safra, País, Uva e Preço.
 
-FORMATO OBRIGATÓRIO DA RESPOSTA:
-Para cada vinho recomendado, use o seguinte formato:
+FORMATO OBRIGATÓRIO PARA CADA VINHO RECOMENDADO:
 **Nome do Vinho**
-Safra: X | País: Y | Uva: Z | Preço: R$ W
+Safra: X | País: Y | Uva: Z | Volume: W ml | Preço: R$ V
 ![Nome do Vinho](URL_DA_IMAGEM_AQUI)
 Breve descrição ou motivo da sugestão.
+
+(Substitua URL_DA_IMAGEM_AQUI pelo link contido em "imagem_url" e W pelo valor de "volume_ml" que a ferramenta retornar).
+Se a ferramenta não retornar nenhum vinho, avise o cliente educadamente.
 """
 
+# ==========================================
+# FERRAMENTA DE BUSCA (ENVIANDO O VOLUME PARA A IA)
+# ==========================================
 def buscar_vinhos(tipo=None, pais=None, preco_max=None, uva=None):
     resultados = []
     for v in carta["vinhos"]:
@@ -35,9 +46,8 @@ def buscar_vinhos(tipo=None, pais=None, preco_max=None, uva=None):
         if preco_max and v.get("preco_brl") and v["preco_brl"] > preco_max: continue
         resultados.append(v)
     
-    # 🚨 SE NÃO ACHAR NADA, AVISA A IA
     if not resultados:
-        return [{"status": "vazio", "mensagem": "Nenhum vinho encontrado com esses filtros."}]
+        return [{"status": "vazio", "mensagem": "Nenhum vinho encontrado."}]
 
     resumo_vinhos = []
     for v in resultados[:3]:
@@ -46,6 +56,7 @@ def buscar_vinhos(tipo=None, pais=None, preco_max=None, uva=None):
             "safra": v["safra"],
             "pais": v["pais"],
             "uvas": v["uvas"],
+            "volume_ml": v.get("volume_ml", 750), # 🚨 AQUI: Enviando o volume
             "preco_brl": v["preco_brl"],
             "imagem_url": v.get("imagem_url")
         })
@@ -79,6 +90,9 @@ def limpar_mensagens(historico):
         msgs_limpas.append(msg_limpa)
     return msgs_limpas
 
+# ==========================================
+# INTERFACE STREAMLIT
+# ==========================================
 st.title("🍷 Sommelier Virtual - Terrazza 40")
 st.write("Olá! Sou seu sommelier pessoal. Qual tipo de vinho você procura hoje?")
 
@@ -86,20 +100,14 @@ if "messages" not in st.session_state:
     st.session_state.messages = [{"role": "system", "content": SYSTEM_PROMPT}]
 
 for msg in st.session_state.messages[1:]:
-    # 🚨 IGNORA MENSAGENS INTERNAS DO SISTEMA E DA FERRAMENTA
     if msg.get("role") in ["system", "tool"]:
         continue
-        
-    # Ignora as chamadas de função (tool_calls) feitas pelo assistente
     if msg.get("role") == "assistant" and msg.get("tool_calls"):
         continue
         
     with st.chat_message(msg["role"]):
         if msg.get("content"):
             st.markdown(msg["content"])
-        if msg.get("imagem_url"):
-            for img_url in msg["imagem_url"]:
-                st.image(img_url, width=150)
 
 if prompt := st.chat_input("Ex: Quero um tinto argentino até R$ 150"):
     st.session_state.messages.append({"role": "user", "content": prompt})
@@ -108,7 +116,7 @@ if prompt := st.chat_input("Ex: Quero um tinto argentino até R$ 150"):
 
     with st.chat_message("assistant"):
         response = client.chat.completions.create(
-            model="qwen/qwen3.8-27b",
+            model="llama-3.3-70b-versatile",
             messages=limpar_mensagens(st.session_state.messages),
             tools=tools,
             tool_choice="auto",
@@ -132,25 +140,19 @@ if prompt := st.chat_input("Ex: Quero um tinto argentino até R$ 150"):
                 })
             
             response2 = client.chat.completions.create(
-                model="qwen/qwen3.8-27b",
+                model="llama-3.3-70b-versatile",
                 messages=limpar_mensagens(st.session_state.messages),
                 tools=tools,
-                max_tokens=500
+                max_tokens=600
             )
             final_msg = response2.choices[0].message
             final_msg_dict = final_msg.model_dump(exclude_none=True)
             
-            # 🚨 SE A IA NÃO RESPONDER TEXTO, COLOCAMOS UMA MENSAGEM PADRÃO
-            texto_final = final_msg.content if final_msg.content else "Desculpe, não consegui formular uma resposta. Pode tentar reformular a pergunta?"
-            
-            # Só adiciona imagens se houver vinhos válidos
-            if vinhos_encontrados and "status" not in vinhos_encontrados[0]:
-                final_msg_dict["imagem_url"] = [v["imagem_url"] for v in vinhos_encontrados if v.get("imagem_url")]
+            texto_final = final_msg.content if final_msg.content else "Desculpe, não consegui formular uma resposta."
             
             final_msg_dict["content"] = texto_final
             st.session_state.messages.append(final_msg_dict)
             
-            st.markdown(texto_final)           
+            st.markdown(texto_final)
         else:
-            
             st.markdown(msg.content)
