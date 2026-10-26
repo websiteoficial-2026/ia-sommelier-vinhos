@@ -150,13 +150,7 @@ if prompt := st.chat_input("Ex: Quero um tinto argentino até R$ 150"):
             final_msg_dict["content"] = texto_final
             st.session_state.messages.append(final_msg_dict)
             
-            st.markdown(texto_final)
+            st.markdown(texto_final)           
+        else:
             
-            # 🚨 APAGUE OU COMENTE ESTE BLOCO ABAIXO (O for das imagens)
-            # if vinhos_encontrados and "status" not in vinhos_encontrados[0]:
-            #     for v in vinhos_encontrados:
-            #         if v.get("imagem_url"):
-            #             st.image(v["imagem_url"], width=100, caption=v["nome"])
-            
- else:
             st.markdown(msg.content)
