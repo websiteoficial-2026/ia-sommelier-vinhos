@@ -79,8 +79,14 @@ if "messages" not in st.session_state:
     st.session_state.messages = [{"role": "system", "content": SYSTEM_PROMPT}]
 
 for msg in st.session_state.messages[1:]:
+    # 🚨 IGNORA MENSAGENS INTERNAS DO SISTEMA E DA FERRAMENTA
+    if msg.get("role") in ["system", "tool"]:
+        continue
+        
+    # Ignora as chamadas de função (tool_calls) feitas pelo assistente
     if msg.get("role") == "assistant" and msg.get("tool_calls"):
         continue
+        
     with st.chat_message(msg["role"]):
         if msg.get("content"):
             st.markdown(msg["content"])
