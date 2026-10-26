@@ -17,6 +17,13 @@ Seja simpático, direto e objetivo.
 Sempre que o cliente pedir uma sugestão, use a ferramenta `buscar_vinhos`.
 Se a ferramenta retornar uma lista vazia ou um aviso de que não há vinhos, avise o cliente educadamente e ofereça uma alternativa (ex: outro tipo de vinho).
 Recomende no máximo 3 vinhos. Informe: Nome, Safra, País, Uva e Preço.
+
+FORMATO OBRIGATÓRIO DA RESPOSTA:
+Para cada vinho recomendado, use o seguinte formato:
+**Nome do Vinho**
+Safra: X | País: Y | Uva: Z | Preço: R$ W
+![Nome do Vinho](URL_DA_IMAGEM_AQUI)
+Breve descrição ou motivo da sugestão.
 """
 
 def buscar_vinhos(tipo=None, pais=None, preco_max=None, uva=None):
@@ -145,9 +152,11 @@ if prompt := st.chat_input("Ex: Quero um tinto argentino até R$ 150"):
             
             st.markdown(texto_final)
             
-            if vinhos_encontrados and "status" not in vinhos_encontrados[0]:
-                for v in vinhos_encontrados:
-                    if v.get("imagem_url"):
-                        st.image(v["imagem_url"], width=100, caption=v["nome"])
-        else:
+            # 🚨 APAGUE OU COMENTE ESTE BLOCO ABAIXO (O for das imagens)
+            # if vinhos_encontrados and "status" not in vinhos_encontrados[0]:
+            #     for v in vinhos_encontrados:
+            #         if v.get("imagem_url"):
+            #             st.image(v["imagem_url"], width=100, caption=v["nome"])
+            
+            else:
             st.markdown(msg.content)
