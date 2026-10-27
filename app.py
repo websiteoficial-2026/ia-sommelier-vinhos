@@ -1,5 +1,6 @@
 import json
 import streamlit as st
+import unicodedata
 from groq import Groq
 
 # ==========================================
@@ -15,16 +16,29 @@ def carregar_carta():
 carta = carregar_carta()
 
 # ==========================================
-# PROMPT DO SOMMELIER (COM REGRAS RÍGIDAS)
+# FUNÇÃO MÁGICA DE BUSCA (Remove acentos e hífens)
+# ==========================================
+def normalizar_texto(texto):
+    if not texto: return ""
+    # Remove acentos
+    texto = unicodedata.normalize('NFD', texto)
+    texto = ''.join(c for c in texto if unicodedata.category(c) != 'Mn')
+    # Troca hífens por espaço e deixa minúsculo
+    texto = texto.lower().replace("-", " ").strip()
+    return texto
+
+# ==========================================
+# PROMPT DO SOMMELIER
 # ==========================================
 SYSTEM_PROMPT = """
 Você é o Sommelier Virtual do Terrazza 40 (Curitiba).
 Seja simpático, direto e objetivo.
-Sempre que o cliente pedir uma sugestão, um vinho específico ou citar uma palavra-chave (como "Poty", "Demi-sec", "Malbec"), use a ferramenta `buscar_vinhos` com o filtro de `nome` ou `tipo`.
+
+Sempre que o cliente pedir uma sugestão, um vinho específico, ou citar uma palavra-chave (como "Poty", "Demi-sec", "Malbec", "Doce"), use a ferramenta `buscar_vinhos` com os filtros apropriados.
 Se a ferramenta retornar uma lista vazia ou um aviso de que não há vinhos, avise o cliente educadamente e ofereça uma alternativa (ex: outro tipo de vinho).
 Recomende no máximo 3 vinhos. Informe: Nome, Safra, País, Uva e Preço.
 
-REGRA DE OURO: NUNCA invente vinhos, safras ou preços. Use APENAS os dados retornados pela ferramenta. Se a ferramenta retornar vazio, diga educadamente que não encontrou essa opção na carta e ofereça uma alternativa.
+REGRA DE OURO: NUNCA invente vinhos, safras ou preços. Use APENAS os dados retornados pela ferramenta. Se a ferramenta retornar vazio, diga educadamente que não encontrou essa opção e ofereça uma alternativa.
 
 FORMATO OBRIGATÓRIO PARA CADA VINHO RECOMENDADO:
 **Nome do Vinho**
@@ -32,22 +46,26 @@ Safra: X | País: Y | Uva: Z | Volume: W ml | Preço: R$ V
 ![Nome do Vinho](URL_DA_IMAGEM_AQUI)
 Breve descrição ou motivo da sugestão.
 
-(Substitua URL_DA_IMAGEM_AQUI pelo link contido em "imagem_url" e W pelo valor de "volume_ml" que a ferramenta retornar).
+(Substitua URL_DA_IMAGEM_AQUI pelo link contido em "imagem_url" e W pelo valor de "volume_ml").
 """
 
 # ==========================================
-# FERRAMENTA DE BUSCA (AGORA COM NOME)
+# FERRAMENTA DE BUSCA BLINDADA
 # ==========================================
-def buscar_vinhos(nome=None, tipo=None, pais=None, preco_max=None, uva=None):
+def buscar_vinhos(nome=None, tipo=None, pais=None, preco_max=None, uva=None, secao=None):
     resultados = []
     for v in carta["vinhos"]:
-        # Filtro de busca por nome (ignora maiúsculas/minúsculas)
-        if nome and nome.lower() not in v.get("nome", "").lower():
+        # Busca por nome (normalizado)
+        if nome and normalizar_texto(nome) not in normalizar_texto(v.get("nome", "")):
+            continue
+            
+        # Busca por seção da carta (ex: "démi-sec", "doce", "nature")
+        if secao and normalizar_texto(secao) not in normalizar_texto(v.get("secao_carta", "")):
             continue
 
         if tipo and v.get("tipo") != tipo: continue
         if pais and v.get("pais") != pais: continue
-        if uva and not any(uva.lower() in u.lower() for u in v.get("uvas", [])): continue
+        if uva and not any(normalizar_texto(uva) in normalizar_texto(u) for u in v.get("uvas", [])): continue
         if preco_max and v.get("preco_brl") and v["preco_brl"] > preco_max: continue
         
         resultados.append(v)
@@ -76,7 +94,8 @@ tools = [{
         "parameters": {
             "type": "object",
             "properties": {
-                "nome": {"type": "string", "description": "Termo de busca para o nome do vinho ou palavra-chave (ex: Poty, Colomé, Demi-sec)"},
+                "nome": {"type": "string", "description": "Termo de busca para o nome do vinho ou marca (ex: Poty, Colomé)"},
+                "secao": {"type": "string", "description": "Seção da carta (ex: Démi-sec, Doce, Nature, Brut)"},
                 "tipo": {"type": "string", "enum": ["tinto", "branco", "rose", "espumante", "champagne"]},
                 "pais": {"type": "string"},
                 "preco_max": {"type": "number"},
@@ -123,7 +142,7 @@ if prompt := st.chat_input("Ex: Quero um tinto argentino até R$ 150"):
 
     with st.chat_message("assistant"):
         response = client.chat.completions.create(
-            model="qwen/qwen3.8-27b",  # Modelo mais estável
+            model="qwen/qwen3.8-27b",
             messages=limpar_mensagens(st.session_state.messages),
             tools=tools,
             tool_choice="auto",
