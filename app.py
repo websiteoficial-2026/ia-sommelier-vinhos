@@ -15,14 +15,16 @@ def carregar_carta():
 carta = carregar_carta()
 
 # ==========================================
-# PROMPT DO SOMMELIER (ADICIONADO O VOLUME)
+# PROMPT DO SOMMELIER (COM REGRAS RÍGIDAS)
 # ==========================================
 SYSTEM_PROMPT = """
 Você é o Sommelier Virtual do Terrazza 40 (Curitiba).
 Seja simpático, direto e objetivo.
-Sempre que o cliente pedir uma sugestão, use a ferramenta `buscar_vinhos`.
+Sempre que o cliente pedir uma sugestão, um vinho específico ou citar uma palavra-chave (como "Poty", "Demi-sec", "Malbec"), use a ferramenta `buscar_vinhos` com o filtro de `nome` ou `tipo`.
 Se a ferramenta retornar uma lista vazia ou um aviso de que não há vinhos, avise o cliente educadamente e ofereça uma alternativa (ex: outro tipo de vinho).
 Recomende no máximo 3 vinhos. Informe: Nome, Safra, País, Uva e Preço.
+
+REGRA DE OURO: NUNCA invente vinhos, safras ou preços. Use APENAS os dados retornados pela ferramenta. Se a ferramenta retornar vazio, diga educadamente que não encontrou essa opção na carta e ofereça uma alternativa.
 
 FORMATO OBRIGATÓRIO PARA CADA VINHO RECOMENDADO:
 **Nome do Vinho**
@@ -31,19 +33,23 @@ Safra: X | País: Y | Uva: Z | Volume: W ml | Preço: R$ V
 Breve descrição ou motivo da sugestão.
 
 (Substitua URL_DA_IMAGEM_AQUI pelo link contido em "imagem_url" e W pelo valor de "volume_ml" que a ferramenta retornar).
-Se a ferramenta não retornar nenhum vinho, avise o cliente educadamente.
 """
 
 # ==========================================
-# FERRAMENTA DE BUSCA (ENVIANDO O VOLUME PARA A IA)
+# FERRAMENTA DE BUSCA (AGORA COM NOME)
 # ==========================================
-def buscar_vinhos(tipo=None, pais=None, preco_max=None, uva=None):
+def buscar_vinhos(nome=None, tipo=None, pais=None, preco_max=None, uva=None):
     resultados = []
     for v in carta["vinhos"]:
+        # Filtro de busca por nome (ignora maiúsculas/minúsculas)
+        if nome and nome.lower() not in v.get("nome", "").lower():
+            continue
+
         if tipo and v.get("tipo") != tipo: continue
         if pais and v.get("pais") != pais: continue
         if uva and not any(uva.lower() in u.lower() for u in v.get("uvas", [])): continue
         if preco_max and v.get("preco_brl") and v["preco_brl"] > preco_max: continue
+        
         resultados.append(v)
     
     if not resultados:
@@ -56,7 +62,7 @@ def buscar_vinhos(tipo=None, pais=None, preco_max=None, uva=None):
             "safra": v["safra"],
             "pais": v["pais"],
             "uvas": v["uvas"],
-            "volume_ml": v.get("volume_ml", 750), # 🚨 AQUI: Enviando o volume
+            "volume_ml": v.get("volume_ml", 750),
             "preco_brl": v["preco_brl"],
             "imagem_url": v.get("imagem_url")
         })
@@ -70,6 +76,7 @@ tools = [{
         "parameters": {
             "type": "object",
             "properties": {
+                "nome": {"type": "string", "description": "Termo de busca para o nome do vinho ou palavra-chave (ex: Poty, Colomé, Demi-sec)"},
                 "tipo": {"type": "string", "enum": ["tinto", "branco", "rose", "espumante", "champagne"]},
                 "pais": {"type": "string"},
                 "preco_max": {"type": "number"},
@@ -116,7 +123,7 @@ if prompt := st.chat_input("Ex: Quero um tinto argentino até R$ 150"):
 
     with st.chat_message("assistant"):
         response = client.chat.completions.create(
-            model="qwen/qwen3.8-27b",
+            model="qwen/qwen3.8-27b",  # Modelo mais estável
             messages=limpar_mensagens(st.session_state.messages),
             tools=tools,
             tool_choice="auto",
