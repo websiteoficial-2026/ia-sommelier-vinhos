@@ -4,7 +4,62 @@ import unicodedata
 from groq import Groq
 
 # ==========================================
-# CONFIGURAÇÕES (GROQ)
+# CONFIGURAÇÃO DA PÁGINA (DEVE SER A 1ª COISA)
+# ==========================================
+st.set_page_config(
+    page_title="Sommelier Terrazza 40",
+    page_icon="🍷",
+    layout="centered",
+    initial_sidebar_state="collapsed"
+)
+
+# ==========================================
+# CSS PERSONALIZADO (O SEGREDO DO DESIGN)
+# ==========================================
+st.markdown("""
+    <style>
+    /* Fonte mais elegante (Google Fonts) */
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato:wght@400;700&display=swap');
+    
+    /* Muda a cor de fundo para um tom escuro elegante */
+    .stApp {
+        background-color: #1a1a1a;
+        color: #e0e0e0;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    /* Estiliza o Título Principal */
+    h1 {
+        font-family: 'Playfair Display', serif;
+        color: #d4af37 !important; /* Dourado */
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    
+    /* Esconde o menu padrão do Streamlit e o rodapé */
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    
+    /* Estiliza as caixas de mensagem do chat */
+    .stChatMessage {
+        background-color: #2a2a2a;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-left: 4px solid #d4af37;
+    }
+    
+    /* Deixa a caixa de digitar mais bonita */
+    .stChatInput {
+        border-top: 1px solid #333;
+        background-color: #1a1a1a;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# ==========================================
+# CONFIGURAÇÕES (GROQ E JSON)
 # ==========================================
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
@@ -15,56 +70,38 @@ def carregar_carta():
 
 carta = carregar_carta()
 
-# ==========================================
-# FUNÇÃO MÁGICA DE BUSCA (Remove acentos e hífens)
-# ==========================================
 def normalizar_texto(texto):
     if not texto: return ""
     texto = unicodedata.normalize('NFD', texto)
     texto = ''.join(c for c in texto if unicodedata.category(c) != 'Mn')
-    texto = texto.lower().replace("-", " ").strip()
-    return texto
+    return texto.lower().replace("-", " ").strip()
 
-# ==========================================
-# PROMPT DO SOMMELIER (ATUALIZADO PARA RESUMIR)
-# ==========================================
 SYSTEM_PROMPT = """
 Você é o Sommelier Virtual do Terrazza 40 (Curitiba).
-Seja simpático, direto e objetivo.
+Seja extremamente educado, elegante e objetivo.
 
-Sempre que o cliente pedir uma sugestão, um vinho específico, ou citar uma palavra-chave (como "Poty", "Demi-sec", "Malbec", "Doce"), use a ferramenta `buscar_vinhos` com os filtros apropriados.
-Se a ferramenta retornar uma lista vazia ou um aviso de que não há vinhos, avise o cliente educadamente e ofereça uma alternativa.
-Se a ferramenta retornar uma lista vazia ou um aviso de que não há vinhos, avise o cliente educadamente e ofereça uma alternativa (ex: outro tipo de vinho).
+Sempre que o cliente pedir uma sugestão, um vinho específico, ou citar uma palavra-chave, use a ferramenta `buscar_vinhos`.
+REGRA DE OURO: NUNCA invente vinhos, safras ou preços.
 Recomende no máximo 3 vinhos. Informe: Nome, Safra, País, Uva e Preço.
+ 
+REGRA DE RESUMO: Use o campo "descricao" retornado pela ferramenta para criar um resumo curto (máximo 2 frases), destacando o sabor.
 
-REGRA DE OURO: NUNCA invente vinhos, safras ou preços. Use APENAS os dados retornados pela ferramenta.
-
-REGRA DE RESUMO: A ferramenta vai te devolver um campo chamado "descricao". NÃO copie o texto inteiro. Faça um RESUMO CURTO E ATRATIVO de no máximo 2 frases, destacando o sabor e, se houver, a harmonização.
-
-FORMATO OBRIGATÓRIO PARA CADA VINHO RECOMENDADO:
+FORMATO OBRIGATÓRIO:
 **Nome do Vinho**
 Safra: X | País: Y | Uva: Z | Volume: W ml | Preço: R$ V
 ![Nome do Vinho](URL_DA_IMAGEM_AQUI)
-*Resumo:* [Seu resumo de 2 frases baseado na descrição original]
-
-(Substitua URL_DA_IMAGEM_AQUI pelo link contido em "imagem_url" e W pelo valor de "volume_ml").
+*Resumo:* [Seu resumo]
 """
 
-# ==========================================
-# FERRAMENTA DE BUSCA (AGORA ENVIANDO A DESCRIÇÃO)
-# ==========================================
 def buscar_vinhos(nome=None, tipo=None, pais=None, preco_max=None, uva=None, secao=None):
     resultados = []
     for v in carta["vinhos"]:
-        if nome and normalizar_texto(nome) not in normalizar_texto(v.get("nome", "")):
-            continue
-        if secao and normalizar_texto(secao) not in normalizar_texto(v.get("secao_carta", "")):
-            continue
+        if nome and normalizar_texto(nome) not in normalizar_texto(v.get("nome", "")): continue
+        if secao and normalizar_texto(secao) not in normalizar_texto(v.get("secao_carta", "")): continue
         if tipo and v.get("tipo") != tipo: continue
         if pais and v.get("pais") != pais: continue
         if uva and not any(normalizar_texto(uva) in normalizar_texto(u) for u in v.get("uvas", [])): continue
         if preco_max and v.get("preco_brl") and v["preco_brl"] > preco_max: continue
-        
         resultados.append(v)
     
     if not resultados:
@@ -73,14 +110,10 @@ def buscar_vinhos(nome=None, tipo=None, pais=None, preco_max=None, uva=None, sec
     resumo_vinhos = []
     for v in resultados[:3]:
         resumo_vinhos.append({
-            "nome": v["nome"],
-            "safra": v["safra"],
-            "pais": v["pais"],
-            "uvas": v["uvas"],
-            "volume_ml": v.get("volume_ml", 750),
-            "preco_brl": v["preco_brl"],
-            "imagem_url": v.get("imagem_url"),
-            "descricao": v.get("descricao", "") # 🚨 AQUI: Enviando a descrição original!
+            "nome": v["nome"], "safra": v["safra"], "pais": v["pais"],
+            "uvas": v["uvas"], "volume_ml": v.get("volume_ml", 750),
+            "preco_brl": v["preco_brl"], "imagem_url": v.get("imagem_url"),
+            "descricao": v.get("descricao", "")
         })
     return resumo_vinhos
 
@@ -92,55 +125,58 @@ tools = [{
         "parameters": {
             "type": "object",
             "properties": {
-                "nome": {"type": "string", "description": "Termo de busca para o nome do vinho ou marca (ex: Poty, Colomé)"},
-                "secao": {"type": "string", "description": "Seção da carta (ex: Démi-sec, Doce, Nature, Brut)"},
+                "nome": {"type": "string"}, "secao": {"type": "string"},
                 "tipo": {"type": "string", "enum": ["tinto", "branco", "rose", "espumante", "champagne"]},
-                "pais": {"type": "string"},
-                "preco_max": {"type": "number"},
-                "uva": {"type": "string"}
+                "pais": {"type": "string"}, "preco_max": {"type": "number"}, "uva": {"type": "string"}
             }
         }
     }
 }]
 
 def limpar_mensagens(historico):
-    msgs_limpas = []
-    for m in historico:
-        msg_limpa = {"role": m["role"]}
-        if "content" in m and m["content"]: msg_limpa["content"] = m["content"]
-        if "tool_calls" in m: msg_limpa["tool_calls"] = m["tool_calls"]
-        if "tool_call_id" in m: msg_limpa["tool_call_id"] = m["tool_call_id"]
-        if "name" in m: msg_limpa["name"] = m["name"]
-        msgs_limpas.append(msg_limpa)
-    return msgs_limpas
+    return [{"role": m["role"], **{k: v for k, v in m.items() if k != "role" and v is not None}} for m in historico]
 
 # ==========================================
-# INTERFACE STREAMLIT
+# CABEÇALHO VISUAL (BANNER)
 # ==========================================
-st.title("🍷 Sommelier Virtual - Terrazza 40")
-st.write("Olá! Sou seu sommelier pessoal. Qual tipo de vinho você procura hoje?")
+# Você pode trocar esta URL por uma foto real do Terrazza 40 ou da adega
+url_banner = "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=1000&auto=format&fit=crop"
+st.image(url_banner, use_container_width=True)
+st.markdown("<h1>Terrazza 40</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #888;'>Sommelier Virtual • Bigorrilho, Curitiba</p>", unsafe_allow_html=True)
+st.divider()
 
+# ==========================================
+# HISTÓRICO DO CHAT
+# ==========================================
 if "messages" not in st.session_state:
     st.session_state.messages = [{"role": "system", "content": SYSTEM_PROMPT}]
 
 for msg in st.session_state.messages[1:]:
-    if msg.get("role") in ["system", "tool"]:
-        continue
-    if msg.get("role") == "assistant" and msg.get("tool_calls"):
-        continue
-        
-    with st.chat_message(msg["role"]):
+    if msg.get("role") in ["system", "tool"]: continue
+    if msg.get("role") == "assistant" and msg.get("tool_calls"): continue
+    
+    # Define o avatar de cada um
+    avatar_user = "🧑‍🍳" 
+    avatar_assistant = "🍷"
+    
+    current_avatar = avatar_user if msg["role"] == "user" else avatar_assistant
+    
+    with st.chat_message(msg["role"], avatar=current_avatar):
         if msg.get("content"):
             st.markdown(msg["content"])
 
-if prompt := st.chat_input("Ex: Quero um tinto argentino até R$ 150"):
+# ==========================================
+# INPUT DO USUÁRIO
+# ==========================================
+if prompt := st.chat_input("Olá! Qual vinho posso servir para você hoje?"):
     st.session_state.messages.append({"role": "user", "content": prompt})
-    with st.chat_message("user"):
+    with st.chat_message("user", avatar="🧑‍🍳"):
         st.markdown(prompt)
 
-    with st.chat_message("assistant"):
+    with st.chat_message("assistant", avatar="🍷"):
         response = client.chat.completions.create(
-            model="qwen/qwen3.8-27b", # Recomendo usar este modelo, o Qwen costuma dar erro de limite
+            model="qwen/qwen3.8-27b",
             messages=limpar_mensagens(st.session_state.messages),
             tools=tools,
             tool_choice="auto",
@@ -163,7 +199,6 @@ if prompt := st.chat_input("Ex: Quero um tinto argentino até R$ 150"):
                     "content": json.dumps(vinhos_encontrados, ensure_ascii=False)
                 })
             
-            # Aumentei o max_tokens para 800 para caber os resumos das descrições
             response2 = client.chat.completions.create(
                 model="qwen/qwen3.8-27b",
                 messages=limpar_mensagens(st.session_state.messages),
@@ -174,7 +209,6 @@ if prompt := st.chat_input("Ex: Quero um tinto argentino até R$ 150"):
             final_msg_dict = final_msg.model_dump(exclude_none=True)
             
             texto_final = final_msg.content if final_msg.content else "Desculpe, não consegui formular uma resposta."
-            
             final_msg_dict["content"] = texto_final
             st.session_state.messages.append(final_msg_dict)
             
