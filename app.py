@@ -20,49 +20,46 @@ carta = carregar_carta()
 # ==========================================
 def normalizar_texto(texto):
     if not texto: return ""
-    # Remove acentos
     texto = unicodedata.normalize('NFD', texto)
     texto = ''.join(c for c in texto if unicodedata.category(c) != 'Mn')
-    # Troca hífens por espaço e deixa minúsculo
     texto = texto.lower().replace("-", " ").strip()
     return texto
 
 # ==========================================
-# PROMPT DO SOMMELIER
+# PROMPT DO SOMMELIER (ATUALIZADO PARA RESUMIR)
 # ==========================================
 SYSTEM_PROMPT = """
 Você é o Sommelier Virtual do Terrazza 40 (Curitiba).
 Seja simpático, direto e objetivo.
 
 Sempre que o cliente pedir uma sugestão, um vinho específico, ou citar uma palavra-chave (como "Poty", "Demi-sec", "Malbec", "Doce"), use a ferramenta `buscar_vinhos` com os filtros apropriados.
+Se a ferramenta retornar uma lista vazia ou um aviso de que não há vinhos, avise o cliente educadamente e ofereça uma alternativa.
 Se a ferramenta retornar uma lista vazia ou um aviso de que não há vinhos, avise o cliente educadamente e ofereça uma alternativa (ex: outro tipo de vinho).
 Recomende no máximo 3 vinhos. Informe: Nome, Safra, País, Uva e Preço.
 
-REGRA DE OURO: NUNCA invente vinhos, safras ou preços. Use APENAS os dados retornados pela ferramenta. Se a ferramenta retornar vazio, diga educadamente que não encontrou essa opção e ofereça uma alternativa.
+REGRA DE OURO: NUNCA invente vinhos, safras ou preços. Use APENAS os dados retornados pela ferramenta.
+
+REGRA DE RESUMO: A ferramenta vai te devolver um campo chamado "descricao". NÃO copie o texto inteiro. Faça um RESUMO CURTO E ATRATIVO de no máximo 2 frases, destacando o sabor e, se houver, a harmonização.
 
 FORMATO OBRIGATÓRIO PARA CADA VINHO RECOMENDADO:
 **Nome do Vinho**
 Safra: X | País: Y | Uva: Z | Volume: W ml | Preço: R$ V
 ![Nome do Vinho](URL_DA_IMAGEM_AQUI)
-Breve descrição ou motivo da sugestão.
+*Resumo:* [Seu resumo de 2 frases baseado na descrição original]
 
 (Substitua URL_DA_IMAGEM_AQUI pelo link contido em "imagem_url" e W pelo valor de "volume_ml").
 """
 
 # ==========================================
-# FERRAMENTA DE BUSCA BLINDADA
+# FERRAMENTA DE BUSCA (AGORA ENVIANDO A DESCRIÇÃO)
 # ==========================================
 def buscar_vinhos(nome=None, tipo=None, pais=None, preco_max=None, uva=None, secao=None):
     resultados = []
     for v in carta["vinhos"]:
-        # Busca por nome (normalizado)
         if nome and normalizar_texto(nome) not in normalizar_texto(v.get("nome", "")):
             continue
-            
-        # Busca por seção da carta (ex: "démi-sec", "doce", "nature")
         if secao and normalizar_texto(secao) not in normalizar_texto(v.get("secao_carta", "")):
             continue
-
         if tipo and v.get("tipo") != tipo: continue
         if pais and v.get("pais") != pais: continue
         if uva and not any(normalizar_texto(uva) in normalizar_texto(u) for u in v.get("uvas", [])): continue
@@ -82,7 +79,8 @@ def buscar_vinhos(nome=None, tipo=None, pais=None, preco_max=None, uva=None, sec
             "uvas": v["uvas"],
             "volume_ml": v.get("volume_ml", 750),
             "preco_brl": v["preco_brl"],
-            "imagem_url": v.get("imagem_url")
+            "imagem_url": v.get("imagem_url"),
+            "descricao": v.get("descricao", "") # 🚨 AQUI: Enviando a descrição original!
         })
     return resumo_vinhos
 
@@ -142,7 +140,7 @@ if prompt := st.chat_input("Ex: Quero um tinto argentino até R$ 150"):
 
     with st.chat_message("assistant"):
         response = client.chat.completions.create(
-            model="qwen/qwen3.8-27b",
+            model="qwen/qwen3.8-27b", # Recomendo usar este modelo, o Qwen costuma dar erro de limite
             messages=limpar_mensagens(st.session_state.messages),
             tools=tools,
             tool_choice="auto",
@@ -165,11 +163,12 @@ if prompt := st.chat_input("Ex: Quero um tinto argentino até R$ 150"):
                     "content": json.dumps(vinhos_encontrados, ensure_ascii=False)
                 })
             
+            # Aumentei o max_tokens para 800 para caber os resumos das descrições
             response2 = client.chat.completions.create(
                 model="qwen/qwen3.8-27b",
                 messages=limpar_mensagens(st.session_state.messages),
                 tools=tools,
-                max_tokens=600
+                max_tokens=800
             )
             final_msg = response2.choices[0].message
             final_msg_dict = final_msg.model_dump(exclude_none=True)
