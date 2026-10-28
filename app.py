@@ -38,19 +38,17 @@ def normalizar_texto(texto):
     return texto.lower().replace("-", " ").strip()
 
 # ==========================================
-# 3. PROMPT DIRETO E OBJETIVO
+# 3. PROMPT ESTRATÉGICO (BUSCA AMPLA)
 # ==========================================
 SYSTEM_PROMPT = """
 Você é o Sommelier Virtual do Terrazza 40. 
-Seja EXTREMAMENTE objetivo, profissional e direto. NÃO faça rodeios, não faça perguntas de volta a menos que seja estritamente necessário. Não escreva seus pensamentos.
+Seja educado e objetivo. NUNCA invente vinhos, safras ou preços.
 
-REGRA DE OURO: NUNCA invente vinhos, safras ou preços. Use APENAS os dados retornados pela ferramenta `buscar_vinhos`.
-Se a ferramenta retornar vazio, diga apenas: "Não temos essa opção na carta no momento."
-
-INSTRUÇÃO DE BUSCA:
-- Se o cliente pedir "tinto suave", "vinho suave", ou "doce", use o parâmetro `termo_busca="suave"` ou `termo_busca="doce"`.
-- Se o cliente pedir por um tipo, use `tipo="tinto"`, `tipo="branco"`, etc.
-- Recomende no máximo 3 vinhos.
+ESTRATÉGIA DE BUSCA (MUITO IMPORTANTE):
+1. Analise o pedido do cliente. Se ele pedir um estilo (ex: "tinto suave", "vinho frutado", "para churrasco"), tente extrair palavras-chave.
+2. Use a ferramenta `buscar_vinhos` com o `termo_busca`.
+3. Se a primeira busca retornar vazio ou poucas opções, TENTE OUTRA BUSCA (mude as palavras-chave, use sinônimos, ou remova filtros).
+4. Você pode chamar a ferramenta até 3 vezes para garantir que encontrou as melhores opções.
 
 FORMATO OBRIGATÓRIO DA RESPOSTA:
 **Nome do Vinho**
@@ -60,17 +58,15 @@ Safra: X | País: Y | Uva: Z | Volume: W ml | Preço: R$ V
 """
 
 # ==========================================
-# 4. FERRAMENTA DE BUSCA COMPLETA
+# 4. FERRAMENTA DE BUSCA
 # ==========================================
 def buscar_vinhos(termo_busca=None, tipo=None, pais=None, preco_max=None, uva=None, secao=None):
     resultados = []
     for v in carta["vinhos"]:
-        # Busca geral (verifica se a palavra está no nome, descrição ou seção)
         if termo_busca:
             termo = normalizar_texto(termo_busca)
             texto_vinho = normalizar_texto(v.get("nome", "") + " " + v.get("descricao", "") + " " + v.get("secao_carta", ""))
-            if termo not in texto_vinho:
-                continue
+            if termo not in texto_vinho: continue
 
         if tipo and v.get("tipo") != tipo: continue
         if pais and v.get("pais") != pais: continue
@@ -80,40 +76,32 @@ def buscar_vinhos(termo_busca=None, tipo=None, pais=None, preco_max=None, uva=No
         
         resultados.append(v)
     
-    # Se não encontrar nada
     if not resultados:
-        return [{"status": "vazio", "mensagem": "Nenhum vinho encontrado."}]
+        return [{"status": "vazio", "mensagem": "Nenhum vinho encontrado com esses filtros. Tente buscar de forma mais ampla."}]
 
-    # Formata os dados dos vinhos encontrados (máximo 3) para enviar à IA
+    # Retorna no máximo 5 opções para a IA ter de onde escolher
     resumo_vinhos = []
-    for v in resultados[:3]:
+    for v in resultados[:5]: 
         resumo_vinhos.append({
-            "nome": v["nome"], 
-            "safra": v["safra"], 
-            "pais": v["pais"],
-            "uvas": v["uvas"], 
-            "volume_ml": v.get("volume_ml", 750),
-            "preco_brl": v["preco_brl"], 
-            "imagem_url": v.get("imagem_url"),
+            "nome": v["nome"], "safra": v["safra"], "pais": v["pais"],
+            "uvas": v["uvas"], "volume_ml": v.get("volume_ml", 750),
+            "preco_brl": v["preco_brl"], "imagem_url": v.get("imagem_url"),
             "descricao": v.get("descricao", "")
         })
-        
     return resumo_vinhos
 
 tools = [{
     "type": "function",
     "function": {
         "name": "buscar_vinhos",
-        "description": "Busca vinhos na carta do restaurante",
+        "description": "Busca vinhos na carta. Pode ser chamada várias vezes com termos diferentes.",
         "parameters": {
             "type": "object",
             "properties": {
-                "termo_busca": {"type": "string", "description": "Palavra-chave para buscar no nome, descrição ou seção (ex: suave, doce, frutado)"},
+                "termo_busca": {"type": "string", "description": "Palavra-chave (ex: suave, doce, frutado, churrasco)"},
                 "tipo": {"type": "string", "enum": ["tinto", "branco", "rose", "espumante", "champagne"]},
-                "secao": {"type": "string", "description": "Seção exata da carta (ex: Doce, Démi-sec)"},
-                "pais": {"type": "string"}, 
-                "preco_max": {"type": "number"}, 
-                "uva": {"type": "string"}
+                "secao": {"type": "string", "description": "Seção exata (ex: Doce, Démi-sec)"},
+                "pais": {"type": "string"}, "preco_max": {"type": "number"}, "uva": {"type": "string"}
             }
         }
     }
@@ -144,7 +132,7 @@ for msg in st.session_state.messages[1:]:
             st.markdown(msg["content"])
 
 # ==========================================
-# 6. CHAT E RESPOSTA DA IA
+# 6. O SEGREDO: LOOP DE BUSCA E RESPOSTA
 # ==========================================
 if prompt := st.chat_input("Qual vinho posso servir para você hoje?"):
     st.session_state.messages.append({"role": "user", "content": prompt})
@@ -153,48 +141,37 @@ if prompt := st.chat_input("Qual vinho posso servir para você hoje?"):
         st.markdown(prompt)
 
     with st.chat_message("assistant", avatar="🍷"):
-        # Primeira chamada: IA decide o que buscar
-        response = client.chat.completions.create(
-            model="qwen/qwen3.8-27b",
-            messages=limpar_mensagens(st.session_state.messages),
-            tools=tools,
-            tool_choice="auto",
-            temperature=0.0, # Garante respostas lógicas e sem invenções
-            max_tokens=500 
-        )
         
-        msg = response.choices[0].message
-        msg_dict = msg.model_dump(exclude_none=True)
-        st.session_state.messages.append(msg_dict)
-        
-        if msg_dict.get("tool_calls"):
-            for tool_call in msg_dict["tool_calls"]:
-                args = json.loads(tool_call["function"]["arguments"])
-                vinhos_encontrados = buscar_vinhos(**args)
-                
-                st.session_state.messages.append({
-                    "role": "tool",
-                    "tool_call_id": tool_call["id"],
-                    "name": "buscar_vinhos",
-                    "content": json.dumps(vinhos_encontrados, ensure_ascii=False)
-                })
-            
-            # Segunda chamada: IA lê os dados e escreve a resposta final
-            response2 = client.chat.completions.create(
+        # Loop para permitir que a IA faça múltiplas buscas (até 3)
+        for tentativa in range(3):
+            response = client.chat.completions.create(
                 model="qwen/qwen3.8-27b",
                 messages=limpar_mensagens(st.session_state.messages),
                 tools=tools,
-                temperature=0.0, # Mantém o resumo objetivo
-                max_tokens=600
+                tool_choice="auto",
+                temperature=0.3, # Um pouco de criatividade para buscar sinônimos
+                max_tokens=500 
             )
-            final_msg = response2.choices[0].message
-            final_msg_dict = final_msg.model_dump(exclude_none=True)
             
-            texto_final = final_msg.content if final_msg.content else "Desculpe, não encontrei essa opção na carta."
-            final_msg_dict["content"] = texto_final
-            st.session_state.messages.append(final_msg_dict)
+            msg = response.choices[0].message
+            msg_dict = msg.model_dump(exclude_none=True)
+            st.session_state.messages.append(msg_dict)
             
-            st.markdown(texto_final)
-        else:
-            # Se ele responder sem buscar (ex: apenas um "oi")
-            st.markdown(msg.content)
+            # Se a IA pediu para buscar mais alguma coisa...
+            if msg_dict.get("tool_calls"):
+                for tool_call in msg_dict["tool_calls"]:
+                    args = json.loads(tool_call["function"]["arguments"])
+                    vinhos_encontrados = buscar_vinhos(**args)
+                    
+                    st.session_state.messages.append({
+                        "role": "tool",
+                        "tool_call_id": tool_call["id"],
+                        "name": "buscar_vinhos",
+                        "content": json.dumps(vinhos_encontrados, ensure_ascii=False)
+                    })
+                # O loop continua e a IA fará uma nova busca (se ela quiser)
+            else:
+                # Se a IA não pediu mais buscas, significa que ela já tem a resposta final!
+                texto_final = msg_dict.get("content", "Desculpe, não encontrei essa opção.")
+                st.markdown(texto_final)
+                break # Quebra o loop e encerra a resposta
