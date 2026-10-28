@@ -151,7 +151,7 @@ if prompt := st.chat_input("Qual vinho posso servir para você hoje?"):
         # O modelo correto é o Llama 3.3! O Qwen quebra por limite de tokens.
         for tentativa in range(3): 
             response = client.chat.completions.create(
-                model="qwen/qwen3-32b", 
+                model="meta-llama/llama-4-scout-17b-16e-instruct", 
                 messages=limpar_mensagens(st.session_state.messages),
                 tools=tools,
                 tool_choice="auto",
