@@ -6,7 +6,7 @@ from groq import Groq
 # ==========================================
 # 1. CONFIGURAÇÃO DA PÁGINA E DESIGN
 # ==========================================
-st.set_page_config(page_title="Sommelier Terrazza 40", page_icon="🍷", layout="centered")
+st.set_page_config(page_title="Sommelier SKY", page_icon="🍷", layout="centered")
 
 st.markdown("""
     <style>
@@ -41,7 +41,7 @@ def normalizar_texto(texto):
 # 3. PROMPT ESTRATÉGICO (BUSCA AMPLA)
 # ==========================================
 SYSTEM_PROMPT = """
-Você é o Sommelier Virtual do Terrazza 40. 
+Você é o Sommelier Virtual nas Alturas. 
 Seja educado e objetivo. NUNCA invente vinhos, safras ou preços.
 
 ESTRATÉGIA DE BUSCA (MUITO IMPORTANTE):
@@ -115,7 +115,7 @@ def limpar_mensagens(historico):
 # ==========================================
 url_banner = "https://uploads.onecompiler.io/43v37pq3s/1793175043296/imagem_sommelier.webp"
 st.image(url_banner, use_container_width=True)
-st.markdown("<h1>Terrazza 40</h1>", unsafe_allow_html=True)
+st.markdown("<h1>WINE WORLD</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #888;'>Sommelier Virtual • Bigorrilho, Curitiba</p>", unsafe_allow_html=True)
 st.divider()
 
