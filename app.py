@@ -116,7 +116,7 @@ def limpar_mensagens(historico):
 url_banner = "https://uploads.onecompiler.io/43v37pq3s/1793175043296/imagem_sommelier.webp"
 st.image(url_banner, use_container_width=True)
 st.markdown("<h1>WINE WORLD</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; color: #888;'>Sommelier Virtual • Bigorrilho, Curitiba</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #888;'>Sommelier Virtual • Nas Alturas, Curitiba</p>", unsafe_allow_html=True)
 st.divider()
 
 if "messages" not in st.session_state:
