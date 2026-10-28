@@ -113,7 +113,7 @@ def limpar_mensagens(historico):
 # ==========================================
 # 5. CABEÇALHO E HISTÓRICO VISUAL
 # ==========================================
-url_banner = "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=1000&auto=format&fit=crop"
+url_banner = "https://uploads.onecompiler.io/43v37pq3s/1793175043296/imagem_sommelier.webp"
 st.image(url_banner, use_container_width=True)
 st.markdown("<h1>Terrazza 40</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #888;'>Sommelier Virtual • Bigorrilho, Curitiba</p>", unsafe_allow_html=True)
