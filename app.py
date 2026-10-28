@@ -50,7 +50,7 @@ Se a ferramenta retornar vazio, diga apenas: "Não temos essa opção na carta n
 INSTRUÇÃO DE BUSCA:
 - Se o cliente pedir "tinto suave", "vinho suave", ou "doce", use o parâmetro `termo_busca="suave"` ou `termo_busca="doce"`.
 - Se o cliente pedir por um tipo, use `tipo="tinto"`, `tipo="branco"`, etc.
-- Recomende no máximo 3 vinhos. Informe: Nome, Safra, País, Uva e Preço.
+- Recomende no máximo 3 vinhos.
 
 FORMATO OBRIGATÓRIO DA RESPOSTA:
 **Nome do Vinho**
@@ -60,7 +60,7 @@ Safra: X | País: Y | Uva: Z | Volume: W ml | Preço: R$ V
 """
 
 # ==========================================
-# 4. FERRAMENTA DE BUSCA ATUALIZADA
+# 4. FERRAMENTA DE BUSCA COMPLETA
 # ==========================================
 def buscar_vinhos(termo_busca=None, tipo=None, pais=None, preco_max=None, uva=None, secao=None):
     resultados = []
@@ -80,17 +80,24 @@ def buscar_vinhos(termo_busca=None, tipo=None, pais=None, preco_max=None, uva=No
         
         resultados.append(v)
     
+    # Se não encontrar nada
     if not resultados:
         return [{"status": "vazio", "mensagem": "Nenhum vinho encontrado."}]
 
+    # Formata os dados dos vinhos encontrados (máximo 3) para enviar à IA
     resumo_vinhos = []
     for v in resultados[:3]:
         resumo_vinhos.append({
-            "nome": v["nome"], "safra": v["safra"], "pais": v["pais"],
-            "uvas": v["uvas"], "volume_ml": v.get("volume_ml", 750),
-            "preco_brl": v["preco_brl"], "imagem_url": v.get("imagem_url"),
+            "nome": v["nome"], 
+            "safra": v["safra"], 
+            "pais": v["pais"],
+            "uvas": v["uvas"], 
+            "volume_ml": v.get("volume_ml", 750),
+            "preco_brl": v["preco_brl"], 
+            "imagem_url": v.get("imagem_url"),
             "descricao": v.get("descricao", "")
         })
+        
     return resumo_vinhos
 
 tools = [{
@@ -104,7 +111,9 @@ tools = [{
                 "termo_busca": {"type": "string", "description": "Palavra-chave para buscar no nome, descrição ou seção (ex: suave, doce, frutado)"},
                 "tipo": {"type": "string", "enum": ["tinto", "branco", "rose", "espumante", "champagne"]},
                 "secao": {"type": "string", "description": "Seção exata da carta (ex: Doce, Démi-sec)"},
-                "pais": {"type": "string"}, "preco_max": {"type": "number"}, "uva": {"type": "string"}
+                "pais": {"type": "string"}, 
+                "preco_max": {"type": "number"}, 
+                "uva": {"type": "string"}
             }
         }
     }
@@ -114,11 +123,12 @@ def limpar_mensagens(historico):
     return [{"role": m["role"], **{k: v for k, v in m.items() if k != "role" and v is not None}} for m in historico]
 
 # ==========================================
-# 5. CABEÇALHO E HISTÓRICO
+# 5. CABEÇALHO E HISTÓRICO VISUAL
 # ==========================================
 url_banner = "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=1000&auto=format&fit=crop"
 st.image(url_banner, use_container_width=True)
 st.markdown("<h1>Terrazza 40</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #888;'>Sommelier Virtual • Bigorrilho, Curitiba</p>", unsafe_allow_html=True)
 st.divider()
 
 if "messages" not in st.session_state:
@@ -134,7 +144,7 @@ for msg in st.session_state.messages[1:]:
             st.markdown(msg["content"])
 
 # ==========================================
-# 6. CHAT E RESPOSTA
+# 6. CHAT E RESPOSTA DA IA
 # ==========================================
 if prompt := st.chat_input("Qual vinho posso servir para você hoje?"):
     st.session_state.messages.append({"role": "user", "content": prompt})
@@ -143,12 +153,13 @@ if prompt := st.chat_input("Qual vinho posso servir para você hoje?"):
         st.markdown(prompt)
 
     with st.chat_message("assistant", avatar="🍷"):
+        # Primeira chamada: IA decide o que buscar
         response = client.chat.completions.create(
             model="qwen/qwen3.8-27b",
             messages=limpar_mensagens(st.session_state.messages),
             tools=tools,
             tool_choice="auto",
-            temperature=0.0, # Temperatura 0 impede que ele invente!
+            temperature=0.0, # Garante respostas lógicas e sem invenções
             max_tokens=500 
         )
         
@@ -168,20 +179,22 @@ if prompt := st.chat_input("Qual vinho posso servir para você hoje?"):
                     "content": json.dumps(vinhos_encontrados, ensure_ascii=False)
                 })
             
+            # Segunda chamada: IA lê os dados e escreve a resposta final
             response2 = client.chat.completions.create(
                 model="qwen/qwen3.8-27b",
                 messages=limpar_mensagens(st.session_state.messages),
                 tools=tools,
-                temperature=0.0, # Temperatura 0 aqui também
+                temperature=0.0, # Mantém o resumo objetivo
                 max_tokens=600
             )
             final_msg = response2.choices[0].message
             final_msg_dict = final_msg.model_dump(exclude_none=True)
             
-            texto_final = final_msg.content if final_msg.content else "Desculpe, não encontrei essa opção."
+            texto_final = final_msg.content if final_msg.content else "Desculpe, não encontrei essa opção na carta."
             final_msg_dict["content"] = texto_final
             st.session_state.messages.append(final_msg_dict)
             
             st.markdown(texto_final)
         else:
+            # Se ele responder sem buscar (ex: apenas um "oi")
             st.markdown(msg.content)
