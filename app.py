@@ -1,7 +1,9 @@
 import json
 import streamlit as st
 import unicodedata
+import uuid
 from groq import Groq
+from supabase import create_client
 
 # ==========================================
 # 1. CONFIGURAÇÃO DA PÁGINA E DESIGN
@@ -20,7 +22,61 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ==========================================
-# 2. CONEXÃO COM GROQ E JSON
+# 2. CONEXÃO COM SUPABASE (MEMÓRIA)
+# ==========================================
+@st.cache_resource
+def get_supabase_client():
+    return create_client(st.secrets["SUPABASE_URL"], st.secrets["SUPABASE_KEY"])
+
+supabase = get_supabase_client()
+
+# ID do usuário persistido em ?uid=... na URL.
+# Sobrevive a refresh e é bookmarkável. UUID não é dado pessoal.
+if "uid" not in st.query_params:
+    st.query_params["uid"] = str(uuid.uuid4())
+USER_ID = st.query_params["uid"]
+
+
+def carregar_historico(user_id: str, limite: int = 20):
+    """Traz as últimas mensagens do usuário (ordem cronológica)."""
+    try:
+        res = (
+            supabase.table("chat_history")
+            .select("role, message")
+            .eq("user_id", user_id)
+            .order("created_at", desc=False)
+            .limit(limite)
+            .execute()
+        )
+        return [{"role": r["role"], "content": r["message"]} for r in res.data]
+    except Exception as e:
+        st.warning(f"Não foi possível carregar o histórico: {e}")
+        return []
+
+
+def salvar_mensagem(user_id: str, role: str, content: str):
+    """Persiste uma mensagem. Ignora conteúdo vazio (ex: assistant com tool_calls)."""
+    if not content:
+        return
+    try:
+        supabase.table("chat_history").insert({
+            "user_id": user_id,
+            "role": role,
+            "message": content,
+        }).execute()
+    except Exception as e:
+        st.warning(f"Não foi possível salvar a mensagem: {e}")
+
+
+def limpar_historico(user_id: str):
+    try:
+        supabase.table("chat_history").delete().eq("user_id", user_id).execute()
+    except Exception as e:
+        st.warning(f"Não foi possível limpar o histórico: {e}")
+
+
+# ==========================================
+# 3. CONEXÃO COM GROQ E JSON
 # ==========================================
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
@@ -31,6 +87,7 @@ def carregar_carta():
 
 carta = carregar_carta()
 
+
 def normalizar_texto(texto):
     if not texto: return ""
     texto = unicodedata.normalize('NFD', texto)
@@ -38,7 +95,7 @@ def normalizar_texto(texto):
     return texto.lower().replace("-", " ").strip()
 
 # ==========================================
-# 3. PROMPT ESTRATÉGICO (COM REGRA DE TAÇA)
+# 4. PROMPT ESTRATÉGICO (COM REGRA DE TAÇA)
 # ==========================================
 SYSTEM_PROMPT = """
 Você é o Sommelier Virtual nas Alturas. 
@@ -57,7 +114,7 @@ Safra: X | País: Y | Uva: Z | Volume: W ml | Preço: R$ V
 """
 
 # ==========================================
-# 4. FERRAMENTA DE BUSCA (AGORA COM VOLUME ML)
+# 5. FERRAMENTA DE BUSCA
 # ==========================================
 def buscar_vinhos(termo_busca=None, tipo=None, pais=None, preco_max=None, uva=None, secao=None, volume_ml=None):
     resultados = []
@@ -72,19 +129,18 @@ def buscar_vinhos(termo_busca=None, tipo=None, pais=None, preco_max=None, uva=No
         if uva and not any(normalizar_texto(uva) in normalizar_texto(u) for u in v.get("uvas", [])): continue
         if secao and normalizar_texto(secao) not in normalizar_texto(v.get("secao_carta", "")): continue
         if preco_max and v.get("preco_brl") and v["preco_brl"] > preco_max: continue
-        
-        # Filtro específico para taça (187ml) ou outros volumes
+
         if volume_ml:
             vol_vinho = v.get("volume_ml", 750)
             if vol_vinho != volume_ml: continue
-            
+
         resultados.append(v)
-    
+
     if not resultados:
         return [{"status": "vazio", "mensagem": "Nenhum vinho encontrado."}]
 
     resumo_vinhos = []
-    for v in resultados[:5]: # Aumentei para 5 opções
+    for v in resultados[:5]:
         resumo_vinhos.append({
             "nome": v["nome"], "safra": v["safra"], "pais": v["pais"],
             "uvas": v["uvas"], "volume_ml": v.get("volume_ml", 750),
@@ -92,6 +148,7 @@ def buscar_vinhos(termo_busca=None, tipo=None, pais=None, preco_max=None, uva=No
             "descricao": v.get("descricao", "")
         })
     return resumo_vinhos
+
 
 tools = [{
     "type": "function",
@@ -113,11 +170,12 @@ tools = [{
     }
 }]
 
+
 def limpar_mensagens(historico):
     return [{"role": m["role"], **{k: v for k, v in m.items() if k != "role" and v is not None}} for m in historico]
 
 # ==========================================
-# 5. CABEÇALHO E HISTÓRICO VISUAL
+# 6. CABEÇALHO E HISTÓRICO VISUAL
 # ==========================================
 url_banner = "https://uploads.onecompiler.io/43v37pq3s/1793175043296/imagem_sommelier.webp"
 st.image(url_banner, use_container_width=True)
@@ -125,49 +183,59 @@ st.markdown("<h1>WINE WORLD</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #888;'>Sommelier Virtual • Nas Alturas, Curitiba</p>", unsafe_allow_html=True)
 st.divider()
 
-if "messages" not in st.session_state:
-    st.session_state.messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+# Sidebar: identidade + botão de reset
+with st.sidebar:
+    st.caption(f"Sessão: `{USER_ID[:8]}…`")
+    if st.button("🧹 Nova conversa", use_container_width=True):
+        limpar_historico(USER_ID)
+        st.session_state.messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+        st.rerun()
 
+# Carrega histórico do Supabase na primeira execução da sessão
+if "messages" not in st.session_state:
+    historico_salvo = carregar_historico(USER_ID)
+    st.session_state.messages = [{"role": "system", "content": SYSTEM_PROMPT}] + historico_salvo
+
+# Renderiza histórico
 for msg in st.session_state.messages[1:]:
     if msg.get("role") in ["system", "tool"]: continue
     if msg.get("role") == "assistant" and msg.get("tool_calls"): continue
-    
+
     current_avatar = "🧑‍🍳" if msg["role"] == "user" else "🍷"
     with st.chat_message(msg["role"], avatar=current_avatar):
         if msg.get("content"):
             st.markdown(msg["content"])
 
 # ==========================================
-# 6. CHAT E RESPOSTA (LOOP DE BUSCA)
+# 7. CHAT E RESPOSTA (LOOP DE BUSCA)
 # ==========================================
 if prompt := st.chat_input("Qual vinho posso servir para você hoje?"):
     st.session_state.messages.append({"role": "user", "content": prompt})
-    
+    salvar_mensagem(USER_ID, "user", prompt)
+
     with st.chat_message("user", avatar="🧑‍🍳"):
         st.markdown(prompt)
 
     with st.chat_message("assistant", avatar="🍷"):
-        
-        # O modelo correto é o Llama 3.3! O Qwen quebra por limite de tokens.
-        for tentativa in range(3): 
+        for tentativa in range(3):
             response = client.chat.completions.create(
-                model="openai/gpt-oss-120b", 
+                model="openai/gpt-oss-120b",
                 messages=limpar_mensagens(st.session_state.messages),
                 tools=tools,
                 tool_choice="auto",
                 temperature=0.3,
-                max_tokens=500 
+                max_tokens=1200,  # subido de 500 (estava truncando os cards de vinho)
             )
-            
+
             msg = response.choices[0].message
             msg_dict = msg.model_dump(exclude_none=True)
             st.session_state.messages.append(msg_dict)
-            
+
             if msg_dict.get("tool_calls"):
                 for tool_call in msg_dict["tool_calls"]:
                     args = json.loads(tool_call["function"]["arguments"])
                     vinhos_encontrados = buscar_vinhos(**args)
-                    
+
                     st.session_state.messages.append({
                         "role": "tool",
                         "tool_call_id": tool_call["id"],
@@ -177,4 +245,5 @@ if prompt := st.chat_input("Qual vinho posso servir para você hoje?"):
             else:
                 texto_final = msg_dict.get("content", "Desculpe, não encontrei essa opção.")
                 st.markdown(texto_final)
+                salvar_mensagem(USER_ID, "assistant", texto_final)
                 break
