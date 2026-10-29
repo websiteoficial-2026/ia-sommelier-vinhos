@@ -2,8 +2,14 @@ import json
 import streamlit as st
 import unicodedata
 import uuid
-from groq import Groq
+from groq import Groq, RateLimitError
 from supabase import create_client
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_exponential,
+    retry_if_exception_type,
+)
 
 # ==========================================
 # 1. CONFIGURAÇÃO DA PÁGINA E DESIGN
@@ -73,7 +79,6 @@ def limpar_historico(user_id: str):
         supabase.table("chat_history").delete().eq("user_id", user_id).execute()
     except Exception as e:
         st.warning(f"Não foi possível limpar o histórico: {e}")
-
 
 # ==========================================
 # 3. CONEXÃO COM GROQ E JSON
@@ -175,7 +180,68 @@ def limpar_mensagens(historico):
     return [{"role": m["role"], **{k: v for k, v in m.items() if k != "role" and v is not None}} for m in historico]
 
 # ==========================================
-# 6. CABEÇALHO E HISTÓRICO VISUAL
+# 6. ALTERNÂNCIA ENTRE MODELOS (FALLBACK)
+# ==========================================
+# Lista de modelos em ordem de preferência.
+# Cada modelo tem seu próprio "balde" de TPM no Groq,
+# então quando um esgota, o outro ainda tem cota.
+MODELOS_FALLBACK = [
+    "openai/gpt-oss-120b",  # Modelo principal (TPM 8K, RPD 1.000)
+    "groq/compound",        # Válvula de escape (TPM 70K, RPD 250)
+]
+
+
+def _avisar_retry(retry_state):
+    """Callback chamado antes de cada espera do tenacity."""
+    espera = retry_state.next_action.sleep if retry_state.next_action else 0
+    # O primeiro argumento posicional é o modelo
+    modelo = retry_state.args[0] if retry_state.args else "?"
+    st.toast(
+        f"⏳ Limite do modelo `{modelo}` atingido. Tentando em {espera:.0f}s...",
+        icon="⏳",
+    )
+
+
+@retry(
+    stop=stop_after_attempt(2),  # 2 tentativas por modelo antes de desistir
+    wait=wait_exponential(multiplier=1, min=2, max=10),  # 2s → 4s
+    retry=retry_if_exception_type(RateLimitError),
+    reraise=True,
+    before_sleep=_avisar_retry,
+)
+def _chamar_modelo_unico(modelo: str, mensagens, ferramentas):
+    """Tenta UM modelo específico, com retry interno para RateLimitError."""
+    return client.chat.completions.create(
+        model=modelo,
+        messages=mensagens,
+        tools=ferramentas,
+        tool_choice="auto",
+        temperature=0.3,
+        max_tokens=1200,
+    )
+
+
+def chamar_groq_com_fallback(mensagens, ferramentas):
+    """
+    Tenta cada modelo da lista em ordem.
+    Se um esgotar o TPM após seus retries internos, passa para o próximo.
+    Se TODOS falharem, levanta o último RateLimitError para o caller tratar.
+    """
+    ultimo_erro = None
+    for modelo in MODELOS_FALLBACK:
+        try:
+            return _chamar_modelo_unico(modelo, mensagens, ferramentas)
+        except RateLimitError as e:
+            ultimo_erro = e
+            st.toast(
+                f"🔄 `{modelo}` esgotado. Alternando para o próximo modelo...",
+                icon="🔄",
+            )
+            continue
+    raise ultimo_erro  # nenhum modelo funcionou
+
+# ==========================================
+# 7. CABEÇALHO E HISTÓRICO VISUAL
 # ==========================================
 url_banner = "https://uploads.onecompiler.io/43v37pq3s/1793175043296/imagem_sommelier.webp"
 st.image(url_banner, use_container_width=True)
@@ -207,7 +273,7 @@ for msg in st.session_state.messages[1:]:
             st.markdown(msg["content"])
 
 # ==========================================
-# 7. CHAT E RESPOSTA (LOOP DE BUSCA)
+# 8. CHAT E RESPOSTA (LOOP DE BUSCA)
 # ==========================================
 if prompt := st.chat_input("Qual vinho posso servir para você hoje?"):
     st.session_state.messages.append({"role": "user", "content": prompt})
@@ -218,14 +284,18 @@ if prompt := st.chat_input("Qual vinho posso servir para você hoje?"):
 
     with st.chat_message("assistant", avatar="🍷"):
         for tentativa in range(3):
-            response = client.chat.completions.create(
-                model="openai/gpt-oss-120b",
-                messages=limpar_mensagens(st.session_state.messages),
-                tools=tools,
-                tool_choice="auto",
-                temperature=0.3,
-                max_tokens=1200,  # subido de 500 (estava truncando os cards de vinho)
-            )
+            try:
+                response = chamar_groq_com_fallback(
+                    limpar_mensagens(st.session_state.messages),
+                    tools,
+                )
+            except RateLimitError:
+                st.error(
+                    "⚠️ Todos os modelos atingiram o limite do plano gratuito. "
+                    "Aguarde **~1 minuto** e tente novamente, ou considere o "
+                    "upgrade para o plano Developer do Groq."
+                )
+                st.stop()
 
             msg = response.choices[0].message
             msg_dict = msg.model_dump(exclude_none=True)
